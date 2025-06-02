@@ -1,0 +1,41 @@
+/* docs/docs/assets/custom.css */
+:root {
+  --md-primary-fg-color: #ff914d; /* Your primary color */
+  --md-primary-fg-color--light: #ffa770; /* A lighter shade of your primary, adjust as needed */
+  --md-primary-fg-color--dark: #e07e40; /* A darker shade of your primary, adjust as needed */
+
+  /* If your secondary color is meant to be the accent color */
+  /* --md-accent-fg-color: #fffcf5; */ /* This is very light, might not work well as an accent for text/icons */
+  /* --md-accent-fg-color--transparent: hsla(40, 100%, 98%, 0.1); */ /* Example for transparent version */
+
+
+  /* If your secondary color is meant for backgrounds or other elements */
+  /* You can define your own custom variables for it */
+  --my-secondary-bg-color: #fffcf5;
+}
+
+/* If you want to use the light secondary color as a background for certain elements */
+/* For example, for admonition blocks of a certain type */
+/*
+.md-typeset .admonition.my-custom-type,
+.md-typeset details.my-custom-type {
+  border-left-color: var(--md-primary-fg-color);
+}
+.md-typeset .admonition.my-custom-type .md-admonition-title,
+.md-typeset details.my-custom-type .md-admonition-title {
+  background-color: var(--my-secondary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+.md-typeset .admonition.my-custom-type .md-admonition-title::before {
+  background-color: var(--md-primary-fg-color);
+}
+*/
+
+/* You might also need to adjust text colors on your primary color if it's light */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+.md-tabs {
+  background-color: var(--md-primary-fg-color); /* Or a slightly darker shade */
+}
+/* Ensure text on primary color is readable, Material theme usually handles this well if --md-primary-fg-color is set */

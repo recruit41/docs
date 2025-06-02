@@ -4,6 +4,8 @@ repo_url: https://github.com/recruit41/docs
 repo_name: recruit41/docs
 
 theme:
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   name: material
   features:
     - navigation.tabs
@@ -17,15 +19,13 @@ theme:
     - content.code.copy
   language: en
   palette:
+    # Palette toggle for light mode
     - scheme: default
+      primary: orange # Choose a base color, e.g., orange is somewhat close to #ff914d
+      accent: blue    # Choose a base accent
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to dark mode
-
 
 nav:
   - Home: index.md
