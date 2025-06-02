@@ -1,0 +1,36 @@
+name: Deploy MkDocs Site
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material pymdown-extensions
+
+      
+      # - name: Ensure CNAME file exists (for custom domain)
+      #   run: |
+      #     if [ -f "docs/CNAME" ]; then
+      #       cp docs/CNAME site/CNAME
+      #     fi
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --clean
+        
