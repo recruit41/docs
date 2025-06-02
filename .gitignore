@@ -1,0 +1,6 @@
+site/
+venv/
+*.pyc
+__pycache__/
+*.dirty
+*.lock
