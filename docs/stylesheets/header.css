@@ -1,25 +1,35 @@
 :root {
-  --md-primary-fg-color: #fffcf5;  /* Light cream for header */
-  --md-primary-fg-color--light: #fffcf5;
-  --md-primary-fg-color--dark: #fffcf5;
+  --md-primary-fg-color: #ffffff;  /* White header background */
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #ffffff;
   --md-primary-bg-color: #333333;  /* Dark text color for contrast */
   --md-primary-bg-color--light: #333333;
   
   /* Custom sidebar colors */
   --md-sidebar-link-color: #333333;
   --md-sidebar-link-active-color: #ff914d;
+  
+  /* Custom colors */
+  --recruit41-orange: #ff914d;
+  --recruit41-orange-dark: #ff6b00;
+  --recruit41-orange-light: rgba(255, 145, 77, 0.1);
+  --recruit41-text: #333333;
+  --recruit41-text-light: #666666;
+  --recruit41-border: #e0e0e0;
 }
 
 .md-header {
   height: 72px;  /* Thicker header */
-  position: fixed;
-  top: 0;
+  position: fixed !important;
+  top: 0 !important;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 9999 !important;
   background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--recruit41-border);
+  width: 100%;
 }
 
 /* Add padding to the top of the content to prevent it from being hidden under the fixed header */
@@ -199,6 +209,156 @@
 }
 
 /* Force override for hover and focus states */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--recruit41-orange-dark) !important;
+}
+
+/* Header Navigation Styling */
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header-nav-items {
+  display: flex;
+  gap: 10px;
+}
+
+.header-nav-item {
+  color: var(--recruit41-text-light);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.header-nav-item:hover {
+  color: var(--recruit41-orange-dark);
+  background-color: var(--recruit41-orange-light);
+}
+
+/* External Links Styling */
+.header-external-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.header-external-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--recruit41-text-light);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.header-external-link svg {
+  width: 16px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.header-external-link:hover {
+  color: var(--recruit41-orange-dark);
+  background-color: var(--recruit41-orange-light);
+}
+
+.header-external-link:hover svg {
+  opacity: 1;
+}
+
+.header-demo-link {
+  background-color: var(--recruit41-orange);
+  color: white !important;
+}
+
+.header-demo-link:hover {
+  background-color: var(--recruit41-orange-dark);
+  color: white !important;
+}
+
+.header-demo-link svg {
+  color: white;
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.1875em) {
+  .header-nav,
+  .header-external-links {
+    display: none;
+  }
+}
+
+/* Hide only Recruit41 name from sidebar but keep Home link */
+.md-nav--primary > .md-nav__title {
+  display: none !important;
+}
+
+/* Style sidebar search */
+.md-search--sidebar {
+  margin: 1rem 0.8rem;
+}
+
+.md-search--sidebar .md-search__inner {
+  width: 100%;
+  padding: 0;
+}
+
+.md-search--sidebar .md-search__form {
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--recruit41-border);
+  border-radius: 4px;
+}
+
+.md-search--sidebar .md-search__input {
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  height: 2.4rem;
+}
+
+.md-search--sidebar .md-search__icon {
+  color: var(--md-default-fg-color--light);
+}
+
+/* Grid cards for homepage */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.grid.cards > * {
+  border: 1px solid var(--recruit41-border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.grid.cards > *:hover {
+  border-color: var(--recruit41-orange);
+  box-shadow: 0 4px 12px rgba(255, 145, 77, 0.1);
+  transform: translateY(-2px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
 .md-nav__link:not(.md-nav__container):hover,
 .md-nav__link:not(.md-nav__container):focus,
 .md-nav__link:not(.md-nav__container):hover:not(:focus) {

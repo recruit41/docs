@@ -1,4 +1,4 @@
-site_name: Recruit41 Documentation
+site_name: Recruit41
 site_url: https://docs.recruit41.com/
 repo_url: https://github.com/recruit41/docs
 repo_name: recruit41/docs
@@ -16,6 +16,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - search.sidebar
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
@@ -23,7 +24,7 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.footer
-    - header.autohide
+    - header.sticky
   icon:
     logo: material/book-open-page-variant
     admonition:
@@ -50,6 +51,7 @@ theme:
 # Custom CSS
 extra_css:
   - stylesheets/header.css
+  - stylesheets/layout.css
 
 # Extensions
 markdown_extensions:
