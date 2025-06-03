@@ -4,42 +4,97 @@ repo_url: https://github.com/recruit41/docs
 repo_name: recruit41/docs
 
 theme:
+  name: material
+  custom_dir: docs/overrides
   logo: assets/logo.png
   favicon: assets/favicon.png
-  name: material
   features:
-    - navigation.tabs
+    - navigation.indexes
     - navigation.sections
-    - toc.integrate
     - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
+    - search.share
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.footer
+    - header.autohide
+  icon:
+    logo: material/book-open-page-variant
+    admonition:
+      note: material/pencil-circle
+      abstract: material/clipboard-text
+      info: material/information
+      tip: material/lightbulb
+      success: material/check-circle
+      question: material/help-circle
+      warning: material/alert
+      failure: material/close-circle
+      danger: material/fire
+      bug: material/bug
+      example: material/test-tube
+      quote: material/format-quote-close
+  font:
+    text: Roboto
+    code: Roboto Mono
   language: en
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      primary: orange # Choose a base color, e.g., orange is somewhat close to #ff914d
-      accent: blue    # Choose a base accent
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    primary: '#ff914d'  # Bright orange
+    accent: '#2196f3'   # Blue accent
 
-nav:
-  - Home: index.md
-  - 'User Guide':
-    - 'Installation': user-guide/installation.md
-    - 'Configuration': user-guide/configuration.md
+# Custom CSS
+extra_css:
+  - stylesheets/header.css
 
+# Extensions
 markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.md
+  - Candidate Guide:
+    - Overview: candidate-guide/index.md
+    - Interview Instructions: candidate-guide/interview-instructions.md
+  - Recruiter Guide:
+    - Overview: recruiter-guide/index.md
+    - Email Templates: recruiter-guide/email-templates.md

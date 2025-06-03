@@ -1,0 +1,259 @@
+:root {
+  --md-primary-fg-color: #fffcf5;  /* Light cream for header */
+  --md-primary-fg-color--light: #fffcf5;
+  --md-primary-fg-color--dark: #fffcf5;
+  --md-primary-bg-color: #333333;  /* Dark text color for contrast */
+  --md-primary-bg-color--light: #333333;
+  
+  /* Custom sidebar colors */
+  --md-sidebar-link-color: #333333;
+  --md-sidebar-link-active-color: #ff914d;
+}
+
+.md-header {
+  height: 72px;  /* Thicker header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add padding to the top of the content to prevent it from being hidden under the fixed header */
+.md-main {
+  padding-top: 72px;
+}
+
+/* Adjust content container to account for fixed header */
+.md-content {
+  margin-top: 0.5rem;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  position: fixed;
+  top: 72px;
+  z-index: 99;
+  width: 100%;
+  background-color: #fffcf5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Tab links */
+.md-tabs__link {
+  color: #333333 !important;
+  opacity: 0.9;
+  transition: all 0.2s ease !important;
+  padding: 0.6rem 1.2rem !important;
+  margin: 0 0.2rem;
+  border-radius: 4px 4px 0 0;
+}
+
+/* Tab hover state */
+.md-tabs__link:hover,
+.md-tabs__link:focus {
+  color: #ff6b00 !important;
+  opacity: 1 !important;
+  background-color: rgba(255, 145, 77, 0.1) !important;
+}
+
+/* Active tab */
+.md-tabs__link--active,
+.md-tabs__link[aria-current="page"] {
+  color: #ff6b00 !important;
+  font-weight: 600 !important;
+  border-bottom: 3px solid #ff6b00 !important;
+  background-color: transparent !important;
+}
+
+/* If tabs are present, add more padding to the main content */
+.md-tabs ~ .md-main {
+  padding-top: calc(72px + 48px);
+}
+
+/* Ensure the header stays on top of other elements */
+.md-header__inner {
+  position: relative;
+  z-index: 101;
+  padding: 12px 0;  /* More padding for thickness */
+  height: 72px;
+}
+
+.md-header__button.md-logo {
+  margin: 0 12px;
+}
+
+/* Increase logo size */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 50px;
+}
+
+/* Adjust logo container */
+.md-header__button.md-logo {
+  padding: 2px;
+  margin-right: 16px;
+}
+
+.md-header__title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--md-primary-bg-color);
+}
+
+.md-header__button {
+  color: var(--md-primary-bg-color);
+}
+
+/* Increase hamburger menu icon size */
+.md-header__button.md-icon {
+  padding: 6px;
+}
+
+.md-header__button.md-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.md-search__input {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--md-primary-bg-color);
+}
+
+.md-search__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Sidebar styling */
+.md-sidebar {
+  background-color: #ffffff;
+  padding: 1rem 0.8rem;
+}
+
+/* Main guide items (level 1) - Normal state */
+.md-nav__item[data-md-level="0"] > .md-nav__link {
+  color: #333333 !important;  /* Dark gray for better readability */
+  font-weight: 600 !important;
+  font-size: 1.05em !important;
+  margin: 1.2em 0 0.5em 0 !important;
+  padding: 0.6em 1em !important;
+  background-color: rgba(255, 145, 77, 0.1) !important;  /* Slightly more visible background */
+  border-radius: 4px !important;
+  transition: all 0.2s ease !important;
+  border-left: 3px solid transparent !important;  /* Add border for consistency */
+}
+
+/* Main guide items - Hover state */
+.md-nav__item[data-md-level="0"] > .md-nav__link:hover,
+.md-nav__item[data-md-level="0"] > .md-nav__link:focus {
+  background-color: rgba(255, 145, 77, 0.15) !important;
+  color: #ff6b00 !important;  /* Orange on hover */
+  border-left-color: #ff6b00 !important;
+}
+
+/* Main guide items - Active state */
+.md-nav__item[data-md-level="0"] > .md-nav__link--active,
+.md-nav__item[data-md-level="0"] > .md-nav__link[aria-current="page"] {
+  background-color: rgba(255, 145, 77, 0.2) !important;
+  color: #ff6b00 !important;  /* Brighter orange for active state */
+  border-left-color: #ff6b00 !important;
+  font-weight: 600 !important;
+}
+
+/* Subsection items (level 2) - Normal state */
+.md-nav__item[data-md-level="1"] > .md-nav__link {
+  color: #444444 !important;  /* Slightly lighter than main items */
+  font-weight: 500 !important;
+  padding: 0.4em 1em 0.4em 2.5em !important;  /* More indentation */
+  margin: 0.2em 0 !important;
+  border-left: 2px solid #e0e0e0 !important;
+  transition: all 0.2s ease !important;
+  font-size: 0.95em !important;
+  background-color: transparent !important;
+}
+
+/* Subsection items - Hover state */
+.md-nav__item[data-md-level="1"] > .md-nav__link:hover,
+.md-nav__item[data-md-level="1"] > .md-nav__link:focus,
+.md-nav__item[data-md-level="1"] > .md-nav__link:hover:not(:focus) {
+  color: #ff6b00 !important;
+  background-color: rgba(255, 145, 77, 0.1) !important;
+  border-left-color: #ff6b00 !important;
+}
+
+/* Subsection items - Active state */
+.md-nav__item[data-md-level="1"] > .md-nav__link--active,
+.md-nav__item[data-md-level="1"] > .md-nav__link[aria-current="page"] {
+  color: #ff6b00 !important;
+  border-left-color: #ff6b00 !important;
+  background-color: rgba(255, 107, 0, 0.1) !important;
+  font-weight: 600 !important;
+}
+
+/* Force override for all sidebar links */
+.md-nav__link:not(.md-nav__container) {
+  color: #444444 !important;
+}
+
+/* Force override for hover and focus states */
+.md-nav__link:not(.md-nav__container):hover,
+.md-nav__link:not(.md-nav__container):focus,
+.md-nav__link:not(.md-nav__container):hover:not(:focus) {
+  color: #ff6b00 !important;
+}
+
+/* Table of contents styles */
+.md-nav--secondary .md-nav__link {
+  color: #444444 !important;
+}
+
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link:focus,
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link[aria-current="page"] {
+  color: #ff6b00 !important;
+}
+
+/* Ensure no blue colors appear */
+:root {
+  --md-accent-fg-color: #ff6b00 !important;
+  --md-accent-fg-color--transparent: rgba(255, 107, 0, 0.1) !important;
+  --md-typeset-a-color: #ff6b00 !important;
+}
+
+/* Indent nested lists */
+.md-nav__item .md-nav__list {
+  margin-left: 1em;
+}
+
+/* Adjust the active indicator */
+.md-nav--primary .md-nav__item--active > .md-nav__link {
+  color: #ff914d !important;
+}
+
+/* Ensure proper spacing between sections */
+.md-nav__item {
+  margin: 0.5em 0;
+}
+
+/* Fix link colors in content */
+.md-content a,
+.md-typeset a {
+  color: #ff914d !important;
+  text-decoration: none;
+}
+
+.md-content a:hover,
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Fix link colors in admonitions and other special blocks */
+.md-typeset .admonition a,
+.md-typeset details a,
+.md-typeset .md-typeset__table a {
+  color: #ff914d !important;
+}
