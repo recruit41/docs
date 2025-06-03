@@ -45,9 +45,24 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 - **Exception for Coding**: When asked to write code, you may move closer to the screen.
 
 !!! tip "Positioning Guide"
-    ✅ **Correct Position**: Sitting at a proper distance, hands visible.
+    <div style="margin-bottom: 15px;">
+      <div style="display: flex; justify-content: space-around; margin-bottom: 5px;">
+        <img src="/assets/images/hands_visible.png" alt="Hands visible" style="width: 40%; height: auto; border: 3px solid #4CAF50; border-radius: 4px;">
+        <img src="/assets/images/imppic.png" alt="Important positioning" style="width: 40%; height: auto; border: 3px solid #4CAF50; border-radius: 4px;">
+      </div>
+      <div style="text-align: center;">
+        ✅ <strong>Correct Position</strong>: Sitting at a proper distance, hands visible.
+      </div>
+    </div>
     
-    ❌ **Incorrect Position**: Sitting too close, hands not visible, using your mobile phone, looking away during the interview and not wearing headphones.
+    <div style="margin-bottom: 10px;">
+      <div style="margin-bottom: 5px;">
+        <img src="/assets/images/wrong_poses.png" alt="Wrong poses" style="width: 50%; height: auto; display: block; margin: 0 auto; border: 3px solid #F44336; border-radius: 4px;">
+      </div>
+      <div style="text-align: center;">
+        ❌ <strong>Incorrect Position</strong>: Sitting too close, hands not visible, using your mobile phone, looking away during the interview and not wearing headphones.
+      </div>
+    </div>
 
 ### 2. Interacting with Kiran (Our AI Interviewer):
 - **If Kiran Seems Stuck**: If Kiran appears unresponsive, prompt it by saying, "Hey Kiran, are you there?"
