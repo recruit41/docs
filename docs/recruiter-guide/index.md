@@ -5,8 +5,6 @@ Welcome to the Recruit41 Recruiter Guide! This guide is designed to help you eff
 ## Getting Started
 
 - [Email Templates](email-templates.md) - Professional email templates for candidate communication
-- [Best Practices](best-practices.md) - Tips for getting the most out of AI interviews
-- [Troubleshooting](troubleshooting.md) - Common issues and how to resolve them
 
 ## Key Features
 

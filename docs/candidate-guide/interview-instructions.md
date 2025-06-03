@@ -85,11 +85,11 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 ## Frequently Asked Questions (FAQs)
 
 ??? question "The AI interviewer asks: 'Are you there?' while I am answering the question. What should I do?"
-    This usually means the AI cannot hear you. Please:
-    - Check if your audio is muted.
-    - Ensure you've granted microphone and camera permissions to the browser.
-    - Confirm the correct microphone is selected as default in your operating system.
-    - Test your setup at [webcammictest.com](https://webcammictest.com)
+    This usually means the AI cannot hear you. Please, 
+    1. Check if your audio is muted.
+    2. Ensure you've granted microphone and camera permissions to the browser.
+    3. Confirm the correct microphone is selected as default in your operating system.
+    4. Test your setup at [webcammictest.com](https://webcammictest.com)
 
 ??? question "What if the AI interviewer isn't responding?"
     First, try prompting it with "Hey Kiran, are you there?". If there's still no response, you can disconnect and rejoin the interview.

@@ -11,8 +11,8 @@ Welcome to the Recruit41 Candidate Guide! This guide is designed to help you pre
 ## About Your Interview
 
 - **AI-Powered Interview**: Your interview will be conducted by Kiran, our virtual interviewer
-- **Format**: The interview will be conversational and may include technical questions
-- **Duration**: Typically 60 minutes (please allow extra time for setup)
+- **Format**: The interview will be conversational and may include coding rounds
+- **Duration**: Typically 30–60 minutes, depending on the specific job requirements.
 
 ## Support
 
