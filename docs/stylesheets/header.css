@@ -288,7 +288,7 @@
 }
 
 .header-demo-link svg {
-  color: white;
+  fill: white !important; /* Changed from color to fill for SVG and added important */
   opacity: 0.9;
 }
 
