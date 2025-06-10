@@ -22,7 +22,7 @@
 
     ### Crucial Preparation - :
     
-    Please read [Interviewing with Recruit41 Guide](https://docs.recruit41.com/candidate-guide/interview-instructions/). It is essential that you read this document thoroughly before your interview. It contains vital information to ensure a smooth experience and a fair evaluation.
+    Please read [Interviewing with Recruit41 Guide](../candidate/index.md). It is essential that you read this document thoroughly before your interview. It contains vital information to ensure a smooth experience and a fair evaluation.
     
     **Key Highlights from the Guide:**
     
@@ -50,7 +50,7 @@
     
     ### Next Steps:
     
-    1. **Thoroughly Review the Guide:** [Interviewing with Recruit41 Guide](https://docs.recruit41.com/candidate-guide/interview-instructions/). This is the most important step to prepare. 
+    1. **Thoroughly Review the Guide:** [Interviewing with Recruit41 Guide](../candidate/index.md). This is the most important step to prepare. 
     2. **Prepare Your Setup:** Test your equipment and browser well in advance.
     
     We understand that interviews can be demanding, and we want to support you in performing your best. Preparing according to the attached guide will significantly help.
@@ -89,7 +89,7 @@
 
     ### Final Preparation - :
     
-    Please read [Interviewing with Recruit41 Guide](https://docs.recruit41.com/candidate-guide/interview-instructions/). It is essential that you read this document thoroughly before your interview. It contains vital information to ensure a smooth experience and a fair evaluation.
+    Please read [Interviewing with Recruit41 Guide](../candidate/index.md). It is essential that you read this document thoroughly before your interview. It contains vital information to ensure a smooth experience and a fair evaluation.
     
     **Key Highlights from the Guide:**
     

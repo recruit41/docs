@@ -1,11 +1,12 @@
 site_name: Recruit41
 site_url: https://docs.recruit41.com/
-repo_url: https://github.com/recruit41/docs
-repo_name: recruit41/docs
+
+# Comment out repository information, we don't want to link to a GitHub repository in our header.
+# repo_url: https://github.com/recruit41/docs
+# repo_name: recruit41/docs
 
 theme:
   name: material
-  custom_dir: docs/overrides
   logo: assets/logo.png
   favicon: assets/favicon.png
   features:
@@ -45,13 +46,12 @@ theme:
     code: Roboto Mono
   language: en
   palette:
-    primary: '#ff914d'  # Bright orange
-    accent: '#2196f3'   # Blue accent
+    primary: orange
+    accent: deep-orange
 
 # Custom CSS
 extra_css:
-  - stylesheets/header.css
-  - stylesheets/layout.css
+  - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -95,8 +95,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Candidate Guide:
-    - Overview: candidate-guide/index.md
-    - Interview Instructions: candidate-guide/interview-instructions.md
+    - Interview Instructions: candidate/index.md
   - Recruiter Guide:
-    - Overview: recruiter-guide/index.md
-    - Email Templates: recruiter-guide/email-templates.md
+    - Overview: recruiter/index.md
+    - Email Templates: recruiter/email-templates.md
