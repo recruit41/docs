@@ -9,9 +9,18 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 
 ### Use Google Chrome Browser
 - Our platform exclusively supports the official Google Chrome browser.
-
 !!! warning "Unsupported Browsers"
     Please avoid using Chromium-based browsers (e.g., Brave, Arc), Safari, Microsoft Edge, or any mobile browsers.
+
+!!! warning "Unsupported Operating Systems"
+    The Recruit41 platform does not support mobile operating systems such as:
+    
+    - Android
+    - iOS
+    - iPadOS or any other mobile/tablet OS
+    
+Please use a desktop or laptop computer running macOS, Windows, or Linux for your interview. Attempting to join from a mobile device may result in technical issues or an inability to proceed with your interview.
+
 
 ### Check your Camera and Microphone
 - **Working Equipment**: Ensure your camera and microphone are functioning correctly. Bluetooth headphones/earphones are recommended if available.
