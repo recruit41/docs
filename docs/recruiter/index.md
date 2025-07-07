@@ -4,6 +4,7 @@ Welcome to the Recruit41 Recruiter Guide! This guide is designed to help you eff
 
 ## Getting Started
 
+- [Candidate Invitations](candidate-invitations.md) - Complete guide to inviting candidates via CSV upload
 - [Email Templates](email-templates.md) - Professional email templates for candidate communication
 
 ## Key Features

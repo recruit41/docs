@@ -98,4 +98,5 @@ nav:
     - Interview Instructions: candidate/index.md
   - Recruiter Guide:
     - Overview: recruiter/index.md
+    - Candidate Invitations: recruiter/candidate-invitations.md
     - Email Templates: recruiter/email-templates.md
