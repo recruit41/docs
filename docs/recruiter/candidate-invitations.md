@@ -6,9 +6,10 @@ This guide explains how to invite candidates to interviews using the Recruit41 A
 
 ### 1. Prepare Your CSV File
 
-Your CSV file must contain these required columns:
-
+Your CSV file must contain this required column:
 - `email` - Valid email address
+
+Optional columns:
 - `first_name` - Candidate's first name  
 - `last_name` - Candidate's last name
 
@@ -52,9 +53,12 @@ The system automatically validates your data:
 ### 5. Configure & Download
 
 1. **Preview**: Review candidate list and validation status
-2. **Set Time Windows (Optional)**: Click the "Set Time Window for Invitations" checkbox to configure interview start/end times, or leave unchecked for immediate activation
+2. **Set Time Windows (Optional)**: Click the "Set Time Window for Invitations" checkbox to configure when interviews become available to candidates and when invitation links expire. Leave unchecked for immediate activation with default expiration.
+    - **Start After**: Sets when candidates can begin accessing their interview links
+    - **End Before**: Sets when invitation links expire and become inaccessible
 
-![Set Time Windows](../assets/images/set-time-windows.png)
+    ![Set Time Windows](../assets/images/set-time-windows.png)
+
 
 3. **Process**: Click "Upload Candidate" to generate links
 4. **Download**: Get CSV file with candidate application links for email distribution
@@ -77,11 +81,6 @@ The system automatically validates your data:
 - **Data Management**: Keep master spreadsheets and track invitation status
 - **Security**: Only upload necessary information and ensure data compliance
 
-### Time Windows
-
-- **Immediate**: For urgent hiring or small pools
-- **Scheduled**: For coordinated campaigns or managing interview capacity
-
 ### CSV Template
 ```csv
 email,first_name,last_name
@@ -92,8 +91,6 @@ jane.smith@company.com,Jane,Smith
 ---
 
 ## Troubleshooting Guide
-
-### Common Issues
 
 ??? question "Invalid CSV format error"
     **Solution**: Save file as CSV, not Excel (.xlsx). Ensure comma-separated values with proper headers.
