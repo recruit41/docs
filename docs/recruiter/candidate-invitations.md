@@ -1,15 +1,17 @@
 # Candidate Invitation Flow
 
-This guide explains how to invite candidates to interviews using the Recruit41 ATS system's bulk invitation feature. You can efficiently invite multiple candidates by uploading a CSV file with their information.
+This guide explains how to invite candidates to interviews using the Recruit41 employer dashboard's bulk invitation feature. You can efficiently invite multiple candidates by uploading a CSV file with their information.
 
 ## Step-by-Step Process
 
 ### 1. Prepare Your CSV File
 
 Your CSV file must contain this required column:
+
 - `email` - Valid email address
 
 Optional columns:
+
 - `first_name` - Candidate's first name  
 - `last_name` - Candidate's last name
 
@@ -23,7 +25,7 @@ alex.johnson@example.com,Alex,Johnson
 
 ### 2. Access the Invitation Manager
 
-1. Go to **Applications** in your ATS dashboard
+1. Go to **Employer Dashboard** → Choose your job → Click on **Applications**
 2. Click on the **"Invite Candidates"** button on the right side (or in the center of the screen if inviting candidates for the first time)
 3. A page/form will open for the invitation manager
 
@@ -63,30 +65,8 @@ The system automatically validates your data:
 3. **Process**: Click "Upload Candidate" to generate links
 4. **Download**: Get CSV file with candidate application links for email distribution
 
----
-
-## Best Practices
-
-### Recommended Workflow
-
-1. **Data Collection & Cleaning**: Gather candidate information and remove duplicates
-2. **CSV Preparation**: Format data with required columns (email, first_name, last_name)
-3. **Test Upload**: Try with a small batch first (5-10 candidates)
-4. **Full Upload**: Process complete candidate list
-5. **Follow-up**: Download results and send invitations via your email system
-
-### Large Uploads
-
-- **Batch Processing**: Split into 100-500 candidate batches
-- **Data Management**: Keep master spreadsheets and track invitation status
-- **Security**: Only upload necessary information and ensure data compliance
-
-### CSV Template
-```csv
-email,first_name,last_name
-john.doe@company.com,John,Doe
-jane.smith@company.com,Jane,Smith
-```
+!!! info "For Large Uploads" 
+    Process candidates in batches of 200-300 for optimal performance.
 
 ---
 
@@ -122,11 +102,9 @@ jane.smith@company.com,Jane,Smith
 
 ## Support and Additional Resources
 
-For additional assistance with candidate invitations:
+Need help with candidate invitations? We're here to assist you.
 
-- **Live Support**: Contact our support team during business hours
-- **Email Support**: [support@recruit41.com](mailto:support@recruit41.com)
-- **Documentation**: Refer to other sections of this guide for related topics
+**Email Support**: [support@recruit41.com](mailto:support@recruit41.com) - Get expert help with technical issues or questions about the invitation process.
 
 **Related Documentation:**
 

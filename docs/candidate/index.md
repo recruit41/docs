@@ -5,67 +5,6 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 !!! info "Quick Overview"
     This guide will help you prepare for your AI-powered interview with Kiran, our virtual interviewer. Following these guidelines will ensure a fair and effective evaluation of your skills.
 
-## Understanding Your Interview Type
-
-Your interview experience will depend on the specific type of assessment you'll be taking. Please read the section that applies to your interview:
-
-### 🗣️ Conversational Interviews
-
-**What to Expect:**
-
-- This will be a conversational interview with Kiran, our AI interviewer
-- _No questions will appear on your screen_ - the interviewer will speak to you directly
-- You'll have a natural conversation, just like talking to a human interviewer
-- The AI interviewer will ask follow-up questions based on your responses
-- Questions will be asked verbally, and you should respond by speaking naturally
-
-**How It Works:**
-
-1. Kiran will introduce themselves when you join
-2. Questions will be asked through audio only
-3. You respond naturally by speaking (no typing required)
-4. The interview flows like a normal conversation
-5. Kiran may ask clarifying questions based on your answers
-
-### 💻 Coding Interviews
-
-**What to Expect:**
-
-- This is a coding interview where you'll solve programming problems
-- _Only coding problems will appear on your screen_
-- You'll need to share your screen and use your own code editor/IDE
-- The AI interviewer may ask you to explain your approach verbally
-- You'll write and run code in your local environment
-
-**How It Works:**
-
-1. Programming problems will be displayed on screen
-2. You'll share your screen and use your preferred code editor/IDE
-3. You'll write and test your solutions in your local environment
-4. Kiran may ask you to explain your thinking process
-5. Screen sharing is required throughout the coding portion
-
-### 🗣️💻 Conversational + Coding Interviews
-
-**What to Expect:**
-
-- This interview combines both conversational and coding components
-- The interview will start with conversational questions (no screen content)
-- Later, coding problems will appear on your screen for the coding portion
-- You'll need to be prepared for both spoken responses and screen sharing
-- Kiran will guide you through the transition between interview types
-
-**How It Works:**
-
-1. Interview begins with conversational questions (audio only)
-2. Kiran will inform you when transitioning to the coding portion
-3. Coding problems will then appear on your screen
-4. You'll share your screen and use your preferred code editor/IDE
-5. You may need to explain both your conversational responses and coding approach
-
-!!! tip "Not Sure Which Type?"
-    If you're unsure about your interview type, check your invitation email or contact our support team. The interview format will be clearly indicated in your scheduling information.
-
 ## Before Your Interview
 
 ### Use Google Chrome Browser
@@ -151,12 +90,72 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 ---
 
-## Interview Type-Specific Troubleshooting
+## Understanding Your Interview Type
 
-### 🗣️ Conversational Interview Issues
+Your interview experience will depend on the specific type of assessment you'll be taking. Please read the section that applies to your interview:
 
-??? question "No one seems to be talking - what should I do?"
-    **For Conversational Interviews:**
+### 🗣️ Conversational Interviews
+
+**What to Expect:**
+
+- This will be a conversational interview with Kiran, our AI interviewer
+- _No questions will appear on your screen_ - the interviewer will speak to you directly
+- You'll have a natural conversation, just like talking to a human interviewer
+- The AI interviewer will ask follow-up questions based on your responses
+- Questions will be asked verbally, and you should respond by speaking naturally
+
+**How It Works:**
+
+1. Kiran will introduce themselves when you join
+2. Questions will be asked through audio only
+3. You respond naturally by speaking (no typing required)
+4. The interview flows like a normal conversation
+5. Kiran may ask clarifying questions based on your answers
+
+### 💻 Coding Interviews
+
+**What to Expect:**
+
+- This is a coding interview where you'll solve programming problems
+- _Only coding problems will appear on your screen_
+- You'll need to share your screen and use your own code editor/IDE
+- The AI interviewer may ask you to explain your approach verbally
+- You'll write and run code in your local environment
+
+**How It Works:**
+
+1. Programming problems will be displayed on screen
+2. You'll share your screen and use your preferred code editor/IDE
+3. You'll write and test your solutions in your local environment
+4. Kiran may ask you to explain your thinking process
+5. Screen sharing is required throughout the coding portion
+
+### 🗣️💻 Conversational + Coding Interviews
+
+**What to Expect:**
+
+- This interview combines both conversational and coding components
+- The interview will start with conversational questions (no screen content)
+- Later, coding problems will appear on your screen for the coding portion
+- You'll need to be prepared for both spoken responses and screen sharing
+- Kiran will guide you through the transition between interview types
+
+**How It Works:**
+
+1. Interview begins with conversational questions (audio only)
+2. Kiran will inform you when transitioning to the coding portion
+3. Coding problems will then appear on your screen
+4. You'll share your screen and use your preferred code editor/IDE
+5. You may need to explain both your conversational responses and coding approach
+
+!!! tip "Not Sure Which Type?"
+    If you're unsure about your interview type, check your invitation email or contact our support team. The interview format will be clearly indicated in your scheduling information.
+
+---
+
+## Frequently Asked Questions (FAQs)
+
+??? question "No one seems to be talking in my interview - what should I do?"
     
     1. Wait 10-15 seconds after joining for Kiran to start speaking
     2. If still silent, try saying "Hey Kiran, are you there?" 
@@ -165,18 +164,14 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
     5. If problems persist, disconnect and rejoin the interview
 
 ??? question "I expected to see questions on screen but there aren't any"
-    This is normal for conversational interviews! Questions are asked verbally only. Listen carefully to Kiran and respond by speaking - no reading or typing required.
-
-### 💻 Coding Interview Issues
+    This is normal for conversational interviews! Questions are asked verbally only in a conversational interview. Listen carefully to Kiran and respond by speaking - no reading or typing required.
 
 ??? question "Coding problems aren't loading on my screen"
-    **For Coding Interviews:**
     
     1. Ensure you're using Google Chrome browser
     2. Refresh the page and rejoin if problems don't appear
     3. Check your internet connection
     4. Contact support via live chat if issues persist
-    5. Problems should be clearly visible on your screen
 
 ??? question "I can't share my screen properly"
     1. Ensure you're sharing your entire screen (not just a window or tab)
@@ -190,8 +185,6 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
     3. Have a backup code editor ready (like VS Code, Notepad++, etc.)
     4. Contact support if you need help with environment setup
 
-## Frequently Asked Questions (FAQs)
-
 ??? question "The AI interviewer asks: 'Are you there?' while I am answering the question. What should I do?"
     This usually means the AI cannot hear you. Please:
   
@@ -200,14 +193,8 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
     3. Confirm the correct microphone is selected as default in your operating system.
     4. Test your setup at [webcammictest.com](https://webcammictest.com)
 
-??? question "What if the AI interviewer isn't responding?"
-    First, try prompting it with "Hey Kiran, are you there?". If there's still no response, you can disconnect and rejoin the interview.
-
 ??? question "I faced some platform-related issues during my interview. Will it affect my application?"
     No, any platform-related errors will not negatively impact your application.
-
-??? question "How can I reach out for help if I need it?"
-    During the interview, use the live chat option on the bottom control panel. You can also email [support@recruit41.com](mailto:support@recruit41.com).
 
 ??? question "What should I do if I get disconnected during the interview?"
     Don't worry! You can rejoin the same interview and continue from where you left off, provided it's within the stipulated time period.
@@ -217,6 +204,3 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 ??? question "Is it necessary to keep my camera turned on throughout the interview?"
     Yes, to ensure a fair evaluation, your camera must remain switched on for the entire process.
-
-??? question "What if I lose my internet connection during the interview?"
-    You can reconnect to the interview and resume from where you left off within the stipulated time limit.
