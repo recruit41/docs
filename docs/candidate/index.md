@@ -13,11 +13,7 @@ We're excited to have you interview with us! To ensure a smooth and successful e
     Please avoid using Chromium-based browsers (e.g., Brave, Arc), Safari, Microsoft Edge, or any mobile browsers.
 
 !!! warning "Unsupported Operating Systems"
-    The Recruit41 platform does not support mobile operating systems such as:
-    
-    - Android
-    - iOS
-    - iPadOS or any other mobile/tablet OS
+    The Recruit41 platform does not support mobile operating systems such as - Android, iOS, iPadOS or any other mobile/tablet OS
     
 Please use a desktop or laptop computer running macOS, Windows, or Linux for your interview. Attempting to join from a mobile device may result in technical issues or an inability to proceed with your interview.
 
