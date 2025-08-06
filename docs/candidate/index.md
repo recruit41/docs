@@ -14,6 +14,9 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 
 !!! warning "Unsupported Operating Systems"
     The Recruit41 platform does not support mobile operating systems such as - Android, iOS, iPadOS or any other mobile/tablet OS
+
+!!! warning "Avoid Corporate laptops"
+    Most corporate laptops are configured with firewalls and proxy settings that can interfere with the Recruit41 platform. This may cause issues during your interview and could negatively impact your score. 
     
 Please use a desktop or laptop computer running macOS, Windows, or Linux for your interview. Attempting to join from a mobile device may result in technical issues or an inability to proceed with your interview.
 
