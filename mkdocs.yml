@@ -97,6 +97,12 @@ nav:
   - Candidate Guide:
     - Interview Instructions: candidate/index.md
   - Recruiter Guide:
-    - Overview: recruiter/index.md
+    - Getting Started: recruiter/index.md
+    - Dashboard & Jobs: recruiter/dashboard.md
+    - Interview Planner: recruiter/interview-planner.md
+    - Candidate Management: recruiter/candidate-management.md
     - Candidate Invitations: recruiter/candidate-invitations.md
     - Email Templates: recruiter/email-templates.md
+    - Reports & Analytics: recruiter/reports-analytics.md
+    - FAQ & Best Practices: recruiter/faq-best-practices.md
+    - Quick Reference: recruiter/quick-reference.md
