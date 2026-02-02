@@ -66,6 +66,14 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     [:octicons-arrow-right-24: Learn more](recruiter/faq-best-practices.md)
 
+-   :material-bookmark:{ .lg .middle } **Quick Reference**
+
+    ---
+
+    Cheat sheets, score interpretation, platform limits
+
+    [:octicons-arrow-right-24: Quick reference](recruiter/quick-reference.md)
+
 </div>
 
 ---

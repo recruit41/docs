@@ -1,10 +1,10 @@
 # Job Management
 
-This section covers creating jobs, designing interviews, and managing job visibility and status.
+This section covers the dashboard overview, creating jobs, designing interviews, and managing job visibility and status.
 
 ---
 
-## Job Creation
+## Dashboard Overview
 
 ### The Jobs List (Home Page)
 
@@ -13,6 +13,88 @@ When you log in, you land on the Jobs List page. This is your home base for all 
 ![Jobs List - Active](../assets/images/recruiter/jobs-list-active.png)
 
 *The Jobs List page showing active openings with job titles, visibility, applicant counts, and status indicators.*
+
+#### What You See
+
+| Area | Description |
+| :--- | :--- |
+| **Header** | Page title, search bar, and "+ New Opening" button |
+| **Tab Bar** | Switch between "Active" and "Inactive" jobs |
+| **Job Cards/Rows** | List of all your job openings |
+| **Sidebar** | Navigation to other sections |
+
+### Job Status Tabs
+
+#### Active Tab
+
+Shows jobs that are:
+
+- Currently accepting applications
+- Visible to candidates (if set to Public)
+- Ready for interviewing
+
+#### Inactive Tab
+
+Shows jobs that are:
+
+- Paused or closed
+- Not accepting new applications
+- Archived for record-keeping
+
+![Jobs List - Inactive](../assets/images/recruiter/jobs-inactive-tab.png)
+
+*The Inactive tab shows closed or paused job postings.*
+
+### Understanding Job Cards
+
+| Element | Description |
+| :--- | :--- |
+| **Job Title** | The name of the position |
+| **Application Count** | Number of candidates who have applied |
+| **Status Badges** | Active/Inactive, Public/Private indicators |
+| **Created Date** | When the job was created |
+| **Last Activity** | Most recent candidate activity |
+
+![Jobs Card View](../assets/images/recruiter/jobs-card-view.png)
+
+*Card view showing jobs with visual status indicators.*
+
+### Sidebar Navigation
+
+#### Global Navigation
+
+| Item | Where It Goes |
+| :--- | :--- |
+| **All Openings** | Back to the Jobs List |
+| **Consumption** | Usage and billing (Admin only) |
+| **Portal Access** | Team management (Admin only) |
+| **Careers Page** | Your public job listings |
+
+#### Job-Specific Navigation
+
+When you select a job, additional options appear:
+
+| Item | What It's For |
+| :--- | :--- |
+| **Applications** | See all candidates for this job |
+| **Interview Design** | Create/edit the interview plan |
+| **Analytics** | Performance data and statistics |
+| **Email Templates** | Manage automated emails |
+| **Settings** | Job visibility and status |
+| **Team Access** | Control who can access this job |
+| **Add Candidates** | Invite candidates via CSV |
+
+### Careers Page
+
+The Careers Page is your public-facing job board where candidates can browse and apply to open positions.
+
+![Careers Page](../assets/images/recruiter/careers-page.png)
+
+*The public Careers Page showing available job openings.*
+
+---
+
+## Job Creation
 
 ### Creating a New Job
 
