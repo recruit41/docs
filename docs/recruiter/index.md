@@ -1,148 +1,87 @@
-# Getting Started
+# Recruiter Guide
 
-This section covers everything you need to begin using Recruit41 effectively.
-
----
-
-## Accessing Platform
-
-### Step 1: Go to the Platform
-
-Open your web browser and go to your company's Recruit41 URL (for example: `https://yourcompany.recruit41.com`).
-
-![Login Page](../assets/images/recruiter/login-page.png)
-
-*The login page with Google, Microsoft, and email verification options.*
-
-### Step 2: Choose Your Login Method
-
-You have three ways to log in:
-
-=== "Google"
-
-    1. Click the **"Continue with Google"** button
-    2. Select your Google account
-    3. You'll be automatically logged in
-
-=== "Microsoft"
-
-    1. Click the **"Continue with Microsoft"** button
-    2. Enter your Microsoft credentials
-    3. You'll be automatically logged in
-
-=== "Email Code"
-
-    1. Enter your email address in the email field
-    2. Click **"Send Verification Code"**
-    3. Check your email for a 6-digit code
-    4. Enter the code in the verification field
-    5. Click **"Verify & Continue"**
-
-!!! note
-    If you don't receive the verification code within a few minutes, check your spam folder.
+Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation covers everything you need to effectively manage your recruitment process using the Recruit41 platform.
 
 ---
 
-## User Access Golden Rule
+## Recruiter Operational Blueprint
 
-!!! tip "Key Principle"
-    Every team member should have the minimum access level required for their role.
+<div class="grid cards" markdown>
 
-This ensures:
+-   :material-rocket-launch:{ .lg .middle } **Getting Started**
 
-| Benefit | Description |
-| :--- | :--- |
-| **Data Security** | Sensitive candidate information stays protected |
-| **Audit Trail** | Clear accountability for who made changes |
-| **Prevent Accidents** | Avoid unintended modifications to interview configs |
-| **Compliance** | Meet data protection requirements (GDPR, SOC2) |
+    ---
 
----
+    Platform access, user roles, and initial account setup
 
-## Role-Based Access Control
+    - [Accessing Platform](getting-started/accessing-platform.md)
+    - [User Access Golden Rule](getting-started/user-access-golden-rule.md)
+    - [Role-Based Access Control](getting-started/role-based-access-control.md)
+    - [Initial Account Setup](getting-started/initial-account-setup.md)
 
-Recruit41 uses two primary roles to manage what people can do:
+    [:octicons-arrow-right-24: Get started](getting-started/index.md)
 
-### Tenant Admin
+-   :material-briefcase:{ .lg .middle } **Job Management**
 
-Full access to the platform, including:
+    ---
 
-- Create and manage job openings
-- Design interview plans
-- Add/remove team members
-- Access billing information
-- Configure all settings
+    Create jobs, design interviews, configure visibility
 
-!!! info "Recommended for"
-    Hiring managers, senior recruiters, HR administrators
+    - [Job Creation](job-management/job-creation.md)
+    - [Five-Step Interview Design](job-management/five-step-interview-design.md)
+    - [Visibility & Status Toggles](job-management/visibility-status-toggles.md)
 
-### Tenant User
+    [:octicons-arrow-right-24: Manage jobs](job-management/index.md)
 
-Limited access for day-to-day operations:
+-   :material-account-group:{ .lg .middle } **Candidate Management**
 
-- View job listings and candidates
-- Send candidate communications
-- View analytics and reports
-- Review interview results
+    ---
 
-!!! info "Recommended for"
-    Recruiters, coordinators, hiring team members
+    Source candidates, bulk actions, screening tools
 
-### Role Comparison Table
+    - [Sourcing Methods](candidate-management/sourcing-methods.md)
+    - [Bulk Actions Panel](candidate-management/bulk-actions-panel.md)
+    - [Communication Customisation](candidate-management/communication-customisation.md)
+    - [Rapid Screening Tools](candidate-management/rapid-screening-tools.md)
 
-| Capability | Tenant Admin | Tenant User |
-| :--- | :---: | :---: |
-| View job listings | ✓ | ✓ |
-| View candidate applications | ✓ | ✓ |
-| Send candidate communications | ✓ | ✓ |
-| View analytics and reports | ✓ | ✓ |
-| Create new jobs | ✓ | ✗ |
-| Design interview questions | ✓ | ✗ |
-| Configure proctoring settings | ✓ | ✗ |
-| Add/remove team members | ✓ | ✗ |
-| Access billing information | ✓ | ✗ |
+    [:octicons-arrow-right-24: Manage candidates](candidate-management/index.md)
 
----
+-   :material-chart-bar:{ .lg .middle } **Reports & Analytics**
 
-## Initial Account Setup
+    ---
 
-### Adding Team Members
+    Consumption insights, job analytics, activity tracking
 
-#### Step 1: Navigate to Team Access
+    - [Consumption Insights](reports-analytics/consumption-insights.md)
+    - [Job Analytics](reports-analytics/job-analytics.md)
 
-1. Click **"Settings"** in the navigation menu
-2. Select **"Team Access"** from the dropdown
-3. The Team Access page loads
+    [:octicons-arrow-right-24: View analytics](reports-analytics/index.md)
 
-![Team Access](../assets/images/recruiter/team-access.png)
+-   :material-help-circle:{ .lg .middle } **FAQ & Best Practices**
 
-*The Team Access page for managing team members.*
+    ---
 
-#### Step 2: Click Add Member
+    Data quality, security, permissions, troubleshooting
 
-1. Click the orange **"Add Member"** button
-2. The "Add Member" dialog opens
+    - [Data Quality Management](faq-best-practices/data-quality-management.md)
+    - [Calendar & Email Integration](faq-best-practices/calendar-email-integration.md)
+    - [Security & Pre-Meeting Checks](faq-best-practices/security-pre-meeting-checks.md)
+    - [Pilot Program Testing](faq-best-practices/pilot-program-testing.md)
+    - [Restrictive Permissions](faq-best-practices/restrictive-permissions.md)
 
-#### Step 3: Enter Member Details
+    [:octicons-arrow-right-24: Learn more](faq-best-practices/index.md)
 
-1. **User Email** - Enter the exact email address
-2. **Name** - Enter their name (optional)
-3. **Department** - Select if applicable
+-   :material-bookmark:{ .lg .middle } **Resources**
 
-#### Step 4: Assign the Right Role
+    ---
 
-1. Click the **"Role"** dropdown menu
-2. Read the role descriptions
-3. Select the appropriate role
-4. Click **"Add Member"**
+    Quick reference guides and templates
 
-### Common Errors and Solutions
+    - [Candidate Invitations](candidate-invitations.md)
+    - [Email Templates](email-templates.md)
+    - [Quick Reference](quick-reference.md)
 
-| Error | Solution |
-| :--- | :--- |
-| "Email already exists" | User is already a member |
-| "Invalid email format" | Check the email address |
-| "Permission denied" | You may not have admin access |
+</div>
 
 ---
 
@@ -158,3 +97,12 @@ Limited access for day-to-day operations:
 | **Proctoring** | Monitoring for potential issues during interviews |
 | **Visibility** | Whether a job is open to everyone (Public) or only invited (Private) |
 | **Evaluation Criteria** | The standards used to score and compare candidates |
+
+---
+
+## Need Help?
+
+For any questions or issues, please contact our support team:
+
+* **Email**: [support@recruit41.com](mailto:support@recruit41.com)
+* **Live Chat**: Available during business hours

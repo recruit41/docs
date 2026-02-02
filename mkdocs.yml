@@ -97,12 +97,36 @@ nav:
   - Candidate Guide:
     - Interview Instructions: candidate/index.md
   - Recruiter Guide:
-    - Getting Started: recruiter/index.md
-    - Job Management: recruiter/job-management.md
-    - Candidate Management: recruiter/candidate-management.md
-    - Reports and Analytics: recruiter/reports-analytics.md
-    - FAQ and Best Practices: recruiter/faq-best-practices.md
-    - Quick Reference: recruiter/quick-reference.md
+    - recruiter/index.md
+    - Getting Started:
+      - recruiter/getting-started/index.md
+      - Accessing Platform: recruiter/getting-started/accessing-platform.md
+      - User Access Golden Rule: recruiter/getting-started/user-access-golden-rule.md
+      - Role-Based Access Control: recruiter/getting-started/role-based-access-control.md
+      - Initial Account Setup: recruiter/getting-started/initial-account-setup.md
+    - Job Management:
+      - recruiter/job-management/index.md
+      - Job Creation: recruiter/job-management/job-creation.md
+      - Five-Step Interview Design: recruiter/job-management/five-step-interview-design.md
+      - Visibility & Status Toggles: recruiter/job-management/visibility-status-toggles.md
+    - Candidate Management:
+      - recruiter/candidate-management/index.md
+      - Sourcing Methods: recruiter/candidate-management/sourcing-methods.md
+      - Bulk Actions Panel: recruiter/candidate-management/bulk-actions-panel.md
+      - Communication Customisation: recruiter/candidate-management/communication-customisation.md
+      - Rapid Screening Tools: recruiter/candidate-management/rapid-screening-tools.md
+    - Reports & Analytics:
+      - recruiter/reports-analytics/index.md
+      - Consumption Insights: recruiter/reports-analytics/consumption-insights.md
+      - Job Analytics: recruiter/reports-analytics/job-analytics.md
+    - FAQ & Best Practices:
+      - recruiter/faq-best-practices/index.md
+      - Data Quality Management: recruiter/faq-best-practices/data-quality-management.md
+      - Calendar & Email Integration: recruiter/faq-best-practices/calendar-email-integration.md
+      - Security & Pre-Meeting Checks: recruiter/faq-best-practices/security-pre-meeting-checks.md
+      - Pilot Program Testing: recruiter/faq-best-practices/pilot-program-testing.md
+      - Restrictive Permissions: recruiter/faq-best-practices/restrictive-permissions.md
     - Resources:
       - Candidate Invitations: recruiter/candidate-invitations.md
       - Email Templates: recruiter/email-templates.md
+      - Quick Reference: recruiter/quick-reference.md

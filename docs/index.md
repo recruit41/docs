@@ -32,7 +32,7 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     Platform access, user roles, and initial account setup
 
-    [:octicons-arrow-right-24: Get started](recruiter/index.md)
+    [:octicons-arrow-right-24: Get started](recruiter/getting-started/index.md)
 
 -   :material-briefcase:{ .lg .middle } **Job Management**
 
@@ -40,7 +40,7 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     Create jobs, design interviews, configure visibility
 
-    [:octicons-arrow-right-24: Manage jobs](recruiter/job-management.md)
+    [:octicons-arrow-right-24: Manage jobs](recruiter/job-management/index.md)
 
 -   :material-account-group:{ .lg .middle } **Candidate Management**
 
@@ -48,23 +48,23 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     Source candidates, bulk actions, screening tools
 
-    [:octicons-arrow-right-24: Manage candidates](recruiter/candidate-management.md)
+    [:octicons-arrow-right-24: Manage candidates](recruiter/candidate-management/index.md)
 
--   :material-chart-bar:{ .lg .middle } **Reports and Analytics**
+-   :material-chart-bar:{ .lg .middle } **Reports & Analytics**
 
     ---
 
     Consumption insights, job analytics, activity tracking
 
-    [:octicons-arrow-right-24: View analytics](recruiter/reports-analytics.md)
+    [:octicons-arrow-right-24: View analytics](recruiter/reports-analytics/index.md)
 
--   :material-help-circle:{ .lg .middle } **FAQ and Best Practices**
+-   :material-help-circle:{ .lg .middle } **FAQ & Best Practices**
 
     ---
 
     Data quality, security, permissions, troubleshooting
 
-    [:octicons-arrow-right-24: Learn more](recruiter/faq-best-practices.md)
+    [:octicons-arrow-right-24: Learn more](recruiter/faq-best-practices/index.md)
 
 -   :material-bookmark:{ .lg .middle } **Quick Reference**
 
@@ -109,7 +109,7 @@ For any questions or issues, please contact our support team:
 
 * [Candidate Invitations](recruiter/candidate-invitations.md) - CSV upload guide
 * [Email Templates](recruiter/email-templates.md) - Communication templates
-* [FAQ](recruiter/faq-best-practices.md) - Common questions
+* [FAQ & Best Practices](recruiter/faq-best-practices/index.md) - Common questions
 
 ### Company
 

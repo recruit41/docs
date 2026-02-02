@@ -1,34 +1,14 @@
-# Reports and Analytics
+# Job Analytics
 
-This section covers tracking your hiring pipeline, monitoring consumption, and understanding interview performance data.
-
----
-
-## Consumption Insights
-
-Monitor your platform usage and interview consumption.
-
-| Metric | Description |
-| :--- | :--- |
-| **Total Interviews** | Number of interviews conducted |
-| **Credits Used** | Credits consumed this billing period |
-| **Remaining Balance** | Credits available for use |
-| **Usage Trend** | Historical usage chart over time |
-
-### Viewing Consumption Data
-
-1. Click **"Consumption"** in the sidebar under Tenant Management
-2. View the summary cards at the top
-3. Review the usage breakdown by job
-4. Export data for reporting if needed
+Analyze candidate flow, score distribution, and interview activity for each job.
 
 ---
 
-## Job Analytics
+## Overview
 
 View detailed analytics for each job opening to understand your hiring funnel.
 
-![Job Analytics](../assets/images/recruiter/job-analytics.png)
+![Job Analytics](../../assets/images/recruiter/job-analytics.png)
 
 *The Job Analytics page showing Application Flow, Peak Interview Days, Peak Interview Hours, and Score Distribution.*
 
@@ -43,9 +23,11 @@ View detailed analytics for each job opening to understand your hiring funnel.
 
 ---
 
-### Sankey Diagram
+## Sankey Diagram
 
 The Sankey diagram visualizes candidate flow through your pipeline, showing where candidates drop off and conversion rates between stages.
+
+### Reading the Diagram
 
 | Element | Meaning |
 | :--- | :--- |
@@ -54,7 +36,7 @@ The Sankey diagram visualizes candidate flow through your pipeline, showing wher
 | **Red/Orange** | Drop-off points |
 | **Green** | Successful completions |
 
-#### Reading the Sankey Diagram
+### Flow Stages
 
 1. **Start** - Total candidates invited
 2. **First node** - Candidates who opened the link
@@ -71,11 +53,11 @@ The Sankey diagram visualizes candidate flow through your pipeline, showing wher
 
 ---
 
-### Score Distribution
+## Score Distribution
 
 Understand how candidates are performing across your interviews.
 
-#### Distribution Chart
+### Distribution Chart
 
 The histogram shows the spread of candidate scores:
 
@@ -83,7 +65,7 @@ The histogram shows the spread of candidate scores:
 - **Y-axis**: Number of candidates in each range
 - **Bell curve**: Indicates typical distribution
 
-#### Percentile Rankings
+### Percentile Rankings
 
 | Percentile | Meaning |
 | :--- | :--- |
@@ -92,7 +74,7 @@ The histogram shows the spread of candidate scores:
 | **Top 50%** | Above average |
 | **Bottom 50%** | Below average |
 
-#### What the Distribution Tells You
+### What the Distribution Tells You
 
 | Pattern | Interpretation |
 | :--- | :--- |
@@ -103,17 +85,17 @@ The histogram shows the spread of candidate scores:
 
 ---
 
-### Peak Activity Tracking
+## Peak Activity Tracking
 
 The activity heatmap shows when candidates take interviews by day of week and hour of day.
 
-#### Heatmap Components
+### Heatmap Components
 
 - **Rows**: Days of the week (Monday - Sunday)
 - **Columns**: Hours of the day (12am - 11pm)
 - **Color intensity**: Number of interviews during that time slot
 
-#### How to Use This Data
+### How to Use This Data
 
 | Goal | Action |
 | :--- | :--- |
@@ -131,7 +113,7 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 1. **Monitor funnel drop-off** - If many candidates drop out at a specific stage, investigate why
 2. **Track score trends** - Consistently low scores may indicate sourcing issues
 3. **Optimize timing** - Schedule reviews during your peak activity periods
-4. **Plan capacity** - Use consumption data to forecast hiring needs
+4. **Plan capacity** - Use completion data to forecast review workload
 5. **Compare jobs** - Look for patterns across similar roles
 
 ### Common Questions
@@ -150,3 +132,10 @@ The activity heatmap shows when candidates take interviews by day of week and ho
     - Too easy: Most candidates score 4+
     - Too hard: Most candidates score below 3
     - Adjust criteria or question difficulty accordingly
+
+??? question "When do most candidates interview?"
+    Check the Peak Activity heatmap. Most candidates complete interviews:
+
+    - Evenings (6-9 PM) on weekdays
+    - Weekend mornings
+    - Lunch hours (12-1 PM)
