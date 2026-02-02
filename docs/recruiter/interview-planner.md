@@ -13,67 +13,120 @@ An Interview Plan is your blueprint for how the AI should conduct interviews. It
 - **Evaluation Criteria** - How candidates should be scored
 - **Settings** - Proctoring rules and candidate instructions
 
+!!! warning "Important"
+    You must create an Interview Plan before you can invite candidates or make a job public.
+
+---
+
+## The Five-Step Process Overview
+
+| Step | Purpose | What You Do |
+| :--- | :--- | :--- |
+| **1. Overview & Objectives** | Define what you're assessing | Write a clear interview objective |
+| **2. Module Structure** | Build interview stages | Add sections, questions, topics |
+| **3. Evaluation Criteria** | Set scoring standards | Define rubrics and scales |
+| **4. Proctoring Settings** | Configure security | Enable camera, screen share, etc. |
+| **5. Run Simulation** | Test before launch | Preview the candidate experience |
+
 ---
 
 ## Step 1: Overview & Objectives
 
-Start by defining the high-level objectives and duration of your interview.
+The Interview Objective tells the AI what to assess. This is **critical** for relevant question generation.
 
-![Interview Design Overview](../assets/images/recruiter/image7.png)
+![Interview Design Overview](../assets/images/recruiter/interview-design-overview.png)
 
-*The Interview Design Overview tab showing the interview objective, total duration, and structure summary.*
+*The Interview Design Overview showing the objective, structure summary, and evaluation criteria.*
 
-!!! tip "Setting Objectives"
-    Be specific about what you want to evaluate. Clear objectives help the AI ask more relevant follow-up questions.
+### Writing a Good Objective
+
+**Do:**
+
+- Be specific about skills to assess
+- List 3-5 key competencies
+- Include both technical AND soft skills
+- Mention culture fit elements if relevant
+
+**Don't:**
+
+- Use vague terms like "good fit"
+- Write long paragraphs
+- Focus only on technical abilities
+
+### Examples
+
+!!! success "Good Objective"
+    *"Assess SQL proficiency, data visualization skills, communication clarity, and problem-solving approach for a customer-facing analytics role."*
+
+!!! failure "Poor Objective"
+    *"Find a good data analyst who can do the job well."*
 
 ---
 
 ## Step 2: Module Structure
 
-Design the flow of your interview by adding and configuring sections.
+### The Three-Panel Layout
 
-![Interview Design Structure](../assets/images/recruiter/image8.png)
-
-*The Structure tab showing all interview sections with their types and durations.*
-
-### Section Details Panel
-
-Click on any section to view and edit its configuration:
-
-![Section Details](../assets/images/recruiter/image9.png)
-
-*The section details panel showing topics, subtopics, and evaluation criteria for the selected section.*
-
-### Section Types
-
-| Type | Description | Use Case |
+| Panel | Position | Purpose |
 | :--- | :--- | :--- |
-| **Q&A** | Conversational questions | Behavioral, situational interviews |
-| **Coding** | Live coding challenges | Technical assessments |
-| **Case Study** | Problem-solving scenarios | Analytical roles |
+| **Section Library** | Left | Available sections you can add |
+| **Plan Canvas** | Center | Your interview structure |
+| **Property Inspector** | Right | Edit the selected section |
+
+![Interview Design Structure](../assets/images/recruiter/interview-design-structure.png)
+
+*The Structure tab showing interview sections with their types and durations.*
+
+### Typical Interview Stages
+
+| Stage | Purpose | Duration |
+| :--- | :--- | :--- |
+| **Introduction** | Warm up, explain process | 2-5 min |
+| **Background Q&A** | Learn about experience | 10-15 min |
+| **Technical Questions** | Assess domain knowledge | 10-20 min |
+| **Coding Challenge** | Evaluate problem-solving | 20-30 min |
+| **Candidate Q&A** | Answer their questions | 5 min |
+| **Closing** | Wrap up, next steps | 2-3 min |
+
+### Section Types Available
+
+| Module Type | Best For | Features |
+| :--- | :--- | :--- |
+| **Multiple Choice Q&A** | Knowledge screening | Auto-graded, quick |
+| **Code Pad** | Technical assessment | Live coding, syntax highlighting |
+| **Video Response** | Behavioral questions | Async, reviewable |
+| **Async Task** | Take-home assignments | Deadline-based |
+| **Case Study** | Problem-solving | Document analysis |
+| **Live Deep Dive** | In-depth discussion | Real-time interaction |
+
+!!! info "Duration Limit"
+    Total interview cannot exceed **60 minutes**.
 
 ---
 
 ## Step 3: Evaluation Criteria
 
-Define how candidates should be scored across different competencies.
+### Criteria Types
 
-![Evaluation Criteria](../assets/images/recruiter/image10.png)
+| Type | Badge | Description |
+| :--- | :--- | :--- |
+| **Interview-wide** | Purple | Applies to entire interview |
+| **Section-specific** | Blue | Applies only to one section |
 
-*The Criteria tab showing all evaluation criteria with their descriptions and source sections.*
+### Scoring Scales
 
-!!! info "Scoring"
-    Each criterion is scored on a 1-5 scale. The AI uses these criteria to generate structured feedback and overall recommendations.
+| Scale Type | When to Use | Example |
+| :--- | :--- | :--- |
+| **1-5 Scale** | Nuanced assessment | 1=Poor, 3=Meets, 5=Exceeds |
+| **Pass/Fail** | Binary requirements | Must-have qualifications |
+| **Percentage** | Quantitative tasks | Code test accuracy |
+| **Rubric** | Detailed evaluation | Multi-level descriptions |
 
 ---
 
 ## Step 4: Proctoring Settings
 
-Configure security and monitoring options for your interviews.
-
-![Proctoring Settings](../assets/images/recruiter/image11.png)
-
-*The Settings tab with Proctoring Configuration options including camera, screen share, and monitor detection.*
+### Live Meeting Checks
 
 | Setting | Default | Description |
 | :--- | :--- | :--- |
@@ -81,14 +134,62 @@ Configure security and monitoring options for your interviews.
 | **Require Screen Share** | OFF | Candidates must share entire screen |
 | **External Monitor Detection** | OFF | Flag if candidate connects extra display |
 
-!!! warning "For High-Stakes Roles"
-    Enable all proctoring options for senior positions or roles with access to sensitive information.
+### Pre-Meeting Checks
+
+| Check | What It Verifies |
+| :--- | :--- |
+| **Browser** | Supported browser (Chrome recommended) |
+| **Camera** | Camera is working |
+| **Microphone** | Mic is working |
+| **Network** | Stable internet connection |
+
+### Proctoring Guidelines by Role Type
+
+| Role Type | Recommended Settings |
+| :--- | :--- |
+| Entry-level | Camera only |
+| Mid-level | Camera + Screen share |
+| Senior/Leadership | Camera + Screen share + Monitor detection |
+| High-security | All options enabled |
+
+---
+
+## Step 5: Run Simulation
+
+!!! danger "Never launch without testing!"
+    Always run a simulation before inviting real candidates.
+
+### What to Check
+
+| Check | What to Look For |
+| :--- | :--- |
+| **Timer** | Countdown works, warnings appear |
+| **Navigation** | Next/back buttons work |
+| **Questions** | Text renders correctly |
+| **Attachments** | Images load, files downloadable |
+| **Code Editor** | Syntax highlighting works |
+| **Video** | Camera prompt appears |
+| **Submission** | Final submit works |
 
 ---
 
 ## Best Practices
 
-1. **Keep sections focused** - Each section should evaluate 2-3 related competencies
-2. **Balance duration** - Allocate more time to critical skills
-3. **Test your plan** - Run through the interview yourself before going live
-4. **Iterate based on data** - Review analytics to refine your approach
+1. **Keep it under 60 minutes** - Attention drops after an hour
+2. **Start with easy questions** - Help candidates warm up
+3. **Include mandatory questions** - Ensure consistency
+4. **Test with simulations** - Always test before going live
+5. **Set clear criteria** - Makes scoring more objective
+
+---
+
+## Pilot Program Testing
+
+Before full launch, follow this testing approach:
+
+| Phase | Description |
+| :--- | :--- |
+| **Internal Testing** | Run 3-5 simulations, have team test |
+| **Small Group** | 5-10 pilot candidates |
+| **Review** | Analyze results, fix issues |
+| **Full Launch** | Roll out to all candidates |

@@ -12,9 +12,10 @@ Quick lookup tables for common actions, score interpretation, and platform limit
 | Edit job details | Job → Settings → Edit |
 | Make job public | Job → Settings → Visibility toggle |
 | Create interview plan | Job → Interview Design → Create |
-| Invite candidate | Job → Applications → Invite button |
-| Bulk upload | Job → Applications → Invite → Upload CSV |
-| Export candidates | Applications → CSV button |
+| Invite candidate | Job → Add Candidates → Direct Link |
+| Bulk upload | Job → Add Candidates → Bulk Upload |
+| Send reminder | Candidate profile → Send Email |
+| Export candidates | Applications → Select → Export |
 
 ---
 
@@ -37,12 +38,27 @@ Quick lookup tables for common actions, score interpretation, and platform limit
 
 | Item | Limit |
 | :--- | :--- |
-| Interview duration | 70 minutes max |
+| Interview duration | 60 minutes max |
 | Sections per interview | 10 max |
 | Questions per section | 20 max |
 | Evaluation criteria | 15 max |
 | CSV upload | 1,000 rows |
 | File upload | 10 MB |
+
+---
+
+## Status Definitions
+
+| Status | Description |
+| :--- | :--- |
+| **Invited** | Candidate received invitation, hasn't started |
+| **Started** | Candidate began the interview |
+| **In Progress** | Interview is currently active |
+| **Abandoned** | Stopped mid-interview |
+| **Completed** | Interview finished, awaiting evaluation |
+| **Evaluated** | AI has generated scores and feedback |
+| **No Show** | Deadline passed, never started |
+| **Expired** | Invitation link has expired |
 
 ---
 
@@ -57,15 +73,17 @@ Quick lookup tables for common actions, score interpretation, and platform limit
 
 ---
 
-## Status Definitions
+## Role Quick Reference
 
-| Status | Description |
-| :--- | :--- |
-| **Invited** | Candidate received invitation, hasn't started |
-| **In Progress** | Interview is currently active |
-| **Completed** | Interview finished, awaiting evaluation |
-| **Evaluated** | AI has generated scores and feedback |
-| **Expired** | Invitation link has expired |
+| Capability | Admin | User |
+| :---: | :---: | :---: |
+| View jobs & candidates | ✓ | ✓ |
+| Send communications | ✓ | ✓ |
+| View analytics | ✓ | ✓ |
+| Create/edit jobs | ✓ | ✗ |
+| Design interviews | ✓ | ✗ |
+| Manage team | ✓ | ✗ |
+| Access billing | ✓ | ✗ |
 
 ---
 
