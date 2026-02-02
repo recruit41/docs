@@ -22,6 +22,54 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
 ---
 
+## Recruiter Operational Blueprint
+
+<div class="grid cards" markdown>
+
+-   :material-rocket-launch:{ .lg .middle } **Getting Started**
+
+    ---
+
+    Platform access, user roles, and initial account setup
+
+    [:octicons-arrow-right-24: Get started](recruiter/index.md)
+
+-   :material-briefcase:{ .lg .middle } **Job Management**
+
+    ---
+
+    Create jobs, design interviews, configure visibility
+
+    [:octicons-arrow-right-24: Manage jobs](recruiter/job-management.md)
+
+-   :material-account-group:{ .lg .middle } **Candidate Management**
+
+    ---
+
+    Source candidates, bulk actions, screening tools
+
+    [:octicons-arrow-right-24: Manage candidates](recruiter/candidate-management.md)
+
+-   :material-chart-bar:{ .lg .middle } **Reports and Analytics**
+
+    ---
+
+    Consumption insights, job analytics, activity tracking
+
+    [:octicons-arrow-right-24: View analytics](recruiter/reports-analytics.md)
+
+-   :material-help-circle:{ .lg .middle } **FAQ and Best Practices**
+
+    ---
+
+    Data quality, security, permissions, troubleshooting
+
+    [:octicons-arrow-right-24: Learn more](recruiter/faq-best-practices.md)
+
+</div>
+
+---
+
 ## Key Features
 
 * **AI-Powered Interviews**
@@ -38,24 +86,6 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
 ---
 
-## Getting Started
-
-### For Candidates
-
-* [Interview Instructions](candidate/index.md) - Complete guide to your interview process
-* [Practice Interview](https://demo.recruit41.com/) - Try a mock interview with Kiran
-
-### For Recruiters
-
-* [Getting Started](recruiter/index.md) - Platform access and team management
-* [Dashboard & Jobs](recruiter/dashboard.md) - Navigate the platform and manage jobs
-* [Interview Planner](recruiter/interview-planner.md) - Design custom interview plans
-* [Candidate Management](recruiter/candidate-management.md) - Manage applications and profiles
-* [Reports & Analytics](recruiter/reports-analytics.md) - Track your hiring pipeline
-* [Quick Reference](recruiter/quick-reference.md) - Common actions and score interpretation
-
----
-
 ## Support
 
 For any questions or issues, please contact our support team:
@@ -69,7 +99,9 @@ For any questions or issues, please contact our support team:
 
 ### Resources
 
-* [FAQ](recruiter/faq-best-practices.md)
+* [Candidate Invitations](recruiter/candidate-invitations.md) - CSV upload guide
+* [Email Templates](recruiter/email-templates.md) - Communication templates
+* [FAQ](recruiter/faq-best-practices.md) - Common questions
 
 ### Company
 

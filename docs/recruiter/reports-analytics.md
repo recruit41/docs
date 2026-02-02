@@ -1,6 +1,6 @@
-# Reports & Analytics
+# Reports and Analytics
 
-Track your hiring pipeline and understand interview performance with Recruit41's analytics tools.
+This section covers tracking your hiring pipeline, monitoring consumption, and understanding interview performance data.
 
 ---
 
@@ -10,10 +10,17 @@ Monitor your platform usage and interview consumption.
 
 | Metric | Description |
 | :--- | :--- |
-| **Total Interviews** | Number conducted |
-| **Credits Used** | Credits consumed |
-| **Remaining Balance** | Credits available |
-| **Usage Trend** | Chart over time |
+| **Total Interviews** | Number of interviews conducted |
+| **Credits Used** | Credits consumed this billing period |
+| **Remaining Balance** | Credits available for use |
+| **Usage Trend** | Historical usage chart over time |
+
+### Viewing Consumption Data
+
+1. Click **"Consumption"** in the sidebar under Tenant Management
+2. View the summary cards at the top
+3. Review the usage breakdown by job
+4. Export data for reporting if needed
 
 ---
 
@@ -29,14 +36,14 @@ View detailed analytics for each job opening to understand your hiring funnel.
 
 | Card | What It Shows |
 | :--- | :--- |
-| **Total Candidates** | Number of applications |
-| **Completion Rate** | % who finished |
-| **Average Score** | Mean AI rating |
-| **Top Performers** | Candidates scoring 4+ |
+| **Total Candidates** | Number of applications received |
+| **Completion Rate** | Percentage who finished the interview |
+| **Average Score** | Mean AI rating across all candidates |
+| **Top Performers** | Candidates scoring 4+ out of 5 |
 
 ---
 
-## Sankey Diagram (Drop-Off Analysis)
+### Sankey Diagram
 
 The Sankey diagram visualizes candidate flow through your pipeline, showing where candidates drop off and conversion rates between stages.
 
@@ -46,6 +53,13 @@ The Sankey diagram visualizes candidate flow through your pipeline, showing wher
 | **Thin flows** | Fewer candidates |
 | **Red/Orange** | Drop-off points |
 | **Green** | Successful completions |
+
+#### Reading the Sankey Diagram
+
+1. **Start** - Total candidates invited
+2. **First node** - Candidates who opened the link
+3. **Middle nodes** - Progress through interview stages
+4. **End nodes** - Completed, abandoned, or expired
 
 !!! tip "Identifying Issues"
     If you see a large drop-off at a specific stage, investigate why. Common causes include:
@@ -57,11 +71,19 @@ The Sankey diagram visualizes candidate flow through your pipeline, showing wher
 
 ---
 
-## Score Distribution
+### Score Distribution
 
 Understand how candidates are performing across your interviews.
 
-### Percentile Rankings
+#### Distribution Chart
+
+The histogram shows the spread of candidate scores:
+
+- **X-axis**: Score ranges (1.0-1.9, 2.0-2.9, etc.)
+- **Y-axis**: Number of candidates in each range
+- **Bell curve**: Indicates typical distribution
+
+#### Percentile Rankings
 
 | Percentile | Meaning |
 | :--- | :--- |
@@ -70,28 +92,39 @@ Understand how candidates are performing across your interviews.
 | **Top 50%** | Above average |
 | **Bottom 50%** | Below average |
 
+#### What the Distribution Tells You
+
+| Pattern | Interpretation |
+| :--- | :--- |
+| **Right-skewed** | Most candidates scoring high - criteria may be too easy |
+| **Left-skewed** | Most candidates scoring low - criteria may be too hard |
+| **Normal curve** | Healthy distribution - criteria well calibrated |
+| **Bimodal** | Two distinct groups - may indicate sourcing variation |
+
 ---
 
-## Peak Activity Tracking
+### Peak Activity Tracking
 
 The activity heatmap shows when candidates take interviews by day of week and hour of day.
 
-### How to Use This Data
+#### Heatmap Components
 
-- **Optimize reminder timing** - Send reminders when candidates are most active
-- **Set better deadlines** - Align deadlines with high-activity periods
-- **Plan review sessions** - Schedule reviews when new completions are likely
+- **Rows**: Days of the week (Monday - Sunday)
+- **Columns**: Hours of the day (12am - 11pm)
+- **Color intensity**: Number of interviews during that time slot
+
+#### How to Use This Data
+
+| Goal | Action |
+| :--- | :--- |
+| **Optimize reminder timing** | Send reminders 1-2 hours before peak activity |
+| **Set better deadlines** | Align deadlines with high-activity periods |
+| **Plan review sessions** | Schedule reviews when new completions are likely |
+| **Identify patterns** | Note if weekends or evenings are popular |
 
 ---
 
 ## Using Analytics Effectively
-
-| Goal | What to Monitor |
-| :--- | :--- |
-| **Improve completion rates** | Drop-off points in Sankey diagram |
-| **Find top talent faster** | Score distribution, percentile rankings |
-| **Optimize timing** | Peak activity heatmap |
-| **Track ROI** | Consumption insights, credits used |
 
 ### Best Practices
 
@@ -99,3 +132,21 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 2. **Track score trends** - Consistently low scores may indicate sourcing issues
 3. **Optimize timing** - Schedule reviews during your peak activity periods
 4. **Plan capacity** - Use consumption data to forecast hiring needs
+5. **Compare jobs** - Look for patterns across similar roles
+
+### Common Questions
+
+??? question "Why is my completion rate low?"
+    Common causes:
+
+    - Interview too long (keep under 45 minutes)
+    - Technical issues (check browser requirements in communications)
+    - Candidates abandoning (send reminders)
+    - Link expiration (extend deadlines if needed)
+
+??? question "Why are scores clustered at one end?"
+    Check your evaluation criteria:
+
+    - Too easy: Most candidates score 4+
+    - Too hard: Most candidates score below 3
+    - Adjust criteria or question difficulty accordingly

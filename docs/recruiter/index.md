@@ -1,23 +1,10 @@
 # Getting Started
 
-Welcome to the Recruit41 Recruiter Guide! This comprehensive guide will help you effectively use the Recruit41 platform to streamline your hiring process.
-
-## What is Recruit41?
-
-Recruit41 is an AI-powered interview platform that helps you:
-
-- **Post job openings** and make them available to candidates
-- **Design custom interviews** with different question types (Q&A, coding challenges, case studies)
-- **Invite candidates** to take interviews at their convenience
-- **Review candidate performance** with AI-generated feedback and scores
-- **Monitor for potential issues** during interviews (like someone reading from notes)
-- **Track analytics** to understand your hiring pipeline
-
-The AI interviewer conducts the interviews for you, asks follow-up questions, and provides detailed feedback on each candidate.
+This section covers everything you need to begin using Recruit41 effectively.
 
 ---
 
-## Accessing the Platform
+## Accessing Platform
 
 ### Step 1: Go to the Platform
 
@@ -117,9 +104,11 @@ Limited access for day-to-day operations:
 
 ---
 
-## Adding Team Members
+## Initial Account Setup
 
-### Step 1: Navigate to Team Access
+### Adding Team Members
+
+#### Step 1: Navigate to Team Access
 
 1. Click **"Settings"** in the navigation menu
 2. Select **"Team Access"** from the dropdown
@@ -129,18 +118,18 @@ Limited access for day-to-day operations:
 
 *The Team Access page for managing team members.*
 
-### Step 2: Click Add Member
+#### Step 2: Click Add Member
 
 1. Click the orange **"Add Member"** button
 2. The "Add Member" dialog opens
 
-### Step 3: Enter Member Details
+#### Step 3: Enter Member Details
 
 1. **User Email** - Enter the exact email address
 2. **Name** - Enter their name (optional)
 3. **Department** - Select if applicable
 
-### Step 4: Assign the Right Role (Critical)
+#### Step 4: Assign the Right Role
 
 1. Click the **"Role"** dropdown menu
 2. Read the role descriptions
@@ -169,17 +158,3 @@ Limited access for day-to-day operations:
 | **Proctoring** | Monitoring for potential issues during interviews |
 | **Visibility** | Whether a job is open to everyone (Public) or only invited (Private) |
 | **Evaluation Criteria** | The standards used to score and compare candidates |
-
----
-
-## Quick Links
-
-- [Dashboard & Jobs](dashboard.md) - Navigate the platform and manage jobs
-- [Interview Planner](interview-planner.md) - Design custom interview plans
-- [Candidate Management](candidate-management.md) - Manage applications and candidates
-- [Reports & Analytics](reports-analytics.md) - Track your hiring pipeline
-- [Quick Reference](quick-reference.md) - Common actions and score interpretation
-
-## Support
-
-For additional assistance, please contact our support team at [support@recruit41.com](mailto:support@recruit41.com).

@@ -1,6 +1,6 @@
 # Candidate Management
 
-This guide covers how to invite candidates, manage applications, and review candidate profiles in Recruit41.
+This section covers how to source candidates, manage applications in bulk, customize communications, and efficiently screen candidates.
 
 ---
 
@@ -29,9 +29,7 @@ Upload multiple candidates at once using a CSV file.
 
 For detailed CSV upload instructions, see the [Candidate Invitations Guide](candidate-invitations.md).
 
----
-
-## Applications Dashboard
+### Applications Dashboard
 
 The Applications page shows all candidates for a job, organized by their interview status.
 
@@ -39,22 +37,7 @@ The Applications page shows all candidates for a job, organized by their intervi
 
 *The Applications page showing evaluated candidates with their scores and status.*
 
-### Status Tabs
-
-| Tab | Description |
-| :--- | :--- |
-| **Invited** | Candidates who received an invitation but haven't started |
-| **In Progress** | Candidates currently taking their interview |
-| **Evaluated** | Completed interviews with AI-generated scores |
-| **All** | View all candidates regardless of status |
-
-![Applications - In Progress](../assets/images/recruiter/applications-in-progress.png)
-
-*The In Progress tab showing candidates currently taking their interviews.*
-
----
-
-## Understanding Candidate Status
+### Understanding Candidate Status
 
 | Status | Meaning | Action Needed? |
 | :--- | :--- | :--- |
@@ -79,9 +62,48 @@ Select multiple candidates to perform batch operations:
 | **Archive** | Move candidates to archived status |
 | **Send Custom Email** | Send a custom message to all selected |
 
+![Applications - In Progress](../assets/images/recruiter/applications-in-progress.png)
+
+*The In Progress tab showing candidates currently taking their interviews.*
+
+### How to Use Bulk Actions
+
+1. Select candidates using the checkboxes
+2. Click the **"Bulk Actions"** button in the toolbar
+3. Choose the desired action
+4. Confirm the action
+
 ---
 
-## Reviewing Candidate Profiles
+## Communication Customisation
+
+### Communication Templates
+
+| Template | When to Use |
+| :--- | :--- |
+| **Reminder** | Nudge to complete interview |
+| **Extension** | Grant more time |
+| **Abandoned** | Re-engage dropped candidates |
+| **Custom** | Write your own message |
+
+### Customizing Templates
+
+1. Go to **Email Templates** in the sidebar
+2. Select the template to edit
+3. Modify the subject line and body
+4. Use placeholders for dynamic content:
+   - `{{candidate_name}}` - Candidate's name
+   - `{{job_title}}` - Position name
+   - `{{deadline}}` - Interview deadline
+   - `{{interview_link}}` - Unique interview URL
+
+For ready-to-use templates, see the [Email Templates Guide](email-templates.md).
+
+---
+
+## Rapid Screening Tools
+
+### Reviewing Candidate Profiles
 
 Click on any candidate row to view their detailed profile:
 
@@ -106,10 +128,6 @@ Click on any candidate row to view their detailed profile:
 !!! tip "Efficient Review"
     Use the AI summary for initial screening, then watch key moments in the video for candidates you're considering advancing.
 
----
-
-## Rapid Screening Tools
-
 ### Filters
 
 | Filter | Options |
@@ -128,22 +146,12 @@ Click on any candidate row to view their detailed profile:
 | **Status** | Group by progress |
 | **Name** | Alphabetical lookup |
 
----
+### Score Interpretation
 
-## Communication Templates
-
-| Template | When to Use |
-| :--- | :--- |
-| **Reminder** | Nudge to complete interview |
-| **Extension** | Grant more time |
-| **Abandoned** | Re-engage dropped candidates |
-| **Custom** | Write your own message |
-
-For ready-to-use templates, see the [Email Templates Guide](email-templates.md).
-
----
-
-## Related Guides
-
-- [Candidate Invitations](candidate-invitations.md) - Detailed CSV upload instructions
-- [Email Templates](email-templates.md) - Professional communication templates
+| Score | Meaning | Recommendation |
+| :--- | :--- | :--- |
+| **4.5 - 5.0** | Exceptional | Strong hire |
+| **4.0 - 4.4** | Above average | Consider for next round |
+| **3.5 - 3.9** | Meets expectations | Review carefully |
+| **3.0 - 3.4** | Below average | Likely not a fit |
+| **Below 3.0** | Does not meet | Do not advance |
