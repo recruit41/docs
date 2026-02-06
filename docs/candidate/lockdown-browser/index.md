@@ -23,11 +23,11 @@ The Recruit41 Desktop App creates a secure environment for your AI-powered video
 </div>
 
 
-When your interview requires the desktop app, you'll see a **Desktop App Required** card on the Recruit41 website.
+When your interview requires the desktop app, you'll see a **Desktop App Required** card on the Recruit41 website with a 3-step guide: **Download**, **Install**, and **Launch**.
 
 ![Desktop App Required](../../assets/images/lockdown-browser/00-web-download.png)
 
-### Downloading
+### Step 1: Download
 
 The website automatically detects your operating system and shows the correct download button:
 
@@ -37,7 +37,7 @@ The website automatically detects your operating system and shows the correct do
 
 Click **Download** to get the installer. Other platform options are available under "Other platforms."
 
-### Installing
+### Step 2: Install
 
 === "macOS"
     1. Open the downloaded `.dmg` file
@@ -49,12 +49,14 @@ Click **Download** to get the installer. Other platform options are available un
     2. Follow the installation wizard
     3. The app will open automatically after installation
 
-### Launching
+Once installed, click **I've Installed the App** on the website to proceed to the next step.
 
-After installing, click **Launch Desktop App** on the website. This opens the app and securely passes your interview credentials.
+### Step 3: Launch
+
+Click **Launch Desktop App** on the website. This opens the app and securely passes your interview credentials.
 
 !!! note
-    If the app doesn't open, make sure you've installed it first, then try clicking "Launch Desktop App" again.
+    If the app doesn't open, make sure you've completed Steps 1 and 2 first, then try clicking "Launch Desktop App" again.
 
 ---
 
