@@ -6,34 +6,37 @@ Control access with role-based permissions to protect sensitive data.
 
 ## Permission Guidelines by Role
 
-| Role | Scenario | Access Level |
+| Role | Scenario | Recommended Access |
 | :--- | :--- | :--- |
-| New recruiter | Learning the platform | Tenant User |
-| Experienced recruiter | Day-to-day operations | Tenant User |
-| Hiring manager | Designs interviews | Tenant Admin |
-| HR admin | Billing and settings | Tenant Admin |
-| External agency | Limited jobs only | Tenant User + Job-specific |
+| New recruiter | Learning the platform | **Recruiter** on assigned jobs |
+| Experienced recruiter | Day-to-day pipeline management | **Recruiter** on their jobs |
+| Hiring manager | Designs interviews, manages team | **Job Owner** on their jobs |
+| HR admin | Billing, settings, org-wide control | **Account Admin** |
+| External agency | Limited jobs only | **Recruiter** on specific jobs |
+| Stakeholder / Observer | Needs visibility without actions | **Viewer** on relevant jobs |
 
 ---
 
-## Tenant-Level vs Job-Level Access
+## Organization-Level vs Job-Level Access
 
-### Tenant-Level Roles
+### Organization-Level Roles
 
 Apply to the entire platform:
 
 | Role | Capabilities |
 | :--- | :--- |
-| **Tenant Admin** | Full access to all features and settings |
-| **Tenant User** | View and interact with assigned jobs only |
+| **Account Admin** | Full access to all features, settings, and every job |
+| **Member** | Access only to jobs they are explicitly assigned to |
 
-### Job-Level Access
+### Job-Level Roles
 
-Additional restrictions for specific jobs:
+Assigned per job to control what a member can do within that job:
 
-- **Full Access**: Can view, edit, and manage candidates
-- **View Only**: Can view but not modify
-- **No Access**: Cannot see the job at all
+| Role | Capabilities |
+| :--- | :--- |
+| **Job Owner** | Full control — edit plans, manage team, configure settings |
+| **Recruiter** | Pipeline management — invite candidates, view plans, export data |
+| **Viewer** | Read-only — view candidates and results |
 
 ---
 
@@ -41,15 +44,22 @@ Additional restrictions for specific jobs:
 
 ### Adding Team Members to a Job
 
-1. Go to the job's **Team Access** page
+1. Open the job and go to the **Team Members** tab
 2. Click **"Add Member"**
-3. Select the team member
-4. Choose their access level
-5. Click **"Save"**
+3. Search for the team member
+4. Select their role (**Job Owner**, **Recruiter**, or **Viewer**)
+5. Click **"Add"**
+
+### Changing a Role
+
+1. Open the job's **Team Members** tab
+2. Find the team member
+3. Click on their current role
+4. Select the new role
 
 ### Removing Access
 
-1. Go to the job's **Team Access** page
+1. Open the job's **Team Members** tab
 2. Find the team member
 3. Click **"Remove"**
 4. Confirm the action
@@ -73,7 +83,7 @@ Additional restrictions for specific jobs:
 ### Principle of Least Privilege
 
 !!! tip "Key Principle"
-    Give users only the minimum access they need to do their job.
+    Give users only the minimum access they need to do their job. Start with **Recruiter** or **Viewer** and upgrade as needed.
 
 Benefits:
 
@@ -108,7 +118,7 @@ All actions are logged for compliance:
 
 ### Accessing Audit Logs
 
-1. Go to **Settings** (Admin only)
+1. Go to **Settings** (Account Admin only)
 2. Select **Audit Log**
 3. Filter by user, action, or date
 4. Export if needed
@@ -126,7 +136,7 @@ All actions are logged for compliance:
 
 ### SOC2 Alignment
 
-- Role-based access control
+- Role-based access control with granular permissions
 - Audit logging enabled
 - Regular access reviews
 - Incident response procedures
@@ -141,9 +151,9 @@ An external recruiting agency needs to help with hiring.
 
 **Setup:**
 
-1. Create Tenant User account
-2. Add to specific jobs only
-3. Set to "View Only" for sensitive roles
+1. Add them as a **Member** at the organization level
+2. Assign **Recruiter** role on specific jobs only
+3. They can invite candidates and view results but cannot edit plans or manage team
 4. Review access monthly
 
 ### Scenario 2: Hiring Manager
@@ -152,9 +162,9 @@ A department head needs to design and review interviews.
 
 **Setup:**
 
-1. Create Tenant Admin account
-2. Full access to their department's jobs
-3. No access to other departments
+1. Add them as a **Member** at the organization level
+2. Assign **Job Owner** role on their department's jobs
+3. They get full control over their jobs but no access to other departments
 4. Regular permission audits
 
 ### Scenario 3: Interview Observer
@@ -163,20 +173,23 @@ A team member needs to watch interviews but not make decisions.
 
 **Setup:**
 
-1. Create Tenant User account
-2. Add to relevant jobs as "View Only"
-3. Cannot modify candidates or settings
+1. Add them as a **Member** at the organization level
+2. Assign **Viewer** role on relevant jobs
+3. They can view candidates and results but cannot take any actions
 4. Can view recordings and scores
 
 ---
 
 ## FAQ
 
-??? question "Can a Tenant User create jobs?"
-    No. Only Tenant Admins can create new job openings.
+??? question "Can a Recruiter create jobs?"
+    Not by default. A user needs to be a **Job Owner** on at least one job to gain the ability to create new jobs.
 
-??? question "Can I have multiple Tenant Admins?"
+??? question "Can I have multiple Account Admins?"
     Yes. You can have as many admins as needed, but we recommend limiting admin access to those who truly need it.
 
 ??? question "What happens when someone leaves the company?"
-    Remove their access immediately via Portal Access. Their actions remain in the audit log.
+    Remove their access immediately via **Portal Access**. Their actions remain in the audit log.
+
+??? question "How do I check what permissions each role has?"
+    Use the **Role Guide** button on the User Management or Team Members page. It shows a visual comparison of all roles and permissions.

@@ -20,11 +20,11 @@ Welcome to Recruit41! This section covers everything you need to begin using the
 
     [:octicons-arrow-right-24: Learn the golden rule](user-access-golden-rule.md)
 
--   **Role-Based Access Control**
+-   **Role-Based Access Control (v2.0)**
 
     ---
 
-    Understand Tenant Admin vs Tenant User roles and capabilities
+    Understand the four-role system: Account Admin, Job Owner, Recruiter, and Viewer
 
     [:octicons-arrow-right-24: Understand roles](role-based-access-control.md)
 

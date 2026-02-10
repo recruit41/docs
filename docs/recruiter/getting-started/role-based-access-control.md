@@ -1,81 +1,267 @@
-# Role-Based Access Control
+# Role-Based Access Control (RBAC v2.0)
 
-Recruit41 uses two primary roles to manage what people can do on the platform.
-
----
-
-## Tenant Admin
-
-Full access to the platform, including:
-
-- Create and manage job openings
-- Design interview plans
-- Add/remove team members
-- Access billing information
-- Configure all settings
-
-!!! info "Recommended for"
-    Hiring managers, senior recruiters, HR administrators
+Recruit41 uses a layered role system to give you precise control over who can do what — at both the organization level and the individual job level.
 
 ---
 
-## Tenant User
+## Role Hierarchy at a Glance
 
-Limited access for day-to-day operations:
+```mermaid
+graph TD
+    A["Account Admin"] -->|automatic access to all jobs| B["Job Owner"]
+    B --> C["Recruiter"]
+    C --> D["Viewer"]
 
-- View job listings and candidates
-- Send candidate communications
-- View analytics and reports
-- Review interview results
+    style A fill:#fff7ed,stroke:#fb923c,color:#c2410c
+    style B fill:#fff7ed,stroke:#fb923c,color:#c2410c
+    style C fill:#faf5ff,stroke:#a855f7,color:#7e22ce
+    style D fill:#eff6ff,stroke:#3b82f6,color:#1d4ed8
+```
 
-!!! info "Recommended for"
-    Recruiters, coordinators, hiring team members
-
----
-
-## Role Comparison Table
-
-| Capability | Tenant Admin | Tenant User |
-| :--- | :---: | :---: |
-| View job listings | ✓ | ✓ |
-| View candidate applications | ✓ | ✓ |
-| Send candidate communications | ✓ | ✓ |
-| View analytics and reports | ✓ | ✓ |
-| Create new jobs | ✓ | ✗ |
-| Design interview questions | ✓ | ✗ |
-| Configure proctoring settings | ✓ | ✗ |
-| Add/remove team members | ✓ | ✗ |
-| Access billing information | ✓ | ✗ |
+Higher roles inherit every permission of the roles below them.
 
 ---
 
-## Job-Level Access Control
+## Organization-Level Role
 
-In addition to tenant-level roles, you can restrict access to specific jobs:
+### Account Admin
 
-1. Go to the job's **Team Access** page
-2. Add team members who should access this job
-3. Users not on the list cannot view the job
+Full organizational control across the entire platform.
 
-### When to Use Job-Level Restrictions
-
-| Scenario | Use Restriction? |
+| Area | What they can do |
 | :--- | :--- |
-| Confidential executive search | Yes |
-| Department-specific hiring | Yes |
-| General open positions | No |
-| External agency involvement | Yes |
+| **Jobs** | Create jobs, configure settings, manage all job data |
+| **Users** | Add, remove, and change roles for any user |
+| **Analytics** | View consumption insights and all reports |
+| **Team** | Automatic access to every job — no invitation needed |
+
+!!! info "Recommended for"
+    HR administrators, heads of talent acquisition, platform owners.
 
 ---
 
-## Changing Roles
+## Job-Level Roles
 
-Only Tenant Admins can change user roles:
+Job-level roles are assigned per job and control what a team member can do within that specific job.
 
-1. Go to **Portal Access** in the sidebar
+### Job Owner
+
+Full control over a specific job.
+
+- Edit interview plans and scoring criteria
+- Manage the job's team (add/remove members, change roles)
+- Invite candidates and configure job settings
+- View and export all candidate data
+- Create new jobs (if they own at least one job)
+
+!!! info "Recommended for"
+    Hiring managers, senior recruiters responsible for the role.
+
+### Recruiter
+
+Day-to-day pipeline management.
+
+- Invite candidates to interviews
+- View candidate profiles and interview results
+- Export candidate data
+- View (but not edit) interview plans
+
+!!! info "Recommended for"
+    Recruiters, sourcers, coordinators managing candidate flow.
+
+### Viewer
+
+Read-only access for stakeholders who need visibility.
+
+- View candidate profiles and interview results
+- Export candidate data
+- Cannot invite candidates, edit plans, or change settings
+
+!!! info "Recommended for"
+    Hiring team observers, department leads, external stakeholders.
+
+---
+
+## Permission Matrix
+
+The table below shows exactly which permissions each role has.
+
+| Permission | Account Admin | Job Owner | Recruiter | Viewer |
+| :--- | :---: | :---: | :---: | :---: |
+| View candidates | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-check-circle:{ .green } |
+| Export data | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-check-circle:{ .green } |
+| Invite candidates | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-close-circle:{ .red } |
+| Edit interview plan | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+| Manage team | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+| Job settings | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+| Create jobs | :material-check-circle:{ .green } | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+| Manage org users | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+| View analytics | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
+
+!!! tip "In-app Role Guide"
+    You can view this matrix at any time inside the platform by clicking the **Role Guide** button on the User Management or Team Members page. It includes a cards view and a side-by-side comparison view.
+
+---
+
+## How Roles Work Together
+
+### Organization + Job levels
+
+A user's effective access is determined by their **organization role** combined with their **job-level role**:
+
+| Organization role | Job-level assignment needed? | Result |
+| :--- | :--- | :--- |
+| **Account Admin** | No — they get automatic full access to all jobs | Full control everywhere |
+| **Member** (non-admin) | Yes — must be added to each job | Only sees jobs they are assigned to |
+
+!!! warning "Key point"
+    Members who are not assigned to any job will not see any job data. Always add team members to the jobs they need to work on.
+
+### Role Assignment Rules
+
+Who can assign which roles:
+
+| Your role | You can assign |
+| :--- | :--- |
+| **Account Admin** | Job Owner, Recruiter, Viewer |
+| **Job Owner** | Recruiter, Viewer |
+| **Recruiter** | — (cannot assign roles) |
+| **Viewer** | — (cannot assign roles) |
+
+---
+
+## Using the Role Guide
+
+The platform includes a built-in **Role Guide** to help your team understand roles at a glance.
+
+### Accessing the Role Guide
+
+1. Go to **Portal Access** (for organization roles) or a job's **Team Members** page (for job roles)
+2. Click the **Role Guide** button in the top-right area
+
+### Cards View
+
+The default view shows each role as a card with its description and key permissions — ideal for quick reference.
+
+![Role Guide - Cards View](../../assets/images/rbac/role-guide-cards.png)
+
+*The Role Guide in cards view, showing all roles with their descriptions and permissions.*
+
+### Compare View
+
+Switch to the **Compare** tab to see a side-by-side permission matrix — useful for deciding which role to assign.
+
+![Role Guide - Compare View](../../assets/images/rbac/role-guide-matrix.png)
+
+*The permission matrix view lets you compare roles side by side.*
+
+### Job-Level Role Guide
+
+When accessed from a job's **Team Members** page, the Role Guide shows only the three job-level roles (Job Owner, Recruiter, Viewer) — without the Account Admin, since it is an organization-level role.
+
+![Job-level Role Guide](../../assets/images/rbac/role-guide-job-context.png)
+
+*The Role Guide in job context shows the three job-level roles with Quick Tips for team management.*
+
+---
+
+## Managing Organization Users
+
+Only Account Admins can manage organization-level users.
+
+![Organization Users page](../../assets/images/rbac/user-management.png)
+
+*The Organization Users page showing Members and Account Admins tabs, with the Role Guide and Add Member buttons.*
+
+### Adding a User
+
+1. Go to **Organization Users** in the sidebar
+2. Click **"Add User"**
+3. Enter the user's email address
+4. Select their organization role (**Account Admin** or **Member**)
+5. Click **"Save"**
+
+### Changing a User's Organization Role
+
+1. Go to **Portal Access**
 2. Find the user in the list
-3. Click on their role to change it
-4. Confirm the change
+3. Click on their current role
+4. Select the new role
+5. Confirm the change
 
 !!! warning
-    Be careful when removing Admin access - ensure at least one Admin remains on the account.
+    Be careful when removing Account Admin access — ensure at least one Account Admin remains on the account.
+
+---
+
+## Managing Job Team Members
+
+Job Owners and Account Admins can manage a job's team.
+
+![Team Members page](../../assets/images/rbac/team-management.png)
+
+*The Team Members page for a specific job, with the Role Guide and Add Team Member buttons.*
+
+### Adding a Team Member to a Job
+
+1. Open the job and go to the **Team Members** tab
+2. Click **"Add Member"**
+3. Search for the user by name or email
+4. Select their job role (**Job Owner**, **Recruiter**, or **Viewer**)
+5. Click **"Add"**
+
+### Changing a Team Member's Job Role
+
+1. Open the job's **Team Members** tab
+2. Find the team member
+3. Click on their current role to change it
+4. Select the new role
+
+### Removing a Team Member
+
+1. Open the job's **Team Members** tab
+2. Find the team member
+3. Click **"Remove"**
+4. Confirm the action
+
+---
+
+## Quick Tips
+
+!!! tip "Best practices for role assignment"
+    - **Account Admins** get automatic access to all jobs — no need to add them individually to each job.
+    - **Members** only see jobs they are explicitly assigned to.
+    - When in doubt, start with **Recruiter** access — you can always upgrade later.
+    - Only **Job Owners** and **Account Admins** can add or remove team members from a job.
+
+---
+
+## Migration from RBAC v1
+
+If your account was set up before the RBAC v2 update, your existing roles have been automatically migrated:
+
+| Old role (v1) | New role (v2) |
+| :--- | :--- |
+| Tenant Admin | Account Admin |
+| Tenant User | Member (with existing job assignments preserved) |
+
+No action is required — all existing permissions and job access have been preserved.
+
+---
+
+## FAQ
+
+??? question "What is the difference between Account Admin and Job Owner?"
+    **Account Admin** is an organization-level role with access to all jobs and user management. **Job Owner** is a job-level role with full control over a specific job but no organization-wide privileges.
+
+??? question "Can a Recruiter create jobs?"
+    Not by default. However, if a user is a **Job Owner** on at least one job, they gain the ability to create new jobs.
+
+??? question "What happens if I don't assign someone to a job?"
+    Non-admin users who are not assigned to a job cannot see it at all. Only Account Admins have automatic access to every job.
+
+??? question "Can I have multiple Account Admins?"
+    Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it (see the [User Access Golden Rule](user-access-golden-rule.md)).
+
+??? question "What happens when someone leaves the company?"
+    Remove their access immediately via **Portal Access**. Their historical actions remain in the audit log for compliance.
