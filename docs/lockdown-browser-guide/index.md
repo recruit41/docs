@@ -67,6 +67,15 @@ The Recruit41 Desktop App creates a secure environment for your AI-powered video
 
 ---
 
+## Disable Windows Smart App Control (SAC)
+
+1. Go to **Settings > Privacy & Security > Windows Security**
+2. Select **App & Browser control**
+3. Click on **Smart App Control Settings**
+4. Toggle **'Off'**
+
+---
+
 ## Video Installation Guides
 
 Follow the video guide for your operating system:
