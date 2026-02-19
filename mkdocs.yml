@@ -97,6 +97,7 @@ nav:
   - Candidate Guide:
     - Interview Instructions: candidate/index.md
     - Lockdown Browser: candidate/lockdown-browser/index.md
+  - Lockdown Browser Guide: lockdown-browser-guide/index.md
   - Recruiter Guide:
     - recruiter/index.md
     - Getting Started:
