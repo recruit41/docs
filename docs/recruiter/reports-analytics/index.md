@@ -1,4 +1,4 @@
-# Reports and Analytics
+# Reports & Analytics
 
 This section covers tracking your hiring pipeline and understanding interview performance data.
 
@@ -10,7 +10,7 @@ This section covers tracking your hiring pipeline and understanding interview pe
 
     Monitor platform usage, credits, and billing information
 
-    [:octicons-arrow-right-24: View consumption](consumption-insights.md)
+    [:octicons-arrow-right-24: View usage & credits](consumption-insights.md)
 
 -   **Job Analytics**
 

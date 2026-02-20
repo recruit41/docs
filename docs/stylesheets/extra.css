@@ -1,8 +1,8 @@
 /* Custom navbar styling */
 
-/* Change navbar background color to very light cream */
+/* Change navbar background color to soft off-white */
 .md-header {
-  background-color: #fffcf5;
+  background-color: #FEFEFE;
   /* Increase navbar height */
   height: 4rem;
 }
@@ -24,9 +24,16 @@
   display: none !important;
 }
 
-/* Change document background color */
-.md-main, .md-main__inner, .md-content, .md-content__inner {
-  background-color: #fffcf5 !important;
+/* Page background — soft off-white (sidebars) */
+.md-main, .md-main__inner {
+  background-color: #FAFAF9 !important;
+}
+
+/* Content area — lighter (white) with subtle side borders */
+.md-content {
+  background-color: #ffffff !important;
+  border-left: 1px solid #e8e8e6;
+  border-right: 1px solid #e8e8e6;
 }
 
 /* Move search bar to the right of the navbar */
@@ -42,13 +49,13 @@
 
 /* Change search bar background color */
 .md-search__form {
-  background: #fffbe8 !important;
+  background: #F7F7F6 !important;
   border-radius: 0.5rem;
 }
 
 /* Change search input background and text color */
 .md-search__input {
-  background: #fffbe8 !important;
+  background: #F7F7F6 !important;
   color: #ff914d !important;
 }
 
@@ -91,4 +98,36 @@
 /* Make sure the navbar shadow is subtle */
 .md-header[data-md-state=shadow] {
   box-shadow: 0 0 0.2rem rgba(0,0,0,.1), 0 0.2rem 0.4rem rgba(0,0,0,.05);
+}
+
+/* Accordion / collapsible details — match orange theme */
+details.note {
+  border-color: #ff914d !important;
+}
+
+details.note > summary {
+  background-color: #fff5ec !important;
+  color: #e07830 !important;
+}
+
+details.note > summary::before {
+  background-color: #ff914d !important;
+}
+
+details.note > summary::after {
+  color: #ff914d !important;
+}
+
+/* Primary buttons — brand orange outline style */
+.md-button--primary {
+  background-color: transparent !important;
+  border: 1px solid #FF7A45 !important;
+  color: #FF7A45 !important;
+}
+
+.md-button--primary:hover,
+.md-button--primary:focus {
+  background-color: #FF7A45 !important;
+  border-color: #FF7A45 !important;
+  color: #ffffff !important;
 }

@@ -1,4 +1,4 @@
-# Data Quality Management
+# How to Keep Your Candidate Data Clean
 
 Maintain clean candidate data for better deliverability and accurate reporting.
 
@@ -17,7 +17,7 @@ Maintain clean candidate data for better deliverability and accurate reporting.
 
 ## Email Validation Tips
 
-Before uploading a CSV:
+Before uploading a CSV (a spreadsheet file you can create in Excel or Google Sheets):
 
 ### Check for Common Issues
 
@@ -27,7 +27,7 @@ Before uploading a CSV:
    - `.gmal` instead of `.gmail`
    - Missing `@` symbol
    - Extra spaces
-3. **Remove duplicates** - Same email should not appear twice
+3. **Remove duplicates** - Same email should only appear once
 4. **Verify format** - Must contain `@` and valid domain
 
 ### Validation Checklist

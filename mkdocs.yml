@@ -23,7 +23,6 @@ theme:
     - content.tabs.link
     - navigation.instant
     - navigation.tracking
-    - navigation.expand
     - navigation.footer
     - header.sticky
   icon:
@@ -93,41 +92,40 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: index.md
-  - Candidate Guide:
-    - Interview Instructions: candidate/index.md
-    - Lockdown Browser: candidate/lockdown-browser/index.md
+  - Getting Started: index.md
   - Recruiter Guide:
     - recruiter/index.md
-    - Getting Started:
+    - Platform Setup:
       - recruiter/getting-started/index.md
-      - Accessing Platform: recruiter/getting-started/accessing-platform.md
-      - User Access Golden Rule: recruiter/getting-started/user-access-golden-rule.md
-      - Role-Based Access Control: recruiter/getting-started/role-based-access-control.md
-      - Initial Account Setup: recruiter/getting-started/initial-account-setup.md
-    - Job Management:
+      - Platform Login: recruiter/getting-started/platform-login.md
+      - Access Levels: recruiter/getting-started/access-levels.md
+      - Roles & Permissions: recruiter/getting-started/roles-and-permissions.md
+      - Account Setup: recruiter/getting-started/account-setup.md
+    - Interview Planning:
       - recruiter/job-management/index.md
-      - Job Creation: recruiter/job-management/job-creation.md
-      - Five-Step Interview Design: recruiter/job-management/five-step-interview-design.md
-      - Visibility & Status Toggles: recruiter/job-management/visibility-status-toggles.md
-    - Candidate Management:
+      - Creating an Opening: recruiter/job-management/creating-an-opening.md
+      - Interview Design: recruiter/job-management/interview-design.md
+      - Visibility & Status: recruiter/job-management/visibility-and-status.md
+    - Managing Candidates:
       - recruiter/candidate-management/index.md
-      - Sourcing Methods: recruiter/candidate-management/sourcing-methods.md
-      - Bulk Actions Panel: recruiter/candidate-management/bulk-actions-panel.md
-      - Communication Customisation: recruiter/candidate-management/communication-customisation.md
-      - Rapid Screening Tools: recruiter/candidate-management/rapid-screening-tools.md
+      - Adding Candidates: recruiter/candidate-management/adding-candidates.md
+      - Bulk Actions: recruiter/candidate-management/bulk-actions.md
+      - Email Customization: recruiter/candidate-management/email-customization.md
+      - Screening & Filters: recruiter/candidate-management/screening-and-filters.md
     - Reports & Analytics:
       - recruiter/reports-analytics/index.md
       - Consumption Insights: recruiter/reports-analytics/consumption-insights.md
       - Job Analytics: recruiter/reports-analytics/job-analytics.md
     - FAQ & Best Practices:
       - recruiter/faq-best-practices/index.md
-      - Data Quality Management: recruiter/faq-best-practices/data-quality-management.md
-      - Calendar & Email Integration: recruiter/faq-best-practices/calendar-email-integration.md
-      - Security & Pre-Meeting Checks: recruiter/faq-best-practices/security-pre-meeting-checks.md
-      - Pilot Program Testing: recruiter/faq-best-practices/pilot-program-testing.md
-      - Restrictive Permissions: recruiter/faq-best-practices/restrictive-permissions.md
+      - Data Quality: recruiter/faq-best-practices/data-quality.md
+      - Follow-Up Emails: recruiter/faq-best-practices/follow-up-emails.md
+      - Interview Security: recruiter/faq-best-practices/interview-security.md
+      - Testing & Pilot: recruiter/faq-best-practices/testing-and-pilot.md
+      - Permission Settings: recruiter/faq-best-practices/permission-settings.md
     - Resources:
-      - Candidate Invitations: recruiter/candidate-invitations.md
-      - Email Templates: recruiter/email-templates.md
+      - CSV Upload Guide: recruiter/csv-upload-guide.md
       - Quick Reference: recruiter/quick-reference.md
+  - Candidate Guide:
+    - Interview Instructions: candidate/index.md
+    - Lockdown Browser: candidate/lockdown-browser/index.md

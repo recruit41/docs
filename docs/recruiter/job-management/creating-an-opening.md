@@ -1,24 +1,24 @@
-# Job Creation
+# How to Create a New Opening
 
-Learn how to create new job openings and navigate the jobs dashboard.
+Learn how to create new openings and navigate the jobs dashboard.
 
 ---
 
-## The Jobs List (Home Page)
+## The Openings List (Home Page)
 
-When you log in, you land on the Jobs List page. This is your home base for all hiring activities.
+When you log in, you land on the Openings List page. This is your home base for all hiring activities.
 
 ![Jobs List - Active](../../assets/images/recruiter/jobs-list-active.png)
 
-*The Jobs List page showing active openings with job titles, visibility, applicant counts, and status indicators.*
+*The Openings List page showing active openings with titles, visibility, applicant counts, and status indicators.*
 
 ### What You See
 
 | Area | Description |
 | :--- | :--- |
 | **Header** | Page title, search bar, and "+ New Opening" button |
-| **Tab Bar** | Switch between "Active" and "Inactive" jobs |
-| **Job Cards/Rows** | List of all your job openings |
+| **Tab Bar** | Switch between "Active" and "Inactive" openings |
+| **Job Cards/Rows** | List of all your openings |
 | **Sidebar** | Navigation to other sections |
 
 ### Understanding Job Cards
@@ -28,20 +28,20 @@ When you log in, you land on the Jobs List page. This is your home base for all 
 | **Job Title** | The name of the position |
 | **Application Count** | Number of candidates who have applied |
 | **Status Badges** | Active/Inactive, Public/Private indicators |
-| **Created Date** | When the job was created |
+| **Created Date** | When the opening was created |
 | **Last Activity** | Most recent candidate activity |
 
 ![Jobs Card View](../../assets/images/recruiter/jobs-card-view.png)
 
-*Card view showing jobs with visual status indicators.*
+*Card view showing openings with visual status indicators.*
 
 ---
 
-## Creating a New Job
+## Creating a New Opening
 
 ### Step 1: Click the New Opening Button
 
-From the Jobs List page, click the orange **"+ New Opening"** button in the top-right corner.
+From the Openings List page, click the orange **"+ New Opening"** button in the top-right corner.
 
 ### Step 2: Fill Out the Job Details
 
@@ -53,7 +53,7 @@ From the Jobs List page, click the orange **"+ New Opening"** button in the top-
 | **Job Description** | Details about the role, requirements, and responsibilities | Yes |
 
 !!! tip "Tips for the Description"
-    - Don't worry about formatting - the AI will clean up messy text
+    - The AI will clean up formatting, so focus on content
     - Include key requirements and qualifications
     - Add information about the role's responsibilities
     - Mention any specific skills or experience needed
@@ -66,9 +66,9 @@ From the Jobs List page, click the orange **"+ New Opening"** button in the top-
 | **Job Type** | Full-time, Part-time, Contract, Internship | Affects expectations |
 | **Experience Level** | Entry, Mid, Senior, Lead, Executive | Helps AI calibrate |
 
-### Step 4: Create the Job
+### Step 4: Create the Opening
 
-Click the **"Create"** button. The job is created with "Invite Only" visibility by default.
+Click the **"Create"** button. Your new opening is set to "Invite Only" by default.
 
 ---
 
@@ -78,24 +78,23 @@ Click the **"Create"** button. The job is created with "Invite Only" visibility 
 
 | Item | Where It Goes |
 | :--- | :--- |
-| **All Openings** | Back to the Jobs List |
-| **Consumption** | Usage and billing (Admin only) |
-| **Portal Access** | Team management (Admin only) |
+| **All Openings** | Back to the Openings List |
+| **Consumption** | Usage and credits (Account Admin only) |
+| **Organization Users** | Team management (Account Admin only) |
 | **Careers Page** | Your public job listings |
 
 ### Job-Specific Navigation
 
-When you select a job, additional options appear:
+When you select an opening, additional options appear:
 
 | Item | What It's For |
 | :--- | :--- |
-| **Applications** | See all candidates for this job |
+| **Applications** | See all candidates for this opening |
 | **Interview Design** | Create/edit the interview plan |
 | **Analytics** | Performance data and statistics |
 | **Email Templates** | Manage automated emails |
-| **Settings** | Job visibility and status |
-| **Team Access** | Control who can access this job |
-| **Add Candidates** | Invite candidates via CSV |
+| **Settings** | Opening visibility and status |
+| **Team Members** | Control who can access this opening |
 
 ---
 
@@ -105,14 +104,14 @@ The Careers Page is your public-facing job board where candidates can browse and
 
 ![Careers Page](../../assets/images/recruiter/careers-page.png)
 
-*The public Careers Page showing available job openings.*
+*The public Careers Page showing available openings.*
 
 ---
 
 ## Next Steps
 
-After creating a job:
+After creating an opening:
 
-1. [Design your interview plan](five-step-interview-design.md)
-2. [Configure visibility settings](visibility-status-toggles.md)
-3. [Invite candidates](../candidate-management/sourcing-methods.md)
+1. [Design your interview](interview-design.md)
+2. [Configure visibility settings](visibility-and-status.md)
+3. [Add candidates](../candidate-management/adding-candidates.md)

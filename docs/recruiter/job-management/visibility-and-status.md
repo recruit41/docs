@@ -1,6 +1,6 @@
-# Visibility & Status Toggles
+# How to Control Job Visibility & Status
 
-Control who can see your jobs and manage their active/inactive status.
+Control who can see your openings and manage their active/inactive status.
 
 ---
 
@@ -16,7 +16,7 @@ Control who can see your jobs and manage their active/inactive status.
 ### Inactive Jobs
 
 - Appear in the "Inactive" tab
-- Cannot receive new applications
+- New applications are paused
 - Existing interviews remain accessible
 - Hidden from public view
 
@@ -42,8 +42,8 @@ Control who can see your jobs and manage their active/inactive status.
 
 ### Invite Only (Private) - Default
 
-- Only candidates you invite can access the job
-- The job doesn't appear on your public careers page
+- Only candidates you invite can access the opening
+- The opening doesn't appear on your public careers page
 - You must send candidates a direct link or invitation email
 
 **Best for:**
@@ -55,7 +55,7 @@ Control who can see your jobs and manage their active/inactive status.
 
 ### Public
 
-- The job appears on your public careers page
+- The opening appears on your public careers page
 - Anyone with the link can apply
 - Great for high-volume hiring
 
@@ -67,7 +67,7 @@ Control who can see your jobs and manage their active/inactive status.
 - Entry-level roles
 
 !!! warning "Important"
-    You must create an interview plan before you can make a job public.
+    You must create an interview plan before you can make an opening public.
 
 ---
 
@@ -89,13 +89,13 @@ Control who can see your jobs and manage their active/inactive status.
 2. Find the **Visibility** toggle
 3. Switch between "Invite Only" and "Public"
 
-### Before Making a Job Public
+### Before Making an Opening Public
 
 Ensure you have:
 
 - [ ] Created an interview plan
-- [ ] Set evaluation criteria
-- [ ] Configured proctoring settings
+- [ ] Set scoring criteria
+- [ ] Configured interview monitoring settings
 - [ ] Tested with a simulation
 - [ ] Reviewed the job description
 
@@ -107,5 +107,5 @@ Ensure you have:
 | :--- | :--- |
 | **Deactivate job** | Can still complete started interviews |
 | **Make private** | Existing links continue to work |
-| **Make public** | Job appears on careers page |
+| **Make public** | Opening appears on careers page |
 | **Reactivate job** | New applications can be received |

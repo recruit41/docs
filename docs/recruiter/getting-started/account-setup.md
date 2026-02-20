@@ -1,4 +1,4 @@
-# Initial Account Setup
+# How to Set Up Your Account
 
 Configure your account and add team members to get started with Recruit41.
 
@@ -6,14 +6,14 @@ Configure your account and add team members to get started with Recruit41.
 
 ## Adding Team Members
 
-### Step 1: Navigate to Team Access
+### Step 1: Navigate to Organization Users
 
-1. Click **"Portal Access"** in the sidebar under Tenant Management
-2. The Team Access page loads showing all current members
+1. Click **"Organization Users"** in the sidebar under Tenant Management
+2. The Organization Users page loads showing all current members
 
 ![Team Access](../../assets/images/recruiter/team-access.png)
 
-*The Team Access page for managing team members.*
+*The Organization Users page for managing team members.*
 
 ### Step 2: Click Add Member
 
@@ -33,8 +33,8 @@ Configure your account and add team members to get started with Recruit41.
 1. Click the **"Role"** dropdown menu
 2. Read the role descriptions
 3. Select the appropriate role:
-   - **Tenant Admin** - Full access
-   - **Tenant User** - Limited access
+   - **Account Admin** - Full access to all openings and settings
+   - **Member** - Access only to assigned openings
 4. Click **"Add Member"**
 
 The user will receive an email invitation to join the platform.
@@ -47,7 +47,7 @@ The user will receive an email invitation to join the platform.
 | :--- | :--- |
 | "Email already exists" | User is already a member - find them in the list |
 | "Invalid email format" | Check the email address for typos |
-| "Permission denied" | You may not have admin access to add members |
+| "Permission denied" | You may need Account Admin access to add members |
 
 ---
 
@@ -57,14 +57,14 @@ Familiarize yourself with these common terms:
 
 | Term | What It Means |
 | :--- | :--- |
-| **Opening / Job** | A position you're hiring for |
-| **Application** | A candidate who has applied to a job |
-| **Interview Plan** | The design of your interview (questions, structure, criteria) |
+| **Opening** | A position you're hiring for |
+| **Application** | A candidate's record for a specific opening |
+| **Interview Design** | The setup of your interview (sections, questions, scoring criteria) |
 | **Candidate** | Someone taking or who has taken an interview |
 | **Section** | A part of the interview (e.g., "Introduction", "Coding Challenge") |
-| **Proctoring** | Monitoring for potential issues during interviews |
-| **Visibility** | Whether a job is open to everyone (Public) or only invited (Private) |
-| **Evaluation Criteria** | The standards used to score and compare candidates |
+| **Interview Monitoring** | Checks during the interview to ensure fairness (camera, screen sharing) |
+| **Visibility** | Whether an opening is open to everyone (Public) or by invitation only (Private) |
+| **Scoring Criteria** | The standards used to score and compare candidates |
 
 ---
 
@@ -72,6 +72,6 @@ Familiarize yourself with these common terms:
 
 Once your account is set up:
 
-1. [Create your first job](../job-management/job-creation.md)
-2. [Design an interview plan](../job-management/five-step-interview-design.md)
-3. [Invite candidates](../candidate-management/sourcing-methods.md)
+1. [Create your first opening](../job-management/creating-an-opening.md)
+2. [Design an interview](../job-management/interview-design.md)
+3. [Add candidates](../candidate-management/adding-candidates.md)

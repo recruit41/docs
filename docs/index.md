@@ -1,4 +1,12 @@
-## Welcome to Recruit41 Documentation
+# Getting Started with Recruit41
+
+### Recruiter Guide
+
+Everything you need to manage your recruitment process on the Recruit41 platform.
+
+[Go to Recruiter Guide](recruiter/index.md){ .md-button .md-button--primary }
+
+---
 
 ### Candidate Guide
 
@@ -8,21 +16,13 @@ Everything you need to know about your AI-powered interview experience with Kira
 
 ---
 
-### Recruiter Guide
-
-Comprehensive resources for recruiters to effectively use the Recruit41 platform and manage candidate interviews.
-
-[Manage your recruitment process](recruiter/index.md){ .md-button .md-button--primary }
-
----
-
 ## About Recruit41
 
 Recruit41 is an AI-driven automated interview platform that helps organizations streamline their hiring process. Our platform features **Kiran**, our AI recruitment bot, who conducts professional, consistent interviews to help you identify the best candidates efficiently.
 
 ---
 
-## Recruiter Operational Blueprint
+## Platform Overview
 
 <div class="grid cards" markdown>
 
@@ -30,23 +30,23 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     ---
 
-    Platform access, user roles, and initial account setup
+    Platform login, user roles, and account setup
 
     [:octicons-arrow-right-24: Get started](recruiter/getting-started/index.md)
 
--   :material-briefcase:{ .lg .middle } **Job Management**
+-   :material-briefcase:{ .lg .middle } **Interview Planning**
 
     ---
 
-    Create jobs, design interviews, configure visibility
+    Create openings, design interviews, configure visibility
 
-    [:octicons-arrow-right-24: Manage jobs](recruiter/job-management/index.md)
+    [:octicons-arrow-right-24: Manage openings](recruiter/job-management/index.md)
 
--   :material-account-group:{ .lg .middle } **Candidate Management**
+-   :material-account-group:{ .lg .middle } **Managing Candidates**
 
     ---
 
-    Source candidates, bulk actions, screening tools
+    Add candidates, bulk actions, screening & filters
 
     [:octicons-arrow-right-24: Manage candidates](recruiter/candidate-management/index.md)
 
@@ -107,8 +107,7 @@ For any questions or issues, please contact our support team:
 
 ### Resources
 
-* [Candidate Invitations](recruiter/candidate-invitations.md) - CSV upload guide
-* [Email Templates](recruiter/email-templates.md) - Communication templates
+* [CSV Upload Guide](recruiter/csv-upload-guide.md) - How to upload candidates using a spreadsheet
 * [FAQ & Best Practices](recruiter/faq-best-practices/index.md) - Common questions
 
 ### Company

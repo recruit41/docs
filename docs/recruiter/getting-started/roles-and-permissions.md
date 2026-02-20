@@ -1,4 +1,4 @@
-# Role-Based Access Control (RBAC v2.0)
+# Roles & Permissions
 
 Recruit41 uses a layered role system to give you precise control over who can do what — at both the organization level and the individual job level.
 
@@ -42,7 +42,7 @@ Full organizational control across the entire platform.
 
 ## Job-Level Roles
 
-Job-level roles are assigned per job and control what a team member can do within that specific job.
+You assign job-level roles per job. These control what each team member can do within that specific job.
 
 ### Job Owner
 
@@ -75,7 +75,7 @@ Read-only access for stakeholders who need visibility.
 
 - View candidate profiles and interview results
 - Export candidate data
-- Cannot invite candidates, edit plans, or change settings
+- Read-only — inviting candidates, editing plans, and changing settings require a higher role
 
 !!! info "Recommended for"
     Hiring team observers, department leads, external stakeholders.
@@ -99,7 +99,7 @@ The table below shows exactly which permissions each role has.
 | View analytics | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
 
 !!! tip "In-app Role Guide"
-    You can view this matrix at any time inside the platform by clicking the **Role Guide** button on the User Management or Team Members page. It includes a cards view and a side-by-side comparison view.
+    You can view this matrix at any time inside the platform by clicking the **Role Guide** button on the Organization Users or Team Members page. It includes a cards view and a side-by-side comparison view.
 
 ---
 
@@ -107,7 +107,7 @@ The table below shows exactly which permissions each role has.
 
 ### Organization + Job levels
 
-A user's effective access is determined by their **organization role** combined with their **job-level role**:
+A user's access depends on two things: their **organization role** and their **job-level role**.
 
 | Organization role | Job-level assignment needed? | Result |
 | :--- | :--- | :--- |
@@ -115,7 +115,7 @@ A user's effective access is determined by their **organization role** combined 
 | **Member** (non-admin) | Yes — must be added to each job | Only sees jobs they are assigned to |
 
 !!! warning "Key point"
-    Members who are not assigned to any job will not see any job data. Always add team members to the jobs they need to work on.
+    Members who are not assigned to any job will not see any job data. Always add team members to the openings they need to work on.
 
 ### Role Assignment Rules
 
@@ -136,7 +136,7 @@ The platform includes a built-in **Role Guide** to help your team understand rol
 
 ### Accessing the Role Guide
 
-1. Go to **Portal Access** (for organization roles) or a job's **Team Members** page (for job roles)
+1. Go to **Organization Users** (for organization roles) or a job's **Team Members** page (for job roles)
 2. Click the **Role Guide** button in the top-right area
 
 ### Cards View
@@ -183,7 +183,7 @@ Only Account Admins can manage organization-level users.
 
 ### Changing a User's Organization Role
 
-1. Go to **Portal Access**
+1. Go to **Organization Users**
 2. Find the user in the list
 3. Click on their current role
 4. Select the new role
@@ -236,11 +236,11 @@ Job Owners and Account Admins can manage a job's team.
 
 ---
 
-## Migration from RBAC v1
+## Migrating from the Previous Role System
 
-If your account was set up before the RBAC v2 update, your existing roles have been automatically migrated:
+If your account was set up before the current role system, your existing roles have been automatically migrated:
 
-| Old role (v1) | New role (v2) |
+| Old role | New role |
 | :--- | :--- |
 | Tenant Admin | Account Admin |
 | Tenant User | Member (with existing job assignments preserved) |
@@ -255,13 +255,13 @@ No action is required — all existing permissions and job access have been pres
     **Account Admin** is an organization-level role with access to all jobs and user management. **Job Owner** is a job-level role with full control over a specific job but no organization-wide privileges.
 
 ??? question "Can a Recruiter create jobs?"
-    Not by default. However, if a user is a **Job Owner** on at least one job, they gain the ability to create new jobs.
+    A Recruiter gains the ability to create new jobs once they are also a **Job Owner** on at least one job.
 
 ??? question "What happens if I don't assign someone to a job?"
-    Non-admin users who are not assigned to a job cannot see it at all. Only Account Admins have automatic access to every job.
+    Non-admin users who are not assigned to a job will not see it. Only Account Admins have automatic access to every job.
 
 ??? question "Can I have multiple Account Admins?"
-    Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it (see the [User Access Golden Rule](user-access-golden-rule.md)).
+    Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it (see the [Access Levels](access-levels.md) guide).
 
 ??? question "What happens when someone leaves the company?"
-    Remove their access immediately via **Portal Access**. Their historical actions remain in the audit log for compliance.
+    Remove their access immediately via **Organization Users**. Their historical actions remain in the audit log for compliance.

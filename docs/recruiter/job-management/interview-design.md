@@ -1,9 +1,9 @@
-# Five-Step Interview Design
+# How to Design Your Interview
 
-Design your interview plan using the five-step process: Overview & Objectives, Module Structure, Evaluation Criteria, Proctoring Settings, and Run Simulation.
+Set up your interview in five steps: define your objectives, build interview sections, set scoring criteria, configure interview monitoring, and test it out.
 
 !!! warning "Important"
-    You must create an Interview Plan before you can invite candidates or make a job public.
+    You must create an interview plan before you can invite candidates or make an opening public.
 
 ---
 
@@ -13,8 +13,8 @@ An Interview Plan is your blueprint for how the AI should conduct interviews. It
 
 - **Interview Structure** - The sections and order of the interview
 - **Questions and Topics** - What the AI should ask about
-- **Evaluation Criteria** - How candidates should be scored
-- **Settings** - Proctoring rules and candidate instructions
+- **Scoring Criteria** - How candidates should be scored
+- **Settings** - Interview monitoring rules and candidate instructions
 
 ---
 
@@ -23,10 +23,10 @@ An Interview Plan is your blueprint for how the AI should conduct interviews. It
 | Step | Purpose | What You Do |
 | :--- | :--- | :--- |
 | **1. Overview & Objectives** | Define what you're assessing | Write a clear interview objective |
-| **2. Module Structure** | Build interview stages | Add sections, questions, topics |
-| **3. Evaluation Criteria** | Set scoring standards | Define rubrics and scales |
-| **4. Proctoring Settings** | Configure security | Enable camera, screen share, etc. |
-| **5. Run Simulation** | Test before launch | Preview the candidate experience |
+| **2. Interview Sections** | Build interview stages | Add sections, questions, topics |
+| **3. Scoring Criteria** | Set scoring standards | Define scoring guides and scales |
+| **4. Interview Monitoring & Security** | Configure security | Enable camera, screen share, etc. |
+| **5. Test Your Interview** | Test before launch | Preview the candidate experience |
 
 ---
 
@@ -36,7 +36,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 
 ![Interview Design Overview](../../assets/images/recruiter/interview-design-overview.png)
 
-*The Interview Design Overview showing the objective, structure summary, and evaluation criteria.*
+*The Interview Design Overview showing the objective, structure summary, and scoring criteria.*
 
 ### Writing a Good Objective
 
@@ -47,11 +47,11 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 - Include both technical AND soft skills
 - Mention culture fit elements if relevant
 
-**Don't:**
+**Avoid:**
 
-- Use vague terms like "good fit"
-- Write long paragraphs
-- Focus only on technical abilities
+- Vague terms like "good fit"
+- Long paragraphs
+- Focusing only on technical abilities
 
 !!! success "Good Objective Example"
     *"Assess SQL proficiency, data visualization skills, communication clarity, and problem-solving approach for a customer-facing analytics role."*
@@ -61,15 +61,15 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 
 ---
 
-## Step 2: Module Structure
+## Step 2: Interview Sections
 
 ### The Three-Panel Layout
 
 | Panel | Position | Purpose |
 | :--- | :--- | :--- |
 | **Section Library** | Left | Available sections you can add |
-| **Plan Canvas** | Center | Your interview structure |
-| **Property Inspector** | Right | Edit the selected section |
+| **Interview Builder** | Center | Your interview structure |
+| **Settings Panel** | Right | Edit the selected section |
 
 ![Interview Design Structure](../../assets/images/recruiter/interview-design-structure.png)
 
@@ -88,7 +88,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 
 ### Section Types Available
 
-| Module Type | Best For | Features |
+| Section Type | Best For | Features |
 | :--- | :--- | :--- |
 | **Multiple Choice Q&A** | Knowledge screening | Auto-graded, quick |
 | **Code Pad** | Technical assessment | Live coding, syntax highlighting |
@@ -98,11 +98,11 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 | **Live Deep Dive** | In-depth discussion | Real-time interaction |
 
 !!! info "Duration Limit"
-    Total interview cannot exceed **60 minutes**.
+    Total interview length is limited to **60 minutes**.
 
 ---
 
-## Step 3: Evaluation Criteria
+## Step 3: Scoring Criteria
 
 ### Criteria Types
 
@@ -118,11 +118,11 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 | **1-5 Scale** | Nuanced assessment | 1=Poor, 3=Meets, 5=Exceeds |
 | **Pass/Fail** | Binary requirements | Must-have qualifications |
 | **Percentage** | Quantitative tasks | Code test accuracy |
-| **Rubric** | Detailed evaluation | Multi-level descriptions |
+| **Detailed Scoring Guide** | Detailed evaluation | Multi-level descriptions |
 
 ---
 
-## Step 4: Proctoring Settings
+## Step 4: Interview Monitoring & Security
 
 ### Live Meeting Checks
 
@@ -141,7 +141,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 | **Microphone** | Mic is working |
 | **Network** | Stable internet connection |
 
-### Proctoring Guidelines by Role Type
+### Recommended Monitoring Settings by Role Type
 
 | Role Type | Recommended Settings |
 | :--- | :--- |
@@ -152,10 +152,10 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 
 ---
 
-## Step 5: Run Simulation
+## Step 5: Test Your Interview
 
-!!! danger "Never launch without testing!"
-    Always run a simulation before inviting real candidates.
+!!! danger "Always test before launching!"
+    Run a simulation before inviting real candidates.
 
 ### What to Check
 

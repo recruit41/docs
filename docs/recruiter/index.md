@@ -1,10 +1,10 @@
 # Recruiter Guide
 
-Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation covers everything you need to effectively manage your recruitment process using the Recruit41 platform.
+Welcome to the Recruit41 Recruiter Guide. This documentation covers everything you need to manage your recruitment process using the Recruit41 platform.
 
 ---
 
-## Recruiter Operational Blueprint
+## Platform Overview
 
 <div class="grid cards" markdown>
 
@@ -12,37 +12,37 @@ Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation cover
 
     ---
 
-    Platform access, user roles, and initial account setup
+    Platform login, user roles, and account setup
 
-    - [Accessing Platform](getting-started/accessing-platform.md)
-    - [User Access Golden Rule](getting-started/user-access-golden-rule.md)
-    - [Role-Based Access Control](getting-started/role-based-access-control.md)
-    - [Initial Account Setup](getting-started/initial-account-setup.md)
+    - [Platform Login](getting-started/platform-login.md)
+    - [Access Levels](getting-started/access-levels.md)
+    - [Roles & Permissions](getting-started/roles-and-permissions.md)
+    - [Account Setup](getting-started/account-setup.md)
 
     [:octicons-arrow-right-24: Get started](getting-started/index.md)
 
--   :material-briefcase:{ .lg .middle } **Job Management**
+-   :material-briefcase:{ .lg .middle } **Managing Openings**
 
     ---
 
-    Create jobs, design interviews, configure visibility
+    Create openings, design interviews, configure visibility
 
-    - [Job Creation](job-management/job-creation.md)
-    - [Five-Step Interview Design](job-management/five-step-interview-design.md)
-    - [Visibility & Status Toggles](job-management/visibility-status-toggles.md)
+    - [Creating an Opening](job-management/creating-an-opening.md)
+    - [Interview Design](job-management/interview-design.md)
+    - [Visibility & Status](job-management/visibility-and-status.md)
 
-    [:octicons-arrow-right-24: Manage jobs](job-management/index.md)
+    [:octicons-arrow-right-24: Manage openings](job-management/index.md)
 
--   :material-account-group:{ .lg .middle } **Candidate Management**
+-   :material-account-group:{ .lg .middle } **Managing Candidates**
 
     ---
 
-    Source candidates, bulk actions, screening tools
+    Add candidates, bulk actions, screening & filters
 
-    - [Sourcing Methods](candidate-management/sourcing-methods.md)
-    - [Bulk Actions Panel](candidate-management/bulk-actions-panel.md)
-    - [Communication Customisation](candidate-management/communication-customisation.md)
-    - [Rapid Screening Tools](candidate-management/rapid-screening-tools.md)
+    - [Adding Candidates](candidate-management/adding-candidates.md)
+    - [Bulk Actions](candidate-management/bulk-actions.md)
+    - [Email Customization](candidate-management/email-customization.md)
+    - [Screening & Filters](candidate-management/screening-and-filters.md)
 
     [:octicons-arrow-right-24: Manage candidates](candidate-management/index.md)
 
@@ -63,11 +63,11 @@ Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation cover
 
     Data quality, security, permissions, troubleshooting
 
-    - [Data Quality Management](faq-best-practices/data-quality-management.md)
-    - [Calendar & Email Integration](faq-best-practices/calendar-email-integration.md)
-    - [Security & Pre-Meeting Checks](faq-best-practices/security-pre-meeting-checks.md)
-    - [Pilot Program Testing](faq-best-practices/pilot-program-testing.md)
-    - [Restrictive Permissions](faq-best-practices/restrictive-permissions.md)
+    - [Data Quality](faq-best-practices/data-quality.md)
+    - [Follow-Up Emails](faq-best-practices/follow-up-emails.md)
+    - [Interview Security](faq-best-practices/interview-security.md)
+    - [Testing & Pilot](faq-best-practices/testing-and-pilot.md)
+    - [Permission Settings](faq-best-practices/permission-settings.md)
 
     [:octicons-arrow-right-24: Learn more](faq-best-practices/index.md)
 
@@ -77,8 +77,7 @@ Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation cover
 
     Quick reference guides and templates
 
-    - [Candidate Invitations](candidate-invitations.md)
-    - [Email Templates](email-templates.md)
+    - [CSV Upload Guide](csv-upload-guide.md)
     - [Quick Reference](quick-reference.md)
 
 </div>
@@ -89,14 +88,14 @@ Welcome to the Recruit41 Recruiter Guide. This comprehensive documentation cover
 
 | Term | What It Means |
 | :--- | :--- |
-| **Opening / Job** | A position you're hiring for |
-| **Application** | A candidate who has applied to a job |
-| **Interview Plan** | The design of your interview (questions, structure, criteria) |
+| **Opening** | A position you're hiring for |
+| **Application** | A candidate's record for a specific opening |
+| **Interview Design** | The setup of your interview (sections, questions, scoring criteria) |
 | **Candidate** | Someone taking or who has taken an interview |
 | **Section** | A part of the interview (e.g., "Introduction", "Coding Challenge") |
-| **Proctoring** | Monitoring for potential issues during interviews |
-| **Visibility** | Whether a job is open to everyone (Public) or only invited (Private) |
-| **Evaluation Criteria** | The standards used to score and compare candidates |
+| **Interview Monitoring** | Checks during the interview to ensure fairness (camera, screen sharing) |
+| **Visibility** | Whether an opening is open to everyone (Public) or by invitation only (Private) |
+| **Scoring Criteria** | The standards used to score and compare candidates |
 
 ---
 

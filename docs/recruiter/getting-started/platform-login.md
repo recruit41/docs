@@ -1,4 +1,4 @@
-# Accessing Platform
+# How to Log In to Recruit41
 
 Learn how to access and log in to the Recruit41 platform.
 
@@ -18,19 +18,19 @@ Open your web browser and go to your company's Recruit41 URL (for example: `http
 
 You have three ways to log in:
 
-=== "Google"
+??? note "Google"
 
     1. Click the **"Continue with Google"** button
     2. Select your Google account
     3. You'll be automatically logged in
 
-=== "Microsoft"
+??? note "Microsoft"
 
     1. Click the **"Continue with Microsoft"** button
     2. Enter your Microsoft credentials
     3. You'll be automatically logged in
 
-=== "Email Code"
+??? note "Email Code"
 
     1. Enter your email address in the email field
     2. Click **"Send Verification Code"**
@@ -43,14 +43,4 @@ You have three ways to log in:
 
 ---
 
-## Supported Browsers
-
-For the best experience, use:
-
-- **Google Chrome** (recommended)
-- Microsoft Edge
-- Mozilla Firefox
-- Safari
-
-!!! warning
-    Mobile browsers are not supported for the recruiter dashboard. Please use a desktop or laptop computer.
+For the best experience, please use a desktop or laptop browser.

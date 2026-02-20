@@ -1,4 +1,4 @@
-# Pilot Program Testing
+# How to Test Before Going Live
 
 Test your interviews before full launch to ensure a smooth candidate experience.
 
@@ -6,7 +6,7 @@ Test your interviews before full launch to ensure a smooth candidate experience.
 
 ## Why Pilot Testing Matters
 
-!!! danger "Never launch without testing!"
+!!! danger "Always test before launching!"
     Untested interviews can lead to:
 
     - Technical issues frustrating candidates
@@ -96,7 +96,7 @@ After successful pilot:
 
 ### Simulation Best Practices
 
-1. **Complete the full interview** - Don't skip sections
+1. **Complete the full interview** - Take it from start to finish
 2. **Test edge cases** - Try unusual inputs
 3. **Test on different devices** - Desktop, laptop, different browsers
 4. **Time yourself** - Ensure duration is realistic

@@ -1,4 +1,4 @@
-# Bulk Actions Panel
+# How to Manage Multiple Candidates at Once
 
 Perform batch operations on multiple candidates to save time.
 
@@ -26,7 +26,7 @@ Select multiple candidates to perform these batch operations:
 
 ### Step 1: Select Candidates
 
-1. Go to the **Applications** page for your job
+1. Go to the **Applications** page for your opening
 2. Use the checkboxes to select individual candidates
 3. Or use **"Select All"** to select all visible candidates
 
@@ -80,7 +80,7 @@ Download candidate data for external use.
 Move candidates to archived status.
 
 - Archived candidates are hidden from the main view
-- Data is preserved for compliance
+- We keep all data for compliance purposes
 - Can be unarchived later if needed
 
 ### Send Custom Email
@@ -99,9 +99,9 @@ Compose and send a custom message to all selected candidates.
     - Use filters first to narrow down your selection
     - Double-check the candidate count before confirming
     - Export data before making bulk status changes
-    - Use reminders strategically (not too frequently)
+    - Use reminders strategically (space them out appropriately)
 
-### Recommended Reminder Cadence
+### Recommended Reminder Schedule
 
 | Day | Action |
 | :--- | :--- |

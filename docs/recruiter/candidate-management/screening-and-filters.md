@@ -1,4 +1,4 @@
-# Rapid Screening Tools
+# How to Screen & Filter Candidates
 
 Efficiently filter, sort, and review candidate profiles to find the best talent quickly.
 
@@ -73,10 +73,10 @@ Quickly assess candidates using the AI score:
 | **4.0 - 4.4** | Above average | Consider for next round |
 | **3.5 - 3.9** | Meets expectations | Review carefully |
 | **3.0 - 3.4** | Below average | Likely not a fit |
-| **Below 3.0** | Does not meet | Do not advance |
+| **Below 3.0** | Below threshold | Review before advancing |
 
 !!! info "Score Context"
-    Scores are relative to the evaluation criteria you defined. A 3.5 for a senior role may indicate stronger performance than a 4.0 for an entry-level position with simpler criteria.
+    Scores are relative to the scoring criteria you defined. A 3.5 for a senior role may indicate stronger performance than a 4.0 for an entry-level position with simpler criteria.
 
 ---
 

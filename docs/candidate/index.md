@@ -1,4 +1,4 @@
-# Welcome to Your Recruit41 Interview!
+# How to Prepare for Your Interview
 
 We're excited to have you interview with us! To ensure a smooth and successful experience on the Recruit41 platform, please carefully review this guide.
 
@@ -8,17 +8,17 @@ We're excited to have you interview with us! To ensure a smooth and successful e
 ## Before Your Interview
 
 ### Use Google Chrome Browser
-- Our platform exclusively supports the official Google Chrome browser.
-!!! warning "Unsupported Browsers"
-    Please avoid using Chromium-based browsers (e.g., Brave, Arc), Safari, Microsoft Edge, or any mobile browsers.
+- Our platform is optimized for the official Google Chrome browser.
+!!! warning "Supported Browser"
+    For the best experience, please use **Google Chrome**. Other browsers (Chromium-based browsers like Brave and Arc, Safari, Microsoft Edge, and mobile browsers) are currently not supported.
 
-!!! warning "Unsupported Operating Systems"
-    The Recruit41 platform does not support mobile operating systems such as - Android, iOS, iPadOS or any other mobile/tablet OS
+!!! warning "Supported Operating Systems"
+    The Recruit41 platform is designed for desktop and laptop computers running **Windows, macOS, or Linux**. For the best experience, please use a desktop or laptop.
 
-!!! warning "Avoid Corporate laptops"
-    Most corporate laptops are configured with firewalls and proxy settings that can interfere with the Recruit41 platform. This may cause issues during your interview and could negatively impact your score. 
-    
-Please use a desktop or laptop computer running macOS, Windows, or Linux for your interview. Attempting to join from a mobile device may result in technical issues or an inability to proceed with your interview.
+!!! warning "Personal Laptops Recommended"
+    Most corporate laptops are configured with firewalls and proxy settings that can interfere with the Recruit41 platform. This may cause issues during your interview and could impact your score.
+
+Please use a personal desktop or laptop computer for your interview. Attempting to join from a mobile device may result in technical issues.
 
 
 ### Check your Camera and Microphone
@@ -26,7 +26,7 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 - **Bluetooth Users**: If using Bluetooth, set your devices as the default microphone and speaker in your operating system settings.
 
-- **Test Your Setup**: Critically, test your camera and microphone at [webcammictest.com](https://webcammictest.com) well before your interview.
+- **Test Your Setup**: Test your camera and microphone at [webcammictest.com](https://webcammictest.com) well before your interview.
 
 ### Prepare for Screen Sharing
 - During the interview, you might be asked to share your screen.
@@ -54,7 +54,7 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 !!! tip "Positioning Guide"
 
-    **✅ Correct Position**
+    **Correct Position**
 
     ![Hands visible](../assets/images/hands_visible.png){ width="45%" }
     ![Important positioning](../assets/images/imppic.png){ width="45%" }
@@ -63,7 +63,7 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
     ---
 
-    **❌ Incorrect Position**
+    **Incorrect Position**
 
     ![Wrong poses](../assets/images/wrong_poses.png){ width="70%" }
 
@@ -77,10 +77,10 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 ### Communication Etiquette
 - **Listen Actively**: Allow the interviewer to finish speaking before you respond.
-- **Avoid Interruptions**: Refrain from interrupting the interviewer during their question.
+- **Wait Your Turn**: Let the interviewer complete their question before responding.
 
 ### Meeting Controls
-- **Do Not Refresh or Close**: Avoid closing the interview tab or hitting the refresh button.
+- **Keep Your Tab Open**: Stay on the interview tab throughout your session. If you need to stop, use the "End Meeting" button on the control panel.
 - **Pausing/Ending**: If you need to stop or pause, use the "End Meeting" button located on the bottom control panel.
 
 ### Getting Support
@@ -93,7 +93,7 @@ Please use a desktop or laptop computer running macOS, Windows, or Linux for you
 
 Your interview experience will depend on the specific type of assessment you'll be taking. Please read the section that applies to your interview:
 
-### 🗣️ Conversational Interviews
+### Conversational Interviews
 
 **What to Expect:**
 
@@ -111,7 +111,7 @@ Your interview experience will depend on the specific type of assessment you'll 
 4. The interview flows like a normal conversation
 5. Kiran may ask clarifying questions based on your answers
 
-### 💻 Coding Interviews
+### Coding Interviews
 
 **What to Expect:**
 
@@ -129,7 +129,7 @@ Your interview experience will depend on the specific type of assessment you'll 
 4. Kiran may ask you to explain your thinking process
 5. Screen sharing is required throughout the coding portion
 
-### 🗣️💻 Conversational + Coding Interviews
+### Conversational + Coding Interviews
 
 **What to Expect:**
 
@@ -155,9 +155,9 @@ Your interview experience will depend on the specific type of assessment you'll 
 ## Frequently Asked Questions (FAQs)
 
 ??? question "No one seems to be talking in my interview - what should I do?"
-    
+
     1. Wait 10-15 seconds after joining for Kiran to start speaking
-    2. If still silent, try saying "Hey Kiran, are you there?" 
+    2. If still silent, try saying "Hey Kiran, are you there?"
     3. Check that your audio is working - you should hear Kiran speak
     4. Ensure your microphone isn't muted
     5. If problems persist, disconnect and rejoin the interview
@@ -166,7 +166,7 @@ Your interview experience will depend on the specific type of assessment you'll 
     This is normal for conversational interviews! Questions are asked verbally only in a conversational interview. Listen carefully to Kiran and respond by speaking - no reading or typing required.
 
 ??? question "Coding problems aren't loading on my screen"
-    
+
     1. Ensure you're using Google Chrome browser
     2. Refresh the page and rejoin if problems don't appear
     3. Check your internet connection
@@ -186,7 +186,7 @@ Your interview experience will depend on the specific type of assessment you'll 
 
 ??? question "The AI interviewer asks: 'Are you there?' while I am answering the question. What should I do?"
     This usually means the AI cannot hear you. Please:
-  
+
     1. Check if your audio is muted.
     2. Ensure you've granted microphone and camera permissions to the browser.
     3. Confirm the correct microphone is selected as default in your operating system.
@@ -196,7 +196,7 @@ Your interview experience will depend on the specific type of assessment you'll 
     No, any platform-related errors will not negatively impact your application.
 
 ??? question "What should I do if I get disconnected during the interview?"
-    Don't worry! You can rejoin the same interview and continue from where you left off, provided it's within the stipulated time period.
+    You can rejoin the same interview and continue from where you left off, provided it's within the stipulated time period.
 
 ??? question "My camera isn't being detected or is showing a blank screen. What should I do?"
     Ensure you select the correct camera source on the pre-meeting page before starting the interview.

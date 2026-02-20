@@ -1,9 +1,9 @@
 ---
 title: Lockdown Browser
-description: Documentation for Lockdown Browser
+description: How to use the Recruit41 Lockdown Browser
 ---
 
-# Recruit41 Lockdown Browser - Help Guide
+# How to Use the Lockdown Browser
 
 The Recruit41 Desktop App creates a secure environment for your AI-powered video interview. This guide walks you through downloading, installing, and setting up the app.
 
@@ -39,12 +39,12 @@ Click **Download** to get the installer. Other platform options are available un
 
 ### Step 2: Install
 
-=== "macOS"
+??? note "macOS"
     1. Open the downloaded `.dmg` file
     2. Drag the **Recruit41** app to your **Applications** folder
     3. Open the app from Applications (you may need to right-click → Open the first time)
 
-=== "Windows"
+??? note "Windows"
     1. Run the downloaded `.exe` installer
     2. Follow the installation wizard
     3. The app will open automatically after installation
@@ -169,7 +169,7 @@ When all checks pass, you'll see the **Ready** screen with a green checkmark and
 Click **Start Interview** to enter secure mode and begin your AI-powered interview.
 
 !!! danger "Caution"
-    Once you start the interview, the app enters **secure mode**. You won't be able to switch apps or use other applications until the interview is complete.
+    Once you start the interview, the app enters **secure mode**. The app will keep your screen focused on the interview until it's complete.
 
 ---
 

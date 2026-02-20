@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Mohit Chawla/Desktop/recruitbot/docs/**)",
+      "Read(//c/Users/Mohit Chawla/Desktop/recruitbot/server/**)",
+      "Read(//c/Users/Mohit Chawla/Desktop/recruitbot/client/src/**)",
+      "Read(//c/Users/Mohit Chawla/Desktop/recruitbot/**)",
+      "Read(//c/Users/Mohit Chawla/Desktop/**)",
+      "Bash(pip show:*)",
+      "Bash(mkdocs build:*)"
+    ]
+  }
+}

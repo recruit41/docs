@@ -1,6 +1,6 @@
-# Sourcing Methods
+# How to Add Candidates
 
-Learn how to invite candidates to your interviews using direct links or bulk CSV uploads.
+Learn how to invite candidates to your interviews using direct links or bulk CSV (a spreadsheet file you can create in Excel or Google Sheets) uploads.
 
 ---
 
@@ -10,10 +10,10 @@ Share a unique interview link with individual candidates.
 
 ### Steps
 
-1. Go to your job in the ATS
+1. Go to your opening in the platform
 2. Click **"Add Candidates"** in the sidebar
 3. Click **"Direct Link"** option
-4. Copy the unique job/interview URL
+4. Copy the unique interview URL
 5. Share via email, social media, or messaging
 
 ### When to Use
@@ -50,20 +50,20 @@ jane.smith@example.com,Jane Smith,+0987654321,3
 
 ### Upload Steps
 
-1. Go to your job in the ATS
+1. Go to your opening in the platform
 2. Click **"Add Candidates"** in the sidebar
 3. Select **"Bulk Upload"**
 4. Drag and drop your CSV file or click to browse
 5. Review the preview and mapping
 6. Click **"Upload"**
 
-For detailed CSV upload instructions, see the [Candidate Invitations Guide](../candidate-invitations.md).
+For detailed CSV upload instructions, see the [CSV Upload Guide](../csv-upload-guide.md).
 
 ---
 
 ## Applications Dashboard
 
-The Applications page shows all candidates for a job, organized by their interview status.
+The Applications page shows all candidates for an opening, organized by their interview status.
 
 ![Applications - Evaluated](../../assets/images/recruiter/applications-evaluated.png)
 
