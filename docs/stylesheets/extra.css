@@ -118,16 +118,16 @@
   max-width: 100%;
 }
 
-/* Left sidebar — 1 part */
+/* Left sidebar — 2 parts */
 .md-main__inner > .md-sidebar--primary {
-  flex: 1 1 0%;
+  flex: 2 1 0%;
   min-width: 0;
   text-align: left;
 }
 
-/* Main content — 5 parts */
+/* Main content — 4 parts */
 .md-main__inner > .md-content {
-  flex: 5 1 0%;
+  flex: 4 1 0%;
   min-width: 0;
   max-width: none;
 }
