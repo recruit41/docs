@@ -46,3 +46,29 @@
   }, 50);
   setTimeout(function () { clearInterval(poll); }, 5000);
 })();
+
+// Add body class for the Getting Started (home) page
+(function () {
+  function markHomePage() {
+    var path = window.location.pathname;
+    if (path === "/" || path.endsWith("/index.html") && path.split("/").length <= 2 || path === "/index.html") {
+      document.body.classList.add("page-home");
+    } else {
+      document.body.classList.remove("page-home");
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", markHomePage);
+  } else {
+    markHomePage();
+  }
+
+  var poll = setInterval(function () {
+    if (typeof document$ !== "undefined") {
+      clearInterval(poll);
+      document$.subscribe(markHomePage);
+    }
+  }, 50);
+  setTimeout(function () { clearInterval(poll); }, 5000);
+})();
