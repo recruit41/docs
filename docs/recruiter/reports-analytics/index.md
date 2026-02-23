@@ -16,7 +16,7 @@ This section covers tracking your hiring pipeline and understanding interview pe
 
     ---
 
-    Analyze candidate flow, scores, and interview activity
+    Analyse candidate flow, scores, and interview activity
 
     [:octicons-arrow-right-24: View analytics](job-analytics.md)
 

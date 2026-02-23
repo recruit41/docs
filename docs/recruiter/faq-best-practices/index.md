@@ -16,7 +16,7 @@ This section covers best practices, security guidelines, and frequently asked qu
 
     ---
 
-    Optimize email timing and follow-up schedule
+    Optimise email timing and follow-up schedule
 
     [:octicons-arrow-right-24: Email best practices](follow-up-emails.md)
 

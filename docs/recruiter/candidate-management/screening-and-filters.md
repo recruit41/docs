@@ -18,7 +18,7 @@ Click on any candidate row to view their detailed profile:
 | :--- | :--- |
 | **Video Recording** | Full interview playback |
 | **Overall Score** | Composite score across all criteria |
-| **Skill Visualization** | Radar chart of competency scores |
+| **Skill Visualisation** | Radar chart of competency scores |
 | **AI Summary** | Automated analysis of strengths and areas for improvement |
 | **Detailed Feedback** | Section-by-section breakdown |
 
@@ -96,7 +96,7 @@ From the candidate list, you can quickly:
 
 ## Using Tags
 
-Organize candidates with custom tags:
+Organise candidates with custom tags:
 
 ### Creating Tags
 

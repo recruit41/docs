@@ -1,6 +1,6 @@
 # How to Read Your Hiring Reports
 
-Analyze candidate flow, score distribution, and interview activity for each opening.
+Analyse candidate flow, score distribution, and interview activity for each opening.
 
 ---
 
@@ -25,7 +25,7 @@ View detailed analytics for each opening to understand your hiring funnel.
 
 ## Candidate Flow Chart
 
-The candidate flow chart visualizes how candidates move through your pipeline, showing where candidates drop off and conversion rates between stages.
+The candidate flow chart visualises how candidates move through your pipeline, showing where candidates drop off and conversion rates between stages.
 
 ### Reading the Chart
 
@@ -93,13 +93,13 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 
 - **Rows**: Days of the week (Monday - Sunday)
 - **Columns**: Hours of the day (12am - 11pm)
-- **Color intensity**: Number of interviews during that time slot
+- **Colour intensity**: Number of interviews during that time slot
 
 ### How to Use This Data
 
 | Goal | Action |
 | :--- | :--- |
-| **Optimize reminder timing** | Send reminders 1-2 hours before peak activity |
+| **Optimise reminder timing** | Send reminders 1-2 hours before peak activity |
 | **Set better deadlines** | Align deadlines with high-activity periods |
 | **Plan review sessions** | Schedule reviews when new completions are likely |
 | **Identify patterns** | Note if weekends or evenings are popular |
@@ -112,7 +112,7 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 
 1. **Monitor funnel drop-off** - If many candidates drop out at a specific stage, investigate why
 2. **Track score trends** - Consistently low scores may indicate sourcing issues
-3. **Optimize timing** - Schedule reviews during your peak activity periods
+3. **Optimise timing** - Schedule reviews during your peak activity periods
 4. **Plan capacity** - Use completion data to forecast review workload
 5. **Compare openings** - Look for patterns across similar roles
 

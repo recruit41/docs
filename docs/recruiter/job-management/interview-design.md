@@ -54,7 +54,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 - Focusing only on technical abilities
 
 !!! success "Good Objective Example"
-    *"Assess SQL proficiency, data visualization skills, communication clarity, and problem-solving approach for a customer-facing analytics role."*
+    *"Assess SQL proficiency, data visualisation skills, communication clarity, and problem-solving approach for a customer-facing analytics role."*
 
 !!! failure "Poor Objective Example"
     *"Find a good data analyst who can do the job well."*
@@ -68,7 +68,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 | Panel | Position | Purpose |
 | :--- | :--- | :--- |
 | **Section Library** | Left | Available sections you can add |
-| **Interview Builder** | Center | Your interview structure |
+| **Interview Builder** | Centre | Your interview structure |
 | **Settings Panel** | Right | Edit the selected section |
 
 ![Interview Design Structure](../../assets/images/recruiter/interview-design-structure.png)
@@ -92,7 +92,7 @@ The Interview Objective tells the AI what to assess. This is **critical** for re
 | :--- | :--- | :--- |
 | **Multiple Choice Q&A** | Knowledge screening | Auto-graded, quick |
 | **Code Pad** | Technical assessment | Live coding, syntax highlighting |
-| **Video Response** | Behavioral questions | Async, reviewable |
+| **Video Response** | Behavioural questions | Async, reviewable |
 | **Async Task** | Take-home assignments | Deadline-based |
 | **Case Study** | Problem-solving | Document analysis |
 | **Live Deep Dive** | In-depth discussion | Real-time interaction |

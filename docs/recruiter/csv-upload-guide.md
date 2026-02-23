@@ -26,7 +26,7 @@ alex.johnson@example.com,Alex,Johnson
 ### 2. Access the Invitation Manager
 
 1. Go to your opening in the platform → Click on **Applications**
-2. Click on the **"Invite Candidates"** button on the right side (or in the center of the screen if inviting candidates for the first time)
+2. Click on the **"Invite Candidates"** button on the right side (or in the centre of the screen if inviting candidates for the first time)
 3. A page/form will open for the invitation manager
 
 ![Invite Candidates Button](../assets/images/invite-candidate.png)
@@ -72,7 +72,7 @@ The system automatically validates your data:
 
 ## Troubleshooting Guide
 
-??? question "Invalid CSV format error"
+???+ question "Invalid CSV format error"
     **Solution**: Save file as CSV, not Excel (.xlsx). Ensure comma-separated values with proper headers.
 
 ??? question "Email column not found"

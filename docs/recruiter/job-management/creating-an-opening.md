@@ -80,7 +80,7 @@ Click the **"Create"** button. Your new opening is set to "Invite Only" by defau
 | :--- | :--- |
 | **All Openings** | Back to the Openings List |
 | **Consumption** | Usage and credits (Account Admin only) |
-| **Organization Users** | Team management (Account Admin only) |
+| **Organisation Users** | Team management (Account Admin only) |
 | **Careers Page** | Your public job listings |
 
 ### Job-Specific Navigation

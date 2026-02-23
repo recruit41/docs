@@ -41,7 +41,7 @@ Welcome to the Recruit41 Recruiter Guide. This documentation covers everything y
 
     - [Adding Candidates](candidate-management/adding-candidates.md)
     - [Bulk Actions](candidate-management/bulk-actions.md)
-    - [Email Customization](candidate-management/email-customization.md)
+    - [Email Customisation](candidate-management/email-customization.md)
     - [Screening & Filters](candidate-management/screening-and-filters.md)
 
     [:octicons-arrow-right-24: Manage candidates](candidate-management/index.md)

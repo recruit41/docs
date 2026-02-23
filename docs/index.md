@@ -8,17 +8,17 @@ Everything you need to manage your recruitment process on the Recruit41 platform
 
 ---
 
-### Candidate Guide
+### Candidate Flow
 
-Everything you need to know about your AI-powered interview experience with Kiran, our virtual interviewer.
+Understand what your candidates experience during their AI-powered interview with Kiran, from preparation to completion.
 
-[Get started with your interview](candidate/index.md){ .md-button .md-button--primary }
+[View Candidate Flow](candidate/index.md){ .md-button .md-button--primary }
 
 ---
 
 ## About Recruit41
 
-Recruit41 is an AI-driven automated interview platform that helps organizations streamline their hiring process. Our platform features **Kiran**, our AI recruitment bot, who conducts professional, consistent interviews to help you identify the best candidates efficiently.
+Recruit41 is an AI-driven automated interview platform that helps organisations streamline their hiring process. Our platform features **Kiran**, our AI recruitment bot, who conducts professional, consistent interviews to help you identify the best candidates efficiently.
 
 ---
 
@@ -89,8 +89,8 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 * **Streamlined Hiring Process**
   Evaluate candidates through dynamic conversations and tasks, with comprehensive assessment reports.
 
-* **Customizable Experience**
-  Tailor interviews based on required skills and behaviors specific to your organization's needs.
+* **Customisable Experience**
+  Tailor interviews based on required skills and behaviours specific to your organisation's needs.
 
 ---
 
@@ -103,14 +103,7 @@ For any questions or issues, please contact our support team:
 
 ---
 
-## Resources & Company
-
-### Resources
-
-* [CSV Upload Guide](recruiter/csv-upload-guide.md) - How to upload candidates using a spreadsheet
-* [FAQ & Best Practices](recruiter/faq-best-practices/index.md) - Common questions
-
-### Company
+## Company
 
 * [About Recruit41](https://recruit41.com/)
 * [LinkedIn](https://www.linkedin.com/company/recruit41)

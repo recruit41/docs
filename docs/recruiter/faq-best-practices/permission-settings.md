@@ -17,9 +17,9 @@ Control access with role-based permissions to protect sensitive data.
 
 ---
 
-## Organization-Level vs Job-Level Access
+## Organisation-Level vs Job-Level Access
 
-### Organization-Level Roles
+### Organisation-Level Roles
 
 Apply to the entire platform:
 
@@ -151,7 +151,7 @@ An external recruiting agency needs to help with hiring.
 
 **Setup:**
 
-1. Add them as a **Member** at the organization level
+1. Add them as a **Member** at the organisation level
 2. Assign **Recruiter** role on specific openings only
 3. They can invite candidates and view results but cannot edit plans or manage team
 4. Review access monthly
@@ -162,7 +162,7 @@ A department head needs to design and review interviews.
 
 **Setup:**
 
-1. Add them as a **Member** at the organization level
+1. Add them as a **Member** at the organisation level
 2. Assign **Job Owner** role on their department's openings
 3. They get full control over their openings with no access to other departments
 4. Regular permission audits
@@ -173,7 +173,7 @@ A team member needs to watch interviews but not make decisions.
 
 **Setup:**
 
-1. Add them as a **Member** at the organization level
+1. Add them as a **Member** at the organisation level
 2. Assign **Viewer** role on relevant openings
 3. They can view candidates and results but cannot take any actions
 4. Can view recordings and scores
@@ -189,7 +189,7 @@ A team member needs to watch interviews but not make decisions.
     Yes. You can have as many admins as needed, but we recommend limiting admin access to those who truly need it.
 
 ??? question "What happens when someone leaves the company?"
-    Remove their access immediately via **Organization Users**. Their actions remain in the audit log.
+    Remove their access immediately via **Organisation Users**. Their actions remain in the audit log.
 
 ??? question "How do I check what permissions each role has?"
-    Use the **Role Guide** button on the Organization Users or Team Members page. It shows a visual comparison of all roles and permissions.
+    Use the **Role Guide** button on the Organisation Users or Team Members page. It shows a visual comparison of all roles and permissions.

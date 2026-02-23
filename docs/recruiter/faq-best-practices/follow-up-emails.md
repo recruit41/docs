@@ -1,6 +1,6 @@
 # How to Send Follow-Up Emails
 
-Optimize your email timing and follow-up schedule for better candidate engagement.
+Optimise your email timing and follow-up schedule for better candidate engagement.
 
 ---
 

@@ -11,7 +11,7 @@ Maintain clean candidate data for better deliverability and accurate reporting.
 | **Verify emails before upload** | Prevents bounce-backs and failed invitations |
 | **Use consistent naming** | Makes search and filtering easier |
 | **Regular cleanup** | Archive stale applications to keep dashboard clean |
-| **Standardize tags** | Enables meaningful filtering and reporting |
+| **Standardise tags** | Enables meaningful filtering and reporting |
 
 ---
 
@@ -64,7 +64,7 @@ Before uploading a CSV (a spreadsheet file you can create in Excel or Google She
 
 ## Naming Conventions
 
-Use consistent naming for easier organization:
+Use consistent naming for easier organisation:
 
 ### Job Titles
 

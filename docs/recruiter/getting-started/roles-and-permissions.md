@@ -1,6 +1,6 @@
 # Roles & Permissions
 
-Recruit41 uses a layered role system to give you precise control over who can do what — at both the organization level and the individual job level.
+Recruit41 uses a layered role system to give you precise control over who can do what — at both the organisation level and the individual job level.
 
 ---
 
@@ -22,11 +22,11 @@ Higher roles inherit every permission of the roles below them.
 
 ---
 
-## Organization-Level Role
+## Organisation-Level Role
 
 ### Account Admin
 
-Full organizational control across the entire platform.
+Full organisational control across the entire platform.
 
 | Area | What they can do |
 | :--- | :--- |
@@ -99,17 +99,17 @@ The table below shows exactly which permissions each role has.
 | View analytics | :material-check-circle:{ .green } | :material-close-circle:{ .red } | :material-close-circle:{ .red } | :material-close-circle:{ .red } |
 
 !!! tip "In-app Role Guide"
-    You can view this matrix at any time inside the platform by clicking the **Role Guide** button on the Organization Users or Team Members page. It includes a cards view and a side-by-side comparison view.
+    You can view this matrix at any time inside the platform by clicking the **Role Guide** button on the Organisation Users or Team Members page. It includes a cards view and a side-by-side comparison view.
 
 ---
 
 ## How Roles Work Together
 
-### Organization + Job levels
+### Organisation + Job levels
 
-A user's access depends on two things: their **organization role** and their **job-level role**.
+A user's access depends on two things: their **organisation role** and their **job-level role**.
 
-| Organization role | Job-level assignment needed? | Result |
+| Organisation role | Job-level assignment needed? | Result |
 | :--- | :--- | :--- |
 | **Account Admin** | No — they get automatic full access to all jobs | Full control everywhere |
 | **Member** (non-admin) | Yes — must be added to each job | Only sees jobs they are assigned to |
@@ -136,7 +136,7 @@ The platform includes a built-in **Role Guide** to help your team understand rol
 
 ### Accessing the Role Guide
 
-1. Go to **Organization Users** (for organization roles) or a job's **Team Members** page (for job roles)
+1. Go to **Organisation Users** (for organisation roles) or a job's **Team Members** page (for job roles)
 2. Click the **Role Guide** button in the top-right area
 
 ### Cards View
@@ -157,7 +157,7 @@ Switch to the **Compare** tab to see a side-by-side permission matrix — useful
 
 ### Job-Level Role Guide
 
-When accessed from a job's **Team Members** page, the Role Guide shows only the three job-level roles (Job Owner, Recruiter, Viewer) — without the Account Admin, since it is an organization-level role.
+When accessed from a job's **Team Members** page, the Role Guide shows only the three job-level roles (Job Owner, Recruiter, Viewer) — without the Account Admin, since it is an organisation-level role.
 
 ![Job-level Role Guide](../../assets/images/rbac/role-guide-job-context.png)
 
@@ -165,25 +165,25 @@ When accessed from a job's **Team Members** page, the Role Guide shows only the 
 
 ---
 
-## Managing Organization Users
+## Managing Organisation Users
 
-Only Account Admins can manage organization-level users.
+Only Account Admins can manage organisation-level users.
 
-![Organization Users page](../../assets/images/rbac/user-management.png)
+![Organisation Users page](../../assets/images/rbac/user-management.png)
 
-*The Organization Users page showing Members and Account Admins tabs, with the Role Guide and Add Member buttons.*
+*The Organisation Users page showing Members and Account Admins tabs, with the Role Guide and Add Member buttons.*
 
 ### Adding a User
 
-1. Go to **Organization Users** in the sidebar
+1. Go to **Organisation Users** in the sidebar
 2. Click **"Add User"**
 3. Enter the user's email address
-4. Select their organization role (**Account Admin** or **Member**)
+4. Select their organisation role (**Account Admin** or **Member**)
 5. Click **"Save"**
 
-### Changing a User's Organization Role
+### Changing a User's Organisation Role
 
-1. Go to **Organization Users**
+1. Go to **Organisation Users**
 2. Find the user in the list
 3. Click on their current role
 4. Select the new role
@@ -252,7 +252,7 @@ No action is required — all existing permissions and job access have been pres
 ## FAQ
 
 ??? question "What is the difference between Account Admin and Job Owner?"
-    **Account Admin** is an organization-level role with access to all jobs and user management. **Job Owner** is a job-level role with full control over a specific job but no organization-wide privileges.
+    **Account Admin** is an organisation-level role with access to all jobs and user management. **Job Owner** is a job-level role with full control over a specific job but no organisation-wide privileges.
 
 ??? question "Can a Recruiter create jobs?"
     A Recruiter gains the ability to create new jobs once they are also a **Job Owner** on at least one job.
@@ -264,4 +264,4 @@ No action is required — all existing permissions and job access have been pres
     Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it (see the [Access Levels](access-levels.md) guide).
 
 ??? question "What happens when someone leaves the company?"
-    Remove their access immediately via **Organization Users**. Their historical actions remain in the audit log for compliance.
+    Remove their access immediately via **Organisation Users**. Their historical actions remain in the audit log for compliance.

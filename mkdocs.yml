@@ -41,16 +41,20 @@ theme:
       example: material/test-tube
       quote: material/format-quote-close
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter
+    code: JetBrains Mono
   language: en
   palette:
-    primary: orange
-    accent: deep-orange
+    primary: custom
+    accent: custom
 
 # Custom CSS
 extra_css:
   - stylesheets/extra.css
+
+# Custom JS
+extra_javascript:
+  - javascripts/nav-persist.js
 
 # Extensions
 markdown_extensions:
@@ -126,6 +130,6 @@ nav:
     - Resources:
       - CSV Upload Guide: recruiter/csv-upload-guide.md
       - Quick Reference: recruiter/quick-reference.md
-  - Candidate Guide:
+  - Candidate Flow:
     - Interview Instructions: candidate/index.md
     - Lockdown Browser: candidate/lockdown-browser/index.md

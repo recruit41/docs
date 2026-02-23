@@ -6,19 +6,19 @@ Configure your account and add team members to get started with Recruit41.
 
 ## Adding Team Members
 
-### Step 1: Navigate to Organization Users
+### Step 1: Navigate to Organisation Users
 
-1. Click **"Organization Users"** in the sidebar under Tenant Management
-2. The Organization Users page loads showing all current members
+1. Click **"Organisation Users"** in the sidebar under Tenant Management
+2. The Organisation Users page loads showing all current members
 
 ![Team Access](../../assets/images/recruiter/team-access.png)
 
-*The Organization Users page for managing team members.*
+*The Organisation Users page for managing team members.*
 
 ### Step 2: Click Add Member
 
 1. Click the orange **"Add Member"** button
-2. The "Add Member" dialog opens
+2. The "Add Member" dialogue opens
 
 ### Step 3: Enter Member Details
 
@@ -53,7 +53,7 @@ The user will receive an email invitation to join the platform.
 
 ## Key Terms Glossary
 
-Familiarize yourself with these common terms:
+Familiarise yourself with these common terms:
 
 | Term | What It Means |
 | :--- | :--- |

@@ -20,13 +20,13 @@ This section covers adding candidates, managing applications, and screening tool
 
     [:octicons-arrow-right-24: Use bulk actions](bulk-actions.md)
 
--   **Email Customization**
+-   **Email Customisation**
 
     ---
 
-    Customize email templates and candidate communications
+    Customise email templates and candidate communications
 
-    [:octicons-arrow-right-24: Customize emails](email-customization.md)
+    [:octicons-arrow-right-24: Customise emails](email-customization.md)
 
 -   **Screening & Filters**
 

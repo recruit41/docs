@@ -1,6 +1,6 @@
-# How to Customize Your Emails
+# How to Customise Your Emails
 
-Customize email templates and candidate communications for your hiring process.
+Customise email templates and candidate communications for your hiring process.
 
 ---
 
@@ -18,7 +18,7 @@ Recruit41 provides pre-built templates for different stages of the candidate jou
 
 ---
 
-## Customizing Templates
+## Customising Templates
 
 ### Accessing Email Templates
 

@@ -18,7 +18,7 @@ Open your web browser and go to your company's Recruit41 URL (for example: `http
 
 You have three ways to log in:
 
-??? note "Google"
+???+ note "Google"
 
     1. Click the **"Continue with Google"** button
     2. Select your Google account

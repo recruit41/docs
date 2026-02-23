@@ -63,7 +63,7 @@ For detailed CSV upload instructions, see the [CSV Upload Guide](../csv-upload-g
 
 ## Applications Dashboard
 
-The Applications page shows all candidates for an opening, organized by their interview status.
+The Applications page shows all candidates for an opening, organised by their interview status.
 
 ![Applications - Evaluated](../../assets/images/recruiter/applications-evaluated.png)
 
