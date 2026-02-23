@@ -8,7 +8,7 @@ site_url: https://docs.recruit41.com/
 theme:
   name: material
   logo: assets/logo.png
-  favicon: assets/favicon.png
+  favicon: assets/images/New Favicon.ico
   features:
     - navigation.indexes
     - navigation.sections
