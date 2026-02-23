@@ -112,6 +112,51 @@
   background-color: var(--bg-muted) !important;
 }
 
+/* --- 3-Column Flex Layout (1:5:1) --- */
+.md-main__inner {
+  display: flex;
+  max-width: 100%;
+}
+
+/* Left sidebar — 1 part */
+.md-main__inner > .md-sidebar--primary {
+  flex: 1 1 0%;
+  min-width: 0;
+  text-align: left;
+}
+
+/* Main content — 5 parts */
+.md-main__inner > .md-content {
+  flex: 5 1 0%;
+  min-width: 0;
+  max-width: none;
+}
+
+/* Right sidebar — 1 part */
+.md-main__inner > .md-sidebar--secondary {
+  flex: 1 1 0%;
+  min-width: 0;
+  text-align: right;
+}
+
+.md-main__inner > .md-sidebar--secondary .md-nav__list {
+  text-align: left;
+}
+
+/* Responsive: stack on smaller screens */
+@media screen and (max-width: 76.1875em) {
+  .md-main__inner {
+    flex-wrap: wrap;
+  }
+  .md-main__inner > .md-sidebar--primary,
+  .md-main__inner > .md-sidebar--secondary {
+    flex: 0 0 100%;
+  }
+  .md-main__inner > .md-content {
+    flex: 0 0 100%;
+  }
+}
+
 /* --- Content Area --- */
 .md-content {
   background-color: #ffffff !important;
