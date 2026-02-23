@@ -47,7 +47,11 @@
   padding: 0.5rem 0;
 }
 
-/* Logo */
+/* Logo — left aligned */
+.md-header__button.md-logo {
+  margin-right: auto;
+}
+
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   height: 7rem !important;
@@ -107,9 +111,19 @@
 }
 
 /* --- Page Background (sidebars) --- */
+.md-main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 .md-main,
 .md-main__inner {
   background-color: var(--bg-muted) !important;
+}
+
+.md-main__inner {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* --- 3-Column Flex Layout (1:5:1) --- */
@@ -125,16 +139,16 @@
   text-align: left;
 }
 
-/* Main content — 4 parts */
+/* Main content — 6 parts */
 .md-main__inner > .md-content {
-  flex: 4 1 0%;
+  flex: 6 1 0%;
   min-width: 0;
   max-width: none;
 }
 
-/* Right sidebar — 1 part */
+/* Right sidebar — 2 parts */
 .md-main__inner > .md-sidebar--secondary {
-  flex: 1 1 0%;
+  flex: 2 1 0%;
   min-width: 0;
   text-align: right;
 }
