@@ -8,12 +8,12 @@ Quick lookup tables for common actions, score interpretation, platform limits, a
 
 | Task | How To |
 | :--- | :--- |
-| Create new job | Jobs List → "+ New Opening" |
-| Edit job details | Job → Settings → Edit |
-| Make job public | Job → Settings → Visibility toggle |
-| Create interview plan | Job → Interview Design → Create |
-| Invite candidate | Job → Add Candidates → Direct Link |
-| Bulk upload | Job → Add Candidates → Bulk Upload |
+| Create new opening | Openings List → "+ New Opening" |
+| Edit job details | Opening → Settings → Edit |
+| Make opening public | Opening → Settings → Visibility toggle |
+| Create interview plan | Opening → Interview Design → Create |
+| Invite candidate | Opening → Add Candidates → Direct Link |
+| Bulk upload | Opening → Add Candidates → Bulk Upload |
 | Send reminder | Candidate profile → Send Email |
 | Export candidates | Applications → Select → Export |
 
@@ -27,10 +27,10 @@ Quick lookup tables for common actions, score interpretation, platform limits, a
 | **4.0 - 4.4** | Above average | Consider for next round |
 | **3.5 - 3.9** | Meets expectations | Review carefully |
 | **3.0 - 3.4** | Below average | Likely not a fit |
-| **Below 3.0** | Does not meet | Do not advance |
+| **Below 3.0** | Below threshold | Review before advancing |
 
 !!! tip "Score Context"
-    Scores are relative to the evaluation criteria you defined. A 3.5 for a senior role may indicate stronger performance than a 4.0 for an entry-level position with simpler criteria.
+    Scores are relative to the scoring criteria you defined. A 3.5 for a senior role may indicate stronger performance than a 4.0 for an entry-level position with simpler criteria.
 
 ---
 
@@ -41,7 +41,7 @@ Quick lookup tables for common actions, score interpretation, platform limits, a
 | Interview duration | 60 minutes max |
 | Sections per interview | 10 max |
 | Questions per section | 20 max |
-| Evaluation criteria | 15 max |
+| Scoring criteria | 15 max |
 | CSV upload | 1,000 rows |
 | File upload | 10 MB |
 
@@ -52,7 +52,7 @@ Quick lookup tables for common actions, score interpretation, platform limits, a
 | Problem | Quick Fix |
 | :--- | :--- |
 | Page not loading | Refresh, clear cache |
-| Can't log in | Try email code option |
+| Login issues | Try email code option |
 | Email not received | Check spam, verify address |
 | Video not working | Check browser permissions |
 | Export not downloading | Try different browser |
@@ -87,14 +87,14 @@ Quick lookup tables for common actions, score interpretation, platform limits, a
 
 ## Role Quick Reference
 
-| Capability | Tenant Admin | Tenant User |
+| Capability | Account Admin | Member |
 | :--- | :---: | :---: |
-| View jobs & candidates | ✓ | ✓ |
-| Send communications | ✓ | ✓ |
-| View analytics | ✓ | ✓ |
-| Create/edit jobs | ✓ | ✗ |
-| Design interviews | ✓ | ✗ |
-| Manage team | ✓ | ✗ |
+| View assigned openings & candidates | All openings | Assigned only |
+| Send communications | ✓ | ✓ (assigned openings) |
+| View analytics | ✓ | ✗ |
+| Create/edit openings | ✓ | As Job Owner |
+| Design interviews | ✓ | As Job Owner |
+| Manage team | ✓ | As Job Owner |
 | Access billing | ✓ | ✗ |
 
 ---

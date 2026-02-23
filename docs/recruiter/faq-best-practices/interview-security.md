@@ -1,6 +1,6 @@
-# Security & Pre-Meeting Checks
+# How to Set Up Interview Security
 
-Configure proctoring and security settings to ensure interview integrity.
+Configure interview monitoring and security settings to ensure interview integrity.
 
 ---
 
@@ -8,10 +8,10 @@ Configure proctoring and security settings to ensure interview integrity.
 
 Use this checklist to ensure your interviews are secure:
 
-- [ ] Proctoring enabled for high-stakes roles
+- [ ] Interview monitoring enabled for high-stakes roles
 - [ ] Camera required for all video interviews
 - [ ] Pre-meeting checks enabled
-- [ ] Browser restrictions communicated to candidates
+- [ ] Browser requirements communicated to candidates
 - [ ] Session timeouts configured
 
 ---
@@ -37,7 +37,7 @@ These checks run before the candidate enters the interview.
 
 ---
 
-## Proctoring Settings
+## Interview Monitoring Settings
 
 ### Live Meeting Checks
 
@@ -47,7 +47,7 @@ These checks run before the candidate enters the interview.
 | **Require Screen Share** | OFF | Candidates must share entire screen |
 | **External Monitor Detection** | OFF | Flag if candidate connects extra display |
 
-### Proctoring by Role Type
+### Recommended Monitoring by Role Type
 
 | Role Type | Recommended Settings |
 | :--- | :--- |
@@ -69,15 +69,9 @@ Communicate these requirements to candidates:
 - Mozilla Firefox
 - Safari (macOS only)
 
-### Not Supported
-
-- Internet Explorer
-- Mobile browsers
-- Chromium-based alternatives (Brave, Opera, etc.)
-
 ### System Requirements
 
-- Desktop or laptop computer
+- Desktop or laptop computer (best experience on Chrome)
 - Webcam with minimum 720p resolution
 - Microphone (built-in or external)
 - Stable internet connection (5+ Mbps recommended)
@@ -117,9 +111,9 @@ Communicate these requirements to candidates:
 
 All interview data is:
 
-- Encrypted in transit (TLS 1.3)
+- Encrypted in transit (TLS 1.3 — secure encryption for data in transit)
 - Encrypted at rest (AES-256)
-- Stored in SOC2-compliant infrastructure
+- Stored in SOC 2 (a security certification standard) compliant infrastructure
 - Retained according to your data retention policy
 
 ---

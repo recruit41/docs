@@ -1,6 +1,6 @@
-# Communication Customisation
+# How to Customise Your Emails
 
-Customize email templates and candidate communications for your hiring process.
+Customise email templates and candidate communications for your hiring process.
 
 ---
 
@@ -18,7 +18,7 @@ Recruit41 provides pre-built templates for different stages of the candidate jou
 
 ---
 
-## Customizing Templates
+## Customising Templates
 
 ### Accessing Email Templates
 
@@ -68,10 +68,10 @@ The {{company_name}} Team
 
 - Keep it clear and action-oriented
 - Include the job title
-- Avoid spam trigger words
+- Use professional, friendly language
 
 **Good:** "Complete your Software Engineer interview - Action required"
-**Bad:** "URGENT!!! Don't miss this opportunity!!!"
+**Avoid:** "URGENT!!! Don't miss this opportunity!!!"
 
 ### Body Content
 
@@ -87,12 +87,6 @@ The {{company_name}} Team
 | Initial invitation | Morning (9-10 AM) |
 | Reminders | Early afternoon (1-2 PM) |
 | Final reminder | Morning, 1 day before deadline |
-
----
-
-## Template Library
-
-For ready-to-use professional templates, see the [Email Templates Guide](../email-templates.md).
 
 ---
 

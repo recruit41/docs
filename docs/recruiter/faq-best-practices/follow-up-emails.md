@@ -1,12 +1,10 @@
-# Calendar & Email Integration
+# How to Send Follow-Up Emails
 
-Optimize your email timing and follow-up cadence for better candidate engagement.
+Optimise your email timing and follow-up schedule for better candidate engagement.
 
 ---
 
-## Email Follow-up Cadence
-
-### Recommended Schedule
+## Recommended Follow-Up Schedule
 
 | Day | Action |
 | :--- | :--- |
@@ -16,7 +14,7 @@ Optimize your email timing and follow-up cadence for better candidate engagement
 | Day 7 | Final reminder |
 
 !!! tip "Response Rates"
-    Candidates are most likely to respond within the first 48 hours. If no response after the final reminder, consider moving to the next candidate.
+    Most candidates respond within 48 hours. If there's no response after the final reminder, consider moving to the next candidate.
 
 ---
 
@@ -40,7 +38,7 @@ Optimize your email timing and follow-up cadence for better candidate engagement
 | Thursday | Good |
 | Monday | Moderate - people catching up |
 | Friday | Lower - weekend mindset |
-| Weekend | Lowest - avoid if possible |
+| Weekend | Lowest - best to wait for Monday |
 
 ---
 
@@ -51,16 +49,16 @@ Optimize your email timing and follow-up cadence for better candidate engagement
 **Do:**
 - Keep it clear and action-oriented
 - Include the job title
-- Create urgency without being pushy
+- Create urgency while staying professional
 
-**Don't:**
-- Use ALL CAPS
-- Add excessive punctuation!!!
-- Use spam trigger words (FREE, URGENT, ACT NOW)
+**Avoid:**
+- ALL CAPS
+- Excessive punctuation!!!
+- Spam trigger words (FREE, URGENT, ACT NOW)
 
 **Examples:**
 
-| Good | Bad |
+| Good | Avoid |
 | :--- | :--- |
 | "Complete your Software Engineer interview" | "URGENT: Interview waiting!!!" |
 | "Reminder: 3 days left for your interview" | "Don't miss this opportunity!!!" |
@@ -75,30 +73,13 @@ Optimize your email timing and follow-up cadence for better candidate engagement
 
 ---
 
-## Scheduling Considerations
-
-### Setting Deadlines
-
-- Give candidates at least **5-7 days** to complete
-- Avoid deadlines on weekends or holidays
-- Consider time zones for international candidates
-- Add buffer time for technical issues
-
-### Planning Review Sessions
-
-- Schedule reviews **1-2 days after deadline**
-- Block time when most completions are expected
-- Use peak activity data to predict volume
-
----
-
 ## Timezone Handling
 
 ### For International Candidates
 
 1. **Use relative time** - "within 7 days" vs specific date/time
 2. **Specify timezone** - If using specific times, include timezone
-3. **Consider work hours** - Avoid sending at odd hours in their timezone
+3. **Consider work hours** - Send emails during their working hours
 
 ### Deadline Display
 

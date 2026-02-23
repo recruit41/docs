@@ -1,39 +1,39 @@
-# Candidate Management
+# Managing Candidates
 
-This section covers sourcing candidates, managing applications, and screening tools.
+This section covers adding candidates, managing applications, and screening tools.
 
 <div class="grid cards" markdown>
 
--   **Sourcing Methods**
+-   **Adding Candidates**
 
     ---
 
-    Invite candidates via direct link or bulk CSV upload
+    Invite candidates via direct link or bulk CSV (spreadsheet) upload
 
-    [:octicons-arrow-right-24: Source candidates](sourcing-methods.md)
+    [:octicons-arrow-right-24: Add candidates](adding-candidates.md)
 
--   **Bulk Actions Panel**
-
-    ---
-
-    Perform batch operations on multiple candidates
-
-    [:octicons-arrow-right-24: Use bulk actions](bulk-actions-panel.md)
-
--   **Communication Customisation**
+-   **Bulk Actions**
 
     ---
 
-    Customize email templates and candidate communications
+    Perform batch operations on multiple candidates at once
 
-    [:octicons-arrow-right-24: Customize communications](communication-customisation.md)
+    [:octicons-arrow-right-24: Use bulk actions](bulk-actions.md)
 
--   **Rapid Screening Tools**
+-   **Email Customisation**
+
+    ---
+
+    Customise email templates and candidate communications
+
+    [:octicons-arrow-right-24: Customise emails](email-customization.md)
+
+-   **Screening & Filters**
 
     ---
 
     Filter, sort, and quickly review candidate profiles
 
-    [:octicons-arrow-right-24: Screen candidates](rapid-screening-tools.md)
+    [:octicons-arrow-right-24: Screen candidates](screening-and-filters.md)
 
 </div>

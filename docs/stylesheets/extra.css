@@ -1,94 +1,466 @@
-/* Custom navbar styling */
+/* ============================================
+   shadcn-inspired Design System
+   Primary accent: #fe8f1d
+   ============================================ */
 
-/* Change navbar background color to very light cream */
+/* --- Design Tokens --- */
+:root {
+  --md-primary-fg-color: #fe8f1d;
+  --md-primary-fg-color--light: #fdba74;
+  --md-primary-fg-color--dark: #c2680c;
+  --md-accent-fg-color: #fe8f1d;
+  --md-default-fg-color: #111827;
+  --md-default-fg-color--light: #6b7280;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --border: #e5e7eb;
+  --bg-muted: #f9fafb;
+  --bg-subtle: #f3f4f6;
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --accent: #fe8f1d;
+  --accent-light: #fff7ed;
+  --accent-hover: #e07a0a;
+  --radius: 0.5rem;
+  --radius-sm: 0.375rem;
+}
+
+/* --- Header / Navbar --- */
 .md-header {
-  background-color: #fffcf5;
-  /* Increase navbar height */
+  background-color: #ffffff;
   height: 4rem;
+  box-shadow: none;
+  border-bottom: 1px solid var(--border);
 }
 
-/* Increase logo size in navbar */
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  height: 2.5rem !important;
-  width: auto !important;
+.md-header[data-md-state=shadow] {
+  box-shadow: none;
+  border-bottom: 1px solid var(--border);
 }
 
-/* Remove Recruit41 text from navbar */
-.md-header__title {
-  display: none !important;
-}
-
-/* Remove Recruit41 text from left sidebar */
-.md-nav__title {
-  display: none !important;
-}
-
-/* Change document background color */
-.md-main, .md-main__inner, .md-content, .md-content__inner {
-  background-color: #fffcf5 !important;
-}
-
-/* Move search bar to the right of the navbar */
 .md-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.md-search {
-  margin-left: auto;
-}
-
-/* Change search bar background color */
-.md-search__form {
-  background: #fffbe8 !important;
-  border-radius: 0.5rem;
-}
-
-/* Change search input background and text color */
-.md-search__input {
-  background: #fffbe8 !important;
-  color: #ff914d !important;
-}
-
-/* Change search icon color */
-.md-search__icon svg {
-  color: #ff914d !important;
-}
-
-/* Adjust vertical alignment for the increased height */
-.md-header__inner {
   height: 4rem;
   padding: 0.5rem 0;
 }
 
-/* Change navbar text color to orange */
-.md-header__title,
+/* Logo */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 7rem !important;
+  width: auto !important;
+  max-width: 20rem !important;
+}
+
+/* Hide site title text */
+.md-header__title {
+  display: none !important;
+}
+
+.md-nav__title {
+  display: none !important;
+}
+
+/* Navbar text — dark, not orange */
 .md-header__topic,
 .md-header__button,
 .md-header__source,
 .md-header__topic .md-ellipsis,
-.md-header__title .md-header__topic,
-.md-nav__title,
-.md-header .md-tabs__link,
-.md-header .md-search__input::placeholder,
-.md-header__button.md-logo,
+.md-header .md-tabs__link {
+  color: var(--text-secondary) !important;
+}
+
 .md-header .md-tabs__item--active .md-tabs__link {
-  color: #ff914d !important;
+  color: var(--accent) !important;
 }
 
-/* Ensure search icon and other SVG elements are also orange */
+/* --- Search --- */
+.md-search {
+  margin-left: auto;
+}
+
+.md-search__form {
+  background: #ffffff !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm);
+  box-shadow: none !important;
+}
+
+.md-search__input {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+.md-search__input::placeholder {
+  color: var(--text-muted) !important;
+}
+
+.md-search__icon svg {
+  color: var(--text-muted) !important;
+}
+
 .md-header .md-search__icon svg {
-  color: #ff914d !important;
+  color: var(--text-muted) !important;
 }
 
-/* Adjust search input for the new navbar height */
-.md-search__inner {
-  margin-top: 0.5rem;
+/* --- Page Background (sidebars) --- */
+.md-main,
+.md-main__inner {
+  background-color: var(--bg-muted) !important;
 }
 
-/* Make sure the navbar shadow is subtle */
-.md-header[data-md-state=shadow] {
-  box-shadow: 0 0 0.2rem rgba(0,0,0,.1), 0 0.2rem 0.4rem rgba(0,0,0,.05);
+/* --- Content Area --- */
+.md-content {
+  background-color: #ffffff !important;
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+.md-content__inner {
+  color: var(--text-secondary);
+}
+
+/* Headings */
+.md-content h1 {
+  color: var(--text-primary) !important;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.md-content h2 {
+  color: var(--text-primary) !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+  color: var(--text-primary) !important;
+  font-weight: 600;
+}
+
+/* Links */
+.md-content a:not(.md-button) {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.md-content a:not(.md-button):hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Horizontal rules — subtle */
+.md-content hr {
+  border-color: var(--border);
+}
+
+/* --- Sidebar Navigation --- */
+.md-nav__link {
+  color: var(--text-secondary) !important;
+  border-radius: var(--radius-sm);
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.md-nav__link:hover {
+  background-color: var(--bg-subtle) !important;
+  color: var(--text-primary) !important;
+}
+
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active {
+  color: var(--accent) !important;
+  background-color: var(--accent-light) !important;
+  font-weight: 500;
+}
+
+/* --- Buttons --- */
+.md-button {
+  border-radius: var(--radius-sm) !important;
+  font-weight: 500 !important;
+  transition: all 150ms ease !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.md-button--primary {
+  background-color: var(--accent) !important;
+  border: 1px solid var(--accent) !important;
+  color: #ffffff !important;
+}
+
+.md-button--primary:hover,
+.md-button--primary:focus {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+  color: #ffffff !important;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Secondary / default button */
+.md-button:not(.md-button--primary) {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-primary) !important;
+}
+
+.md-button:not(.md-button--primary):hover {
+  background-color: var(--bg-muted) !important;
+  box-shadow: var(--shadow-sm);
+}
+
+/* --- Grid Cards --- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid > .card {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: none !important;
+  transition: box-shadow 150ms ease, border-color 150ms ease !important;
+  padding: 1.25rem !important;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover,
+.md-typeset .grid > .card:hover {
+  box-shadow: var(--shadow-md) !important;
+  border-color: #d1d5db !important;
+}
+
+/* Card link arrows */
+.md-typeset .grid.cards a {
+  color: var(--accent);
+  transition: color 150ms ease;
+}
+
+.md-typeset .grid.cards a:hover {
+  color: var(--accent-hover);
+}
+
+/* --- Tables --- */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--bg-muted) !important;
+  color: var(--text-primary) !important;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  color: var(--text-secondary);
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: none;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background-color: var(--bg-muted);
+}
+
+/* --- Accordions / Details --- */
+details {
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  overflow: hidden;
+  margin: 1rem 0 !important;
+  box-shadow: none !important;
+}
+
+details > summary {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+  font-weight: 500;
+  padding: 0.75rem 1rem !important;
+  border: none !important;
+  transition: background-color 150ms ease;
+}
+
+details > summary:hover {
+  background-color: var(--bg-muted) !important;
+}
+
+details[open] > summary {
+  background-color: var(--bg-muted) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+details > summary::before {
+  background-color: var(--text-muted) !important;
+}
+
+details > summary::after {
+  color: var(--text-muted) !important;
+}
+
+/* Clean card style for all accordion types (note, question, etc.) */
+details.note,
+details.question {
+  border: 1px solid var(--border) !important;
+  border-left: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+details.note > summary,
+details.question > summary {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+  padding: 0.75rem 1rem !important;
+  min-height: 0 !important;
+}
+
+details.note[open] > summary,
+details.question[open] > summary {
+  background-color: var(--bg-muted) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+details.note > .admonition-content,
+details.note > p,
+details.note > ol,
+details.note > ul,
+details.question > .admonition-content,
+details.question > p,
+details.question > ol,
+details.question > ul {
+  padding: 0.75rem 1rem !important;
+}
+
+/* --- Admonitions (static !!! boxes) --- */
+.md-typeset .admonition,
+.md-typeset details:not(.note):not(.question) {
+  border: 1px solid var(--border) !important;
+  border-left: 3px solid !important;
+  border-radius: var(--radius-sm) !important;
+  box-shadow: none !important;
+  background-color: #ffffff !important;
+}
+
+.md-typeset .admonition .admonition-title,
+.md-typeset details:not(.note):not(.question) > summary {
+  background-color: #f0f1f3 !important;
+  font-weight: 500;
+}
+
+/* Type-specific border colors for admonitions */
+.md-typeset .admonition.note {
+  border-left-color: #3b82f6 !important;
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: #10b981 !important;
+}
+
+.md-typeset .admonition.info {
+  border-left-color: #6366f1 !important;
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #f59e0b !important;
+}
+
+.md-typeset .admonition.danger {
+  border-left-color: #ef4444 !important;
+}
+
+/* Hide icons on admonition/details summaries */
+.md-typeset details > summary::before,
+.md-typeset .admonition .admonition-title::before {
+  display: none !important;
+}
+
+/* --- Code Blocks --- */
+.md-typeset code {
+  background-color: var(--bg-subtle) !important;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  color: var(--text-primary);
+  font-size: 0.875em;
+}
+
+.md-typeset pre > code {
+  background-color: var(--bg-muted) !important;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem !important;
+}
+
+/* --- TOC (Right sidebar) --- */
+.md-sidebar--secondary .md-nav > .md-nav__list::before {
+  content: "Jump to:";
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  padding: 0.4rem 0 0.4rem 0;
+  text-align: left;
+}
+
+/* Hide on nested nav lists */
+.md-sidebar--secondary .md-nav .md-nav > .md-nav__list::before {
+  content: none;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  color: var(--text-muted) !important;
+}
+
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+  border-left: 2px solid var(--accent);
+  padding-left: calc(0.8rem - 2px);
+  font-weight: 500;
+}
+
+/* --- Footer --- */
+.md-footer {
+  background-color: var(--bg-muted) !important;
+  border-top: 1px solid var(--border);
+}
+
+/* --- Scrollbar (subtle) --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* --- Transitions (global polish) --- */
+a, .md-nav__link, .md-button, details > summary {
+  transition: all 150ms ease;
 }

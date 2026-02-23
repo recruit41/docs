@@ -1,12 +1,12 @@
-# Job Analytics
+# How to Read Your Hiring Reports
 
-Analyze candidate flow, score distribution, and interview activity for each job.
+Analyse candidate flow, score distribution, and interview activity for each opening.
 
 ---
 
 ## Overview
 
-View detailed analytics for each job opening to understand your hiring funnel.
+View detailed analytics for each opening to understand your hiring funnel.
 
 ![Job Analytics](../../assets/images/recruiter/job-analytics.png)
 
@@ -23,11 +23,11 @@ View detailed analytics for each job opening to understand your hiring funnel.
 
 ---
 
-## Sankey Diagram
+## Candidate Flow Chart
 
-The Sankey diagram visualizes candidate flow through your pipeline, showing where candidates drop off and conversion rates between stages.
+The candidate flow chart visualises how candidates move through your pipeline, showing where candidates drop off and conversion rates between stages.
 
-### Reading the Diagram
+### Reading the Chart
 
 | Element | Meaning |
 | :--- | :--- |
@@ -65,7 +65,7 @@ The histogram shows the spread of candidate scores:
 - **Y-axis**: Number of candidates in each range
 - **Bell curve**: Indicates typical distribution
 
-### Percentile Rankings
+### How Candidates Compare
 
 | Percentile | Meaning |
 | :--- | :--- |
@@ -76,12 +76,12 @@ The histogram shows the spread of candidate scores:
 
 ### What the Distribution Tells You
 
-| Pattern | Interpretation |
+| Pattern | What It Means |
 | :--- | :--- |
-| **Right-skewed** | Most candidates scoring high - criteria may be too easy |
-| **Left-skewed** | Most candidates scoring low - criteria may be too hard |
-| **Normal curve** | Healthy distribution - criteria well calibrated |
-| **Bimodal** | Two distinct groups - may indicate sourcing variation |
+| **Most candidates scored high** | Scoring criteria may be too easy — consider making them more specific |
+| **Most candidates scored low** | Scoring criteria may be too hard — consider adjusting difficulty |
+| **Even spread across scores** | Well-calibrated criteria — this is the ideal pattern |
+| **Two separate groups of scores** | Two distinct candidate pools — may indicate different sourcing channels |
 
 ---
 
@@ -93,13 +93,13 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 
 - **Rows**: Days of the week (Monday - Sunday)
 - **Columns**: Hours of the day (12am - 11pm)
-- **Color intensity**: Number of interviews during that time slot
+- **Colour intensity**: Number of interviews during that time slot
 
 ### How to Use This Data
 
 | Goal | Action |
 | :--- | :--- |
-| **Optimize reminder timing** | Send reminders 1-2 hours before peak activity |
+| **Optimise reminder timing** | Send reminders 1-2 hours before peak activity |
 | **Set better deadlines** | Align deadlines with high-activity periods |
 | **Plan review sessions** | Schedule reviews when new completions are likely |
 | **Identify patterns** | Note if weekends or evenings are popular |
@@ -112,9 +112,9 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 
 1. **Monitor funnel drop-off** - If many candidates drop out at a specific stage, investigate why
 2. **Track score trends** - Consistently low scores may indicate sourcing issues
-3. **Optimize timing** - Schedule reviews during your peak activity periods
+3. **Optimise timing** - Schedule reviews during your peak activity periods
 4. **Plan capacity** - Use completion data to forecast review workload
-5. **Compare jobs** - Look for patterns across similar roles
+5. **Compare openings** - Look for patterns across similar roles
 
 ### Common Questions
 
@@ -123,11 +123,11 @@ The activity heatmap shows when candidates take interviews by day of week and ho
 
     - Interview too long (keep under 45 minutes)
     - Technical issues (check browser requirements in communications)
-    - Candidates abandoning (send reminders)
+    - Candidates need reminders (send follow-ups)
     - Link expiration (extend deadlines if needed)
 
 ??? question "Why are scores clustered at one end?"
-    Check your evaluation criteria:
+    Check your scoring criteria:
 
     - Too easy: Most candidates score 4+
     - Too hard: Most candidates score below 3

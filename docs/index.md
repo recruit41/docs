@@ -1,28 +1,28 @@
-## Welcome to Recruit41 Documentation
-
-### Candidate Guide
-
-Everything you need to know about your AI-powered interview experience with Kiran, our virtual interviewer.
-
-[Get started with your interview](candidate/index.md){ .md-button .md-button--primary }
-
----
+# Getting Started with Recruit41
 
 ### Recruiter Guide
 
-Comprehensive resources for recruiters to effectively use the Recruit41 platform and manage candidate interviews.
+Everything you need to manage your recruitment process on the Recruit41 platform.
 
-[Manage your recruitment process](recruiter/index.md){ .md-button .md-button--primary }
+[Go to Recruiter Guide](recruiter/index.md){ .md-button .md-button--primary }
+
+---
+
+### Candidate Flow
+
+Understand what your candidates experience during their AI-powered interview with Kiran, from preparation to completion.
+
+[View Candidate Flow](candidate/index.md){ .md-button .md-button--primary }
 
 ---
 
 ## About Recruit41
 
-Recruit41 is an AI-driven automated interview platform that helps organizations streamline their hiring process. Our platform features **Kiran**, our AI recruitment bot, who conducts professional, consistent interviews to help you identify the best candidates efficiently.
+Recruit41 is an AI-driven automated interview platform that helps organisations streamline their hiring process. Our platform features **Kiran**, our AI recruitment bot, who conducts professional, consistent interviews to help you identify the best candidates efficiently.
 
 ---
 
-## Recruiter Operational Blueprint
+## Platform Overview
 
 <div class="grid cards" markdown>
 
@@ -30,23 +30,23 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 
     ---
 
-    Platform access, user roles, and initial account setup
+    Platform login, user roles, and account setup
 
     [:octicons-arrow-right-24: Get started](recruiter/getting-started/index.md)
 
--   :material-briefcase:{ .lg .middle } **Job Management**
+-   :material-briefcase:{ .lg .middle } **Interview Planning**
 
     ---
 
-    Create jobs, design interviews, configure visibility
+    Create openings, design interviews, configure visibility
 
-    [:octicons-arrow-right-24: Manage jobs](recruiter/job-management/index.md)
+    [:octicons-arrow-right-24: Manage openings](recruiter/job-management/index.md)
 
--   :material-account-group:{ .lg .middle } **Candidate Management**
+-   :material-account-group:{ .lg .middle } **Managing Candidates**
 
     ---
 
-    Source candidates, bulk actions, screening tools
+    Add candidates, bulk actions, screening & filters
 
     [:octicons-arrow-right-24: Manage candidates](recruiter/candidate-management/index.md)
 
@@ -89,8 +89,8 @@ Recruit41 is an AI-driven automated interview platform that helps organizations 
 * **Streamlined Hiring Process**
   Evaluate candidates through dynamic conversations and tasks, with comprehensive assessment reports.
 
-* **Customizable Experience**
-  Tailor interviews based on required skills and behaviors specific to your organization's needs.
+* **Customisable Experience**
+  Tailor interviews based on required skills and behaviours specific to your organisation's needs.
 
 ---
 
@@ -103,15 +103,7 @@ For any questions or issues, please contact our support team:
 
 ---
 
-## Resources & Company
-
-### Resources
-
-* [Candidate Invitations](recruiter/candidate-invitations.md) - CSV upload guide
-* [Email Templates](recruiter/email-templates.md) - Communication templates
-* [FAQ & Best Practices](recruiter/faq-best-practices/index.md) - Common questions
-
-### Company
+## Company
 
 * [About Recruit41](https://recruit41.com/)
 * [LinkedIn](https://www.linkedin.com/company/recruit41)

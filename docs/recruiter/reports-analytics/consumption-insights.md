@@ -1,6 +1,6 @@
-# Consumption Insights
+# How to Track Your Usage & Credits
 
-Monitor your platform usage and interview consumption for billing and planning.
+Monitor your platform usage and interview credits for billing and planning.
 
 ---
 
@@ -15,36 +15,36 @@ Monitor your platform usage and interview consumption for billing and planning.
 
 ---
 
-## Viewing Consumption Data
+## Viewing Usage Data
 
 ### Accessing the Dashboard
 
 1. Click **"Consumption"** in the sidebar under Tenant Management
 2. View the summary cards at the top
-3. Review the usage breakdown by job
+3. Review the usage breakdown by opening
 4. Export data for reporting if needed
 
 !!! note
-    Only Tenant Admins can access consumption data.
+    Only Account Admins can access usage and credit data.
 
 ---
 
 ## Usage Breakdown
 
-### By Job
+### By Opening
 
-See how many interview credits each job has consumed:
+See how many interview credits each opening has used:
 
 | Column | Description |
 | :--- | :--- |
 | **Job Title** | Name of the position |
 | **Interviews Invited** | Number of candidates invited |
 | **Interviews Completed** | Number of completed interviews |
-| **Credits Used** | Credits consumed for this job |
+| **Credits Used** | Credits consumed for this opening |
 
 ### By Time Period
 
-View consumption over time:
+View usage over time:
 
 - Daily usage for the current month
 - Weekly trends
@@ -92,7 +92,7 @@ If you typically hire for 5 roles per month with 50 candidates each:
 
 ## Exporting Data
 
-Export consumption data for finance or reporting:
+Export usage data for finance or reporting:
 
 1. Click **"Export"** button
 2. Select date range

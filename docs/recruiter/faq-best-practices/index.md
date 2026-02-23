@@ -1,47 +1,47 @@
-# FAQ and Best Practices
+# FAQ & Best Practices
 
 This section covers best practices, security guidelines, and frequently asked questions.
 
 <div class="grid cards" markdown>
 
--   **Data Quality Management**
+-   **Data Quality**
 
     ---
 
     Maintain clean candidate data and email lists
 
-    [:octicons-arrow-right-24: Manage data quality](data-quality-management.md)
+    [:octicons-arrow-right-24: Manage data quality](data-quality.md)
 
--   **Calendar & Email Integration**
-
-    ---
-
-    Optimize email timing and follow-up cadence
-
-    [:octicons-arrow-right-24: Email best practices](calendar-email-integration.md)
-
--   **Security & Pre-Meeting Checks**
+-   **Follow-Up Emails**
 
     ---
 
-    Configure proctoring and security settings
+    Optimise email timing and follow-up schedule
 
-    [:octicons-arrow-right-24: Security settings](security-pre-meeting-checks.md)
+    [:octicons-arrow-right-24: Email best practices](follow-up-emails.md)
 
--   **Pilot Program Testing**
+-   **Interview Security**
+
+    ---
+
+    Configure interview monitoring and security settings
+
+    [:octicons-arrow-right-24: Security settings](interview-security.md)
+
+-   **Testing & Pilot**
 
     ---
 
     Test your interviews before full launch
 
-    [:octicons-arrow-right-24: Run pilots](pilot-program-testing.md)
+    [:octicons-arrow-right-24: Run pilots](testing-and-pilot.md)
 
--   **Restrictive Permissions**
+-   **Permission Settings**
 
     ---
 
     Control access with role-based permissions
 
-    [:octicons-arrow-right-24: Manage permissions](restrictive-permissions.md)
+    [:octicons-arrow-right-24: Manage permissions](permission-settings.md)
 
 </div>
