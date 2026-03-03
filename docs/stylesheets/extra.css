@@ -525,8 +525,16 @@ details.question > ul {
   color: #16a34a !important;
 }
 
+.md-typeset .green svg {
+  fill: #16a34a !important;
+}
+
 .md-typeset .red {
   color: #dc2626 !important;
+}
+
+.md-typeset .red svg {
+  fill: #dc2626 !important;
 }
 
 /* --- Transitions (global polish) --- */
