@@ -520,6 +520,15 @@ details.question > ul {
   background: #9ca3af;
 }
 
+/* --- Permission Matrix Icons --- */
+.md-typeset .green {
+  color: #16a34a !important;
+}
+
+.md-typeset .red {
+  color: #dc2626 !important;
+}
+
 /* --- Transitions (global polish) --- */
 a, .md-nav__link, .md-button, details > summary {
   transition: all 150ms ease;

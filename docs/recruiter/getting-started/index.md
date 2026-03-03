@@ -12,14 +12,6 @@ Welcome to Recruit41! This section covers everything you need to begin using the
 
     [:octicons-arrow-right-24: Log in to the platform](platform-login.md)
 
--   **Access Levels**
-
-    ---
-
-    Understand the principle of minimum access for team security
-
-    [:octicons-arrow-right-24: Learn about access levels](access-levels.md)
-
 -   **Roles & Permissions**
 
     ---
