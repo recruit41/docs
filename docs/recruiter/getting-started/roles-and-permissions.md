@@ -261,7 +261,7 @@ No action is required — all existing permissions and job access have been pres
     Non-admin users who are not assigned to a job will not see it. Only Account Admins have automatic access to every job.
 
 ??? question "Can I have multiple Account Admins?"
-    Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it (see the [Access Levels](access-levels.md) guide).
+    Yes. You can have as many Account Admins as needed, but we recommend limiting admin access to those who truly need it.
 
 ??? question "What happens when someone leaves the company?"
     Remove their access immediately via **Organisation Users**. Their historical actions remain in the audit log for compliance.

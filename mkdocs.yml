@@ -102,7 +102,6 @@ nav:
     - Platform Setup:
       - recruiter/getting-started/index.md
       - Platform Login: recruiter/getting-started/platform-login.md
-      - Access Levels: recruiter/getting-started/access-levels.md
       - Roles & Permissions: recruiter/getting-started/roles-and-permissions.md
       - Account Setup: recruiter/getting-started/account-setup.md
     - Interview Planning:

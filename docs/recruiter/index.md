@@ -15,13 +15,12 @@ Welcome to the Recruit41 Recruiter Guide. This documentation covers everything y
     Platform login, user roles, and account setup
 
     - [Platform Login](getting-started/platform-login.md)
-    - [Access Levels](getting-started/access-levels.md)
     - [Roles & Permissions](getting-started/roles-and-permissions.md)
     - [Account Setup](getting-started/account-setup.md)
 
     [:octicons-arrow-right-24: Get started](getting-started/index.md)
 
--   :material-briefcase:{ .lg .middle } **Managing Openings**
+-   :material-briefcase:{ .lg .middle } **Interview Planning**
 
     ---
 
@@ -31,7 +30,7 @@ Welcome to the Recruit41 Recruiter Guide. This documentation covers everything y
     - [Interview Design](job-management/interview-design.md)
     - [Visibility & Status](job-management/visibility-and-status.md)
 
-    [:octicons-arrow-right-24: Manage openings](job-management/index.md)
+    [:octicons-arrow-right-24: Plan interviews](job-management/index.md)
 
 -   :material-account-group:{ .lg .middle } **Managing Candidates**
 
