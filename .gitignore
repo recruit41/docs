@@ -1,5 +1,6 @@
 site/
 venv/
+.venv
 *.pyc
 __pycache__/
 *.dirty
